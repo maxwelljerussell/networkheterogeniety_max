@@ -1,0 +1,51 @@
+==== Starting per-network DB pipeline ====
+Date:         Mon 16 Feb 04:05:57 GMT 2026
+Host:         cx3-12-9
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1709237[2].pbs-7
+Array index:  2
+CPUs:         64
+==========================================
+2026-02-16 04:06:12 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-16 04:06:12 [INFO] [jobs-db] Jobs database is ready.
+2026-02-16 04:06:12 [INFO] === netSALT per-network pipeline ===
+2026-02-16 04:06:12 [INFO] DB: database/db.sqlite3
+2026-02-16 04:06:12 [INFO] Network: MLRun2_0_0001_c0720663 | Pattern: id=Trouser_test, size=(28, 28) | pool_procs=64 | netsalt_workers=1
+2026-02-16 04:06:12 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 04:06:12 [INFO] [jobs-db] Found 12 pending jobs
+2026-02-16 04:06:12 [INFO] [pipeline] Pending PASSIVE jobs for MLRun2_0_0001_c0720663: 1
+2026-02-16 04:06:12 [INFO] [run_jobs] Running 1 jobs with n_workers=64, show_progress=True
+2026-02-16 04:06:12 [INFO] [run_jobs] Using multiprocessing.Pool.
+2026-02-16 04:06:13 [INFO] [run_job] Starting job_id=01061251-28b9-424d-af64-11b870cc6765, type=passive, network=MLRun2_0_0001_c0720663, pattern_idx=None
+  0%|          | 0/1 [00:00<?, ?it/s]2026-02-16 04:06:13 [INFO] Starting job 01061251-28b9-424d-af64-11b870cc6765 (type=passive, pattern_idx=None)
+2026-02-16 04:06:13 [INFO] [jobs-db] Updating job 01061251-28b9-424d-af64-11b870cc6765 → status=running
+2026-02-16 04:06:13 [INFO] [set_job_status] job_id=01061251-28b9-424d-af64-11b870cc6765 pending -> running, exec_time=None, error=None
+2026-02-16 04:06:13 [INFO] [passive] Starting passive job for network=MLRun2_0_0001_c0720663
+2026-02-16 04:06:13 [INFO] Starting passive job
+2026-02-16 04:23:16 [INFO] [jobs-db] Updating job 01061251-28b9-424d-af64-11b870cc6765 → status=error
+2026-02-16 04:23:16 [ERROR] [jobs-db] Job 01061251-28b9-424d-af64-11b870cc6765 FAILED: name 'pattern_id' is not defined
+2026-02-16 04:23:16 [ERROR] [set_job_status] job_id=01061251-28b9-424d-af64-11b870cc6765 running -> error, exec_time=1023.4384109973907, error=name 'pattern_id' is not defined
+2026-02-16 04:23:16 [ERROR] [set_job_status] job_id=01061251-28b9-424d-af64-11b870cc6765 running -> error, exec_time=1023.4384109973907, error=name 'pattern_id' is not defined
+2026-02-16 04:23:16 [ERROR] [run_job] ERROR in job_id=01061251-28b9-424d-af64-11b870cc6765: name 'pattern_id' is not defined
+2026-02-16 04:23:16 [ERROR] ERROR in job 01061251-28b9-424d-af64-11b870cc6765 after 1023.44s: name 'pattern_id' is not defined
+100%|██████████| 1/1 [17:03<00:00, 1023.68s/it]100%|██████████| 1/1 [17:03<00:00, 1023.68s/it]
+2026-02-16 04:23:16 [INFO] [run_jobs] Parallel execution finished.
+2026-02-16 04:23:16 [INFO] [pipeline] Passive stage finished.
+2026-02-16 04:23:16 [INFO] [pipeline] Seeding lasing jobs for network_id=MLRun2_0_0001_c0720663, pattern_id=Trouser_test, size=28x28
+2026-02-16 04:23:17 [INFO] [pipeline] Inserted 0 new lasing job(s) for network_id=MLRun2_0_0001_c0720663
+2026-02-16 04:23:17 [WARNING] [pipeline] No new lasing jobs inserted (maybe already seeded).
+2026-02-16 04:23:17 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 04:23:17 [INFO] [jobs-db] Found 6 pending jobs
+2026-02-16 04:23:17 [INFO] [pipeline] Pending LASING jobs for MLRun2_0_0001_c0720663: 0
+2026-02-16 04:23:17 [INFO] [pipeline] No pending lasing jobs for this network.
+2026-02-16 04:23:17 [INFO] === pipeline done ===
+SUCCESS: Network pipeline completed. job_id=1709237[2].pbs-7 idx=2
+
+====================================
+CPU Time used: 00:15:51
+CPU Percent: 99%
+Memory usage: 388688kb
+Approx Power usage: 0.003
+Walltime usage: 00:17:26
+
+====================================

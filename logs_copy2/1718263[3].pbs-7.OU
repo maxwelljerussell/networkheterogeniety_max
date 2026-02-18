@@ -1,0 +1,35 @@
+==== Starting per-network DB pipeline ====
+Date:         Tue 17 Feb 14:59:41 GMT 2026
+Host:         cx3-14-7
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1718263[3].pbs-7
+Array index:  3
+CPUs:         64
+==========================================
+2026-02-17 15:00:11 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-17 15:00:11 [INFO] [jobs-db] Jobs database is ready.
+2026-02-17 15:00:11 [INFO] === netSALT per-network pipeline ===
+2026-02-17 15:00:11 [INFO] DB: database/db.sqlite3
+2026-02-17 15:00:11 [INFO] Network: MLRun2_0_0001_d32fdca3 | Pattern: id=PathMNIST10, size=(7, 7) | pool_procs=64 | netsalt_workers=1
+2026-02-17 15:00:11 [INFO] [jobs-db] Loading pending jobs...
+2026-02-17 15:00:11 [INFO] [jobs-db] Found 3 pending jobs
+2026-02-17 15:00:11 [INFO] [pipeline] Pending PASSIVE jobs for MLRun2_0_0001_d32fdca3: 0
+2026-02-17 15:00:11 [INFO] [pipeline] No pending passive jobs for this network.
+2026-02-17 15:00:11 [INFO] [pipeline] Seeding lasing jobs for network_id=MLRun2_0_0001_d32fdca3, pattern_id=PathMNIST10, size=7x7
+2026-02-17 15:00:13 [INFO] [pipeline] Inserted 0 new lasing job(s) for network_id=MLRun2_0_0001_d32fdca3
+2026-02-17 15:00:13 [WARNING] [pipeline] No new lasing jobs inserted (maybe already seeded).
+2026-02-17 15:00:13 [INFO] [jobs-db] Loading pending jobs...
+2026-02-17 15:00:13 [INFO] [jobs-db] Found 3 pending jobs
+2026-02-17 15:00:13 [INFO] [pipeline] Pending LASING jobs for MLRun2_0_0001_d32fdca3: 0
+2026-02-17 15:00:13 [INFO] [pipeline] No pending lasing jobs for this network.
+2026-02-17 15:00:13 [INFO] === pipeline done ===
+SUCCESS: Network pipeline completed. job_id=1718263[3].pbs-7 idx=3
+
+====================================
+CPU Time used: 00:00:01
+CPU Percent: 7%
+Memory usage: 56416kb
+Approx Power usage: 0.0
+Walltime usage: 00:01:30
+
+====================================

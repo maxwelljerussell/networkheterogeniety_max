@@ -1,0 +1,48 @@
+
+[notice] A new release of pip is available: 25.3 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+===== ENVIRONMENT DEBUG =====
+Python path: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/bin/python
+Pip location: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/bin/pip
+VIRTUAL_ENV: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv
+PYTHONPATH: 
+
+===== FULL sys.path =====
+
+/sw-eb/software/Python/3.12.3-GCCcore-13.3.0/lib/python312.zip
+/sw-eb/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12
+/sw-eb/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/lib-dynload
+/rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/lib/python3.12/site-packages
+
+===== Can we import dateutil? =====
+SUCCESS: dateutil imported
+Location: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/lib/python3.12/site-packages/dateutil/__init__.py
+===== END DEBUG =====
+==== Starting NetworkCollection Import ====
+Job ID:           1718049.pbs-7
+Workdir:          /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Collection file:  netsalt_experiments/exp_save_networks/network_collection_ML_delauney.pkl
+===========================================
+2026-02-17 14:12:34 [INFO] [collection] Loading NetworkCollection from: netsalt_experiments/exp_save_networks/network_collection_ML_delauney.pkl
+2026-02-17 14:12:34 [INFO] [collection] Loaded collection batch_id=MLTest, records=1
+2026-02-17 14:12:34 [INFO] [db] Saving NetworkCollection index: collection_id=2026-02-17_14-12-34_676715_MLTest, batch_id=MLTest
+2026-02-17 14:12:34 [INFO] [db] Saved 1 network record(s) for collection_id=2026-02-17_14-12-34_676715_MLTest
+2026-02-17 14:12:34 [INFO] [network-init] Saving network MLTest_0_0000_1bf6ab0b -> database/MLTest_0_0000_1bf6ab0b
+2026-02-17 14:12:39 [INFO] [network-init] Finished saving network MLTest_0_0000_1bf6ab0b
+2026-02-17 14:12:39 [INFO] Imported from collection_id=2026-02-17_14-12-34_676715_MLTest, batch_id=MLTest
+2026-02-17 14:12:39 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-17 14:12:39 [INFO] [jobs-db] Jobs database is ready.
+2026-02-17 14:12:39 [INFO] [jobs-db] Inserting job 3494200e-a2db-456d-b7aa-bb7ec5a01552 (type=passive)
+2026-02-17 14:12:39 [INFO] [collection] Done. Imported=1, passive_jobs_seeded=1, collection_id=2026-02-17_14-12-34_676715_MLTest
+2026-02-17 14:12:39 [INFO] [main] collection_id=2026-02-17_14-12-34_676715_MLTest
+collection_id: 2026-02-17_14-12-34_676715_MLTest
+SUCCESS: Collection import completed. job_id=1718049.pbs-7
+
+====================================
+CPU Time used: 00:00:16
+CPU Percent: 6%
+Memory usage: 129500kb
+Approx Power usage: 0.0
+Walltime usage: 00:05:01
+
+====================================

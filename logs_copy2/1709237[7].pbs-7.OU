@@ -1,0 +1,33 @@
+==== Starting per-network DB pipeline ====
+Date:         Mon 16 Feb 04:23:59 GMT 2026
+Host:         cx3-6-11
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1709237[7].pbs-7
+Array index:  7
+CPUs:         64
+==========================================
+2026-02-16 04:24:18 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-16 04:24:18 [INFO] [jobs-db] Jobs database is ready.
+2026-02-16 04:24:18 [INFO] === netSALT per-network pipeline ===
+2026-02-16 04:24:18 [INFO] DB: database/db.sqlite3
+2026-02-16 04:24:18 [INFO] Network: MLRun2_0_0004_b5e8a187 | Pattern: id=Trouser_test, size=(28, 28) | pool_procs=64 | netsalt_workers=1
+2026-02-16 04:24:18 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 04:24:18 [INFO] [jobs-db] Found 6 pending jobs
+2026-02-16 04:24:18 [INFO] [pipeline] Pending PASSIVE jobs for MLRun2_0_0004_b5e8a187: 1
+2026-02-16 04:24:18 [INFO] [run_jobs] Running 1 jobs with n_workers=64, show_progress=True
+2026-02-16 04:24:18 [INFO] [run_jobs] Using multiprocessing.Pool.
+2026-02-16 04:24:18 [INFO] [run_job] Starting job_id=5ecda811-3214-41d3-9519-8e5329c25b84, type=passive, network=MLRun2_0_0004_b5e8a187, pattern_idx=None
+  0%|          | 0/1 [00:00<?, ?it/s]2026-02-16 04:24:18 [INFO] Starting job 5ecda811-3214-41d3-9519-8e5329c25b84 (type=passive, pattern_idx=None)
+2026-02-16 04:24:18 [INFO] [jobs-db] Updating job 5ecda811-3214-41d3-9519-8e5329c25b84 → status=running
+2026-02-16 04:24:18 [INFO] [set_job_status] job_id=5ecda811-3214-41d3-9519-8e5329c25b84 pending -> running, exec_time=None, error=None
+2026-02-16 04:24:18 [INFO] [passive] Starting passive job for network=MLRun2_0_0004_b5e8a187
+2026-02-16 04:24:18 [INFO] Starting passive job
+
+====================================
+CPU Time used: 00:12:21
+CPU Percent: 99%
+Memory usage: 393288kb
+Approx Power usage: 0.0024000000000000002
+Walltime usage: 00:14:27
+
+====================================

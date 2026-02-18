@@ -1,0 +1,1338 @@
+==== Starting per-network DB pipeline ====
+Date:         Mon 16 Feb 03:24:17 GMT 2026
+Host:         cx3-12-9
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1709172[4].pbs-7
+Array index:  4
+CPUs:         64
+==========================================
+2026-02-16 03:24:37 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-16 03:24:37 [INFO] [jobs-db] Jobs database is ready.
+2026-02-16 03:24:37 [INFO] === netSALT per-network pipeline ===
+2026-02-16 03:24:37 [INFO] DB: database/db.sqlite3
+2026-02-16 03:24:37 [INFO] Network: MLRun2_0_0002_9915ae31 | Pattern: id=Coat_test, size=(28, 28) | pool_procs=64 | netsalt_workers=1
+2026-02-16 03:24:37 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 03:24:37 [INFO] [jobs-db] Found 3 pending jobs
+2026-02-16 03:24:37 [INFO] [pipeline] Pending PASSIVE jobs for MLRun2_0_0002_9915ae31: 0
+2026-02-16 03:24:37 [INFO] [pipeline] No pending passive jobs for this network.
+2026-02-16 03:24:37 [INFO] [pipeline] Seeding lasing jobs for network_id=MLRun2_0_0002_9915ae31, pattern_id=Coat_test, size=28x28
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 4658699f-1348-48ec-9de6-dfff6852ce7e (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job aa787aa9-4778-4855-a1d5-59da09ec3be6 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job ebdf50aa-980f-4d08-a4a8-55fc1f31d258 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 058ccadb-1c1c-4186-92e1-6d011fe84dec (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job af97f96a-d6b3-43f0-8451-3d7d1d1f100f (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 1adae526-148e-4efc-a023-c7f7812047f4 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 45167cb5-d06e-49f1-82e8-1fc3ee25e822 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job e33175ef-7fb2-4beb-96e0-4a4316cfabcf (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 26392424-a8ee-47bc-b8cf-402731eb5754 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 3a1fc407-0531-4933-a828-133b829351d4 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 336ca660-349a-45f9-bb09-b10aae3cc8ee (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 0e673890-aa47-4b67-a926-bf8749c26abd (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 56959033-abd1-4f61-8c02-19ddf990f3f5 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job be2684f3-4d29-404f-b389-17175c485481 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job fea98f8e-7c0a-42aa-a083-c814923640dc (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job a797ecd2-5fea-44d8-a2b5-c18e8e64c495 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 7f8ac6f3-89b2-4154-9552-88e0bec56ba7 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 1734025d-411b-4d13-98b4-a01c8be08927 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 4090ca7a-f5fb-4cca-8207-86bfc19e7e89 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job b57dd46b-c5fa-4153-b2e0-27128d748992 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job ffdb2d34-288a-423c-97b4-5adeaebbf3f1 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 6f4bd936-7f26-476a-84f2-2e8c9f4582a7 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job aa8c971f-695a-4c78-89b1-622a85115dd1 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job ef2f9d53-80b9-437a-914c-290f22e69fb7 (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job a65bcb55-ed7e-405d-9895-51ecbb081e3e (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job c7c34d7f-7ffe-4543-8637-91ec23fabfda (type=lasing)
+2026-02-16 03:24:37 [INFO] [jobs-db] Inserting job 671367ae-2896-4488-9ade-f0e95b6aadf5 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 67c6d997-321e-47dd-a5d7-811d01193645 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job e6de5d2f-bb99-4f43-b286-f963e34805db (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 5392e42c-2b3f-414a-a6d0-793f54d43fb9 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 616d6bcc-a9f6-499d-923e-4b4d90f3e46d (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job ffe29a93-9e0c-4722-b797-f26661c56685 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job c3edea56-7bfa-4f5b-89b7-37025d7ffbea (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 6440cb78-2c51-460d-8e2d-e010334cb9c2 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job dd3cf1b7-40bc-46c6-b5b6-73065f5945db (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 4a9c6381-7452-4e64-acfa-24259f0c5e43 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job e8222ccc-c0fa-4c45-81a4-628662c741db (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 74a26610-8840-4315-845a-a4841f46ea24 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 8d24aa46-cec1-4333-8875-856521881f6f (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 7772ee50-431f-4731-9219-0247c136e51b (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 0a245aff-038d-481b-a121-ede4a5142640 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job c2c3db67-3566-411a-a044-24c48b384239 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 68b1cd0f-13e1-43b6-ae6b-5903eac5f23f (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 4035de7e-ae32-40e0-87a8-cb996ac607d0 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 0c79fab1-37a4-4b34-bff2-a425b0cca0e9 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 7eca0355-cf71-4f45-9bb6-952e89467b25 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 5132891f-c7c5-43be-9fae-2db3d87f8669 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 07f3a0c6-42dd-4902-8d27-826e8621ddc8 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 43961383-3351-4213-ae0a-e3085077d0de (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job e52bcf88-2553-4ffb-b87c-137297e74ce1 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 776c0171-89e5-4288-8877-0bca40be9a26 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job de579779-effb-42d5-9bc0-839910364903 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 54282818-4ca5-436c-9597-1231d18817bc (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job d5715651-b7fe-4cd7-81f4-5db228499124 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job f2b5d2c8-cc83-4c06-a820-e4d16655cc11 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 9a05f218-e55a-4c5d-b6a6-a1f472434d7a (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 43516e6e-e138-405e-9f54-b4992afd5f9c (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 06a744f7-7e6a-4800-aa50-b2a545374b5f (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 7b509628-2522-4ff0-86ed-7c63f63c7b16 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job c9aac0d9-dfd2-4530-8556-f5dcc16a120e (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 848ecbd0-3087-4834-9aae-71b60d3dcc5b (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 0c15a7ba-a0b9-4927-a2a2-67c2695ae169 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 576c0339-3ab4-4419-9e24-d11f9d764746 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 0ef1d553-2b18-4e39-9e51-a784bb02a0fc (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job a16e126b-2160-41b7-8bec-e896c2f1720a (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job c2ab6e6c-7067-4ae8-951f-86ba4eb6222c (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 766374cf-2167-47f9-a8e8-bc88491c38bf (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job c0fdd0b4-e21b-4c53-903a-bc1c032f0857 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job c6743c27-a399-475d-b753-110a7bb925a4 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 7849a7f7-a71d-4642-91b8-15756ba78d07 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 2306f583-ed1d-4d96-a8ad-b1fcb5f43003 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job d595d60e-0778-4d3b-bef0-d2aed43c93e1 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 92992cab-8ae8-4ccd-a419-f07b2d5949fe (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job ec7ae872-46be-4a88-b644-5764bb7ab517 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 76e5b83f-5293-4144-a16b-a4df412e8273 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job ec666b63-642e-4cd1-87f0-3a61420823e4 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job bca1829b-0021-44a7-a98c-1c2b0bdc8ded (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 9e528a7e-2c9c-47cb-b31e-edae57c13975 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 8a271945-d176-4509-b044-17c55a9da412 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 231929c0-f158-4283-be9b-5b12e04f02d1 (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 637cabb1-b349-497a-9a37-91764004156d (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 8f5a9fb3-6249-4359-9f7f-468c425b13ca (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 1013f1a6-b4b2-4b32-868f-d9a6a574937c (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 9d26f0b4-9e90-422c-ad3d-512cbb74999a (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 254f9d00-f652-4327-bf73-c4d8891e4f4d (type=lasing)
+2026-02-16 03:24:38 [INFO] [jobs-db] Inserting job 7d24fb95-ac07-428a-ae96-9109f8bd2d30 (type=lasing)
+2026-02-16 03:24:38 [INFO] [pipeline] Inserted 100 new lasing job(s) for network_id=MLRun2_0_0002_9915ae31
+2026-02-16 03:24:38 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 03:24:38 [INFO] [jobs-db] Found 197 pending jobs
+2026-02-16 03:24:38 [INFO] [pipeline] Pending LASING jobs for MLRun2_0_0002_9915ae31: 100
+2026-02-16 03:24:38 [INFO] [run_jobs] Running 100 jobs with n_workers=64, show_progress=True
+2026-02-16 03:24:38 [INFO] [run_jobs] Using multiprocessing.Pool.
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=4658699f-1348-48ec-9de6-dfff6852ce7e, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=0
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=aa787aa9-4778-4855-a1d5-59da09ec3be6, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=1
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=058ccadb-1c1c-4186-92e1-6d011fe84dec, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=3
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=616d6bcc-a9f6-499d-923e-4b4d90f3e46d, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=33
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=ef8541ea-4bfb-4e78-9ca0-2a9327364fb4, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=32
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=ffe29a93-9e0c-4722-b797-f26661c56685, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=34
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=c3edea56-7bfa-4f5b-89b7-37025d7ffbea, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=35
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=6440cb78-2c51-460d-8e2d-e010334cb9c2, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=36
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=dd3cf1b7-40bc-46c6-b5b6-73065f5945db, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=37
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=4a9c6381-7452-4e64-acfa-24259f0c5e43, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=38
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=39
+2026-02-16 03:24:39 [INFO] Starting job aa787aa9-4778-4855-a1d5-59da09ec3be6 (type=lasing, pattern_idx=1)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=7772ee50-431f-4731-9219-0247c136e51b, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=44
+2026-02-16 03:24:39 [INFO] Starting job 4658699f-1348-48ec-9de6-dfff6852ce7e (type=lasing, pattern_idx=0)
+2026-02-16 03:24:39 [INFO] Starting job 058ccadb-1c1c-4186-92e1-6d011fe84dec (type=lasing, pattern_idx=3)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=0a245aff-038d-481b-a121-ede4a5142640, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=45
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=21
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 058ccadb-1c1c-4186-92e1-6d011fe84dec → status=running
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=3a1fc407-0531-4933-a828-133b829351d4, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=9
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=7f8ac6f3-89b2-4154-9552-88e0bec56ba7, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=16
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=1adae526-148e-4efc-a023-c7f7812047f4, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=5
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=b57dd46b-c5fa-4153-b2e0-27128d748992, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=20
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=a797ecd2-5fea-44d8-a2b5-c18e8e64c495, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=15
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=56959033-abd1-4f61-8c02-19ddf990f3f5, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=12
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=c2c3db67-3566-411a-a044-24c48b384239, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=46
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=8d24aa46-cec1-4333-8875-856521881f6f, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=43
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=4090ca7a-f5fb-4cca-8207-86bfc19e7e89, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=19
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=48
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 4658699f-1348-48ec-9de6-dfff6852ce7e → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job aa787aa9-4778-4855-a1d5-59da09ec3be6 → status=running
+2026-02-16 03:24:39 [INFO] Starting job 4a9c6381-7452-4e64-acfa-24259f0c5e43 (type=lasing, pattern_idx=38)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=67c6d997-321e-47dd-a5d7-811d01193645, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=29
+2026-02-16 03:24:39 [INFO] Starting job 6440cb78-2c51-460d-8e2d-e010334cb9c2 (type=lasing, pattern_idx=36)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=4035de7e-ae32-40e0-87a8-cb996ac607d0, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=49
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=0c79fab1-37a4-4b34-bff2-a425b0cca0e9, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=50
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=336ca660-349a-45f9-bb09-b10aae3cc8ee, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=10
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 4a9c6381-7452-4e64-acfa-24259f0c5e43 → status=running
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=41
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=6f4bd936-7f26-476a-84f2-2e8c9f4582a7, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=23
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=aa8c971f-695a-4c78-89b1-622a85115dd1, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=24
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=74a26610-8840-4315-845a-a4841f46ea24, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=42
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 6440cb78-2c51-460d-8e2d-e010334cb9c2 → status=running
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=0e673890-aa47-4b67-a926-bf8749c26abd, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=11
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=671367ae-2896-4488-9ade-f0e95b6aadf5, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=28
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=6d0ab3ef-97b1-46e6-baca-dc150b7e2f38, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=18
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=be2684f3-4d29-404f-b389-17175c485481, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=13
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=a65bcb55-ed7e-405d-9895-51ecbb081e3e, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=26
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=5392e42c-2b3f-414a-a6d0-793f54d43fb9, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=31
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=e6de5d2f-bb99-4f43-b286-f963e34805db, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=30
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=ebdf50aa-980f-4d08-a4a8-55fc1f31d258, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=2
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=26392424-a8ee-47bc-b8cf-402731eb5754, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=8
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=af97f96a-d6b3-43f0-8451-3d7d1d1f100f, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=4
+2026-02-16 03:24:39 [INFO] Starting job 7772ee50-431f-4731-9219-0247c136e51b (type=lasing, pattern_idx=44)
+2026-02-16 03:24:39 [INFO] Starting job 4090ca7a-f5fb-4cca-8207-86bfc19e7e89 (type=lasing, pattern_idx=19)
+2026-02-16 03:24:39 [INFO] Starting job 67c6d997-321e-47dd-a5d7-811d01193645 (type=lasing, pattern_idx=29)
+2026-02-16 03:24:39 [INFO] Starting job 616d6bcc-a9f6-499d-923e-4b4d90f3e46d (type=lasing, pattern_idx=33)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=45167cb5-d06e-49f1-82e8-1fc3ee25e822, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=6
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=68b1cd0f-13e1-43b6-ae6b-5903eac5f23f, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=47
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=e8222ccc-c0fa-4c45-81a4-628662c741db, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=40
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=ef2f9d53-80b9-437a-914c-290f22e69fb7, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=25
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=e33175ef-7fb2-4beb-96e0-4a4316cfabcf, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=7
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=fea98f8e-7c0a-42aa-a083-c814923640dc, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=14
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=c7c34d7f-7ffe-4543-8637-91ec23fabfda, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=27
+2026-02-16 03:24:39 [INFO] Starting job 3a1fc407-0531-4933-a828-133b829351d4 (type=lasing, pattern_idx=9)
+2026-02-16 03:24:39 [INFO] Starting job b57dd46b-c5fa-4153-b2e0-27128d748992 (type=lasing, pattern_idx=20)
+2026-02-16 03:24:39 [INFO] Starting job 7f8ac6f3-89b2-4154-9552-88e0bec56ba7 (type=lasing, pattern_idx=16)
+2026-02-16 03:24:39 [INFO] Starting job 1adae526-148e-4efc-a023-c7f7812047f4 (type=lasing, pattern_idx=5)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=07f3a0c6-42dd-4902-8d27-826e8621ddc8, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=53
+2026-02-16 03:24:39 [INFO] Starting job a797ecd2-5fea-44d8-a2b5-c18e8e64c495 (type=lasing, pattern_idx=15)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=43961383-3351-4213-ae0a-e3085077d0de, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=54
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=7eca0355-cf71-4f45-9bb6-952e89467b25, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=51
+2026-02-16 03:24:39 [INFO] Starting job dd3cf1b7-40bc-46c6-b5b6-73065f5945db (type=lasing, pattern_idx=37)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 7f8ac6f3-89b2-4154-9552-88e0bec56ba7 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 3a1fc407-0531-4933-a828-133b829351d4 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 4090ca7a-f5fb-4cca-8207-86bfc19e7e89 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 67c6d997-321e-47dd-a5d7-811d01193645 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 1adae526-148e-4efc-a023-c7f7812047f4 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 616d6bcc-a9f6-499d-923e-4b4d90f3e46d → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job dd3cf1b7-40bc-46c6-b5b6-73065f5945db → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job a797ecd2-5fea-44d8-a2b5-c18e8e64c495 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job b57dd46b-c5fa-4153-b2e0-27128d748992 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 7772ee50-431f-4731-9219-0247c136e51b → status=running
+2026-02-16 03:24:39 [INFO] Starting job 24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b (type=lasing, pattern_idx=41)
+2026-02-16 03:24:39 [INFO] Starting job 0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 (type=lasing, pattern_idx=39)
+2026-02-16 03:24:39 [INFO] Starting job e8222ccc-c0fa-4c45-81a4-628662c741db (type=lasing, pattern_idx=40)
+2026-02-16 03:24:39 [INFO] Starting job 56959033-abd1-4f61-8c02-19ddf990f3f5 (type=lasing, pattern_idx=12)
+2026-02-16 03:24:39 [INFO] Starting job 77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e (type=lasing, pattern_idx=48)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job e8222ccc-c0fa-4c45-81a4-628662c741db → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 56959033-abd1-4f61-8c02-19ddf990f3f5 → status=running
+2026-02-16 03:24:39 [INFO] Starting job be2684f3-4d29-404f-b389-17175c485481 (type=lasing, pattern_idx=13)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job be2684f3-4d29-404f-b389-17175c485481 → status=running
+2026-02-16 03:24:39 [INFO] Starting job e6de5d2f-bb99-4f43-b286-f963e34805db (type=lasing, pattern_idx=30)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job e6de5d2f-bb99-4f43-b286-f963e34805db → status=running
+2026-02-16 03:24:39 [INFO] Starting job ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 (type=lasing, pattern_idx=32)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 → status=running
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=ffdb2d34-288a-423c-97b4-5adeaebbf3f1, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=22
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=1734025d-411b-4d13-98b4-a01c8be08927, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=17
+2026-02-16 03:24:39 [INFO] Starting job aa8c971f-695a-4c78-89b1-622a85115dd1 (type=lasing, pattern_idx=24)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=5132891f-c7c5-43be-9fae-2db3d87f8669, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=52
+2026-02-16 03:24:39 [INFO] Starting job 43961383-3351-4213-ae0a-e3085077d0de (type=lasing, pattern_idx=54)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job aa8c971f-695a-4c78-89b1-622a85115dd1 → status=running
+2026-02-16 03:24:39 [INFO] Starting job e33175ef-7fb2-4beb-96e0-4a4316cfabcf (type=lasing, pattern_idx=7)
+2026-02-16 03:24:39 [INFO] Starting job 6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 (type=lasing, pattern_idx=18)
+2026-02-16 03:24:39 [INFO] Starting job 74a26610-8840-4315-845a-a4841f46ea24 (type=lasing, pattern_idx=42)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 43961383-3351-4213-ae0a-e3085077d0de → status=running
+2026-02-16 03:24:39 [INFO] Starting job ef2f9d53-80b9-437a-914c-290f22e69fb7 (type=lasing, pattern_idx=25)
+2026-02-16 03:24:39 [INFO] Starting job fea98f8e-7c0a-42aa-a083-c814923640dc (type=lasing, pattern_idx=14)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job e33175ef-7fb2-4beb-96e0-4a4316cfabcf → status=running
+2026-02-16 03:24:39 [INFO] Starting job 68b1cd0f-13e1-43b6-ae6b-5903eac5f23f (type=lasing, pattern_idx=47)
+2026-02-16 03:24:39 [INFO] Starting job 07f3a0c6-42dd-4902-8d27-826e8621ddc8 (type=lasing, pattern_idx=53)
+2026-02-16 03:24:39 [INFO] Starting job ffdb2d34-288a-423c-97b4-5adeaebbf3f1 (type=lasing, pattern_idx=22)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 74a26610-8840-4315-845a-a4841f46ea24 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job ef2f9d53-80b9-437a-914c-290f22e69fb7 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job fea98f8e-7c0a-42aa-a083-c814923640dc → status=running
+2026-02-16 03:24:39 [INFO] Starting job 7eca0355-cf71-4f45-9bb6-952e89467b25 (type=lasing, pattern_idx=51)
+2026-02-16 03:24:39 [INFO] Starting job 671367ae-2896-4488-9ade-f0e95b6aadf5 (type=lasing, pattern_idx=28)
+2026-02-16 03:24:39 [INFO] Starting job 4035de7e-ae32-40e0-87a8-cb996ac607d0 (type=lasing, pattern_idx=49)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 68b1cd0f-13e1-43b6-ae6b-5903eac5f23f → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 4035de7e-ae32-40e0-87a8-cb996ac607d0 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 07f3a0c6-42dd-4902-8d27-826e8621ddc8 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job ffdb2d34-288a-423c-97b4-5adeaebbf3f1 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 7eca0355-cf71-4f45-9bb6-952e89467b25 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 671367ae-2896-4488-9ade-f0e95b6aadf5 → status=running
+2026-02-16 03:24:39 [INFO] Starting job 45167cb5-d06e-49f1-82e8-1fc3ee25e822 (type=lasing, pattern_idx=6)
+2026-02-16 03:24:39 [INFO] Starting job c3edea56-7bfa-4f5b-89b7-37025d7ffbea (type=lasing, pattern_idx=35)
+2026-02-16 03:24:39 [INFO] Starting job 8d24aa46-cec1-4333-8875-856521881f6f (type=lasing, pattern_idx=43)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 45167cb5-d06e-49f1-82e8-1fc3ee25e822 → status=running
+2026-02-16 03:24:39 [INFO] Starting job 26392424-a8ee-47bc-b8cf-402731eb5754 (type=lasing, pattern_idx=8)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job c3edea56-7bfa-4f5b-89b7-37025d7ffbea → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 8d24aa46-cec1-4333-8875-856521881f6f → status=running
+2026-02-16 03:24:39 [INFO] Starting job 6f4bd936-7f26-476a-84f2-2e8c9f4582a7 (type=lasing, pattern_idx=23)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 26392424-a8ee-47bc-b8cf-402731eb5754 → status=running
+2026-02-16 03:24:39 [INFO] Starting job af97f96a-d6b3-43f0-8451-3d7d1d1f100f (type=lasing, pattern_idx=4)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 6f4bd936-7f26-476a-84f2-2e8c9f4582a7 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job af97f96a-d6b3-43f0-8451-3d7d1d1f100f → status=running
+2026-02-16 03:24:39 [INFO] Starting job c2c3db67-3566-411a-a044-24c48b384239 (type=lasing, pattern_idx=46)
+2026-02-16 03:24:39 [INFO] Starting job 0e673890-aa47-4b67-a926-bf8749c26abd (type=lasing, pattern_idx=11)
+2026-02-16 03:24:39 [INFO] Starting job 336ca660-349a-45f9-bb09-b10aae3cc8ee (type=lasing, pattern_idx=10)
+2026-02-16 03:24:39 [INFO] Starting job 74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a (type=lasing, pattern_idx=21)
+2026-02-16 03:24:39 [INFO] Starting job 5132891f-c7c5-43be-9fae-2db3d87f8669 (type=lasing, pattern_idx=52)
+2026-02-16 03:24:39 [INFO] Starting job 0c79fab1-37a4-4b34-bff2-a425b0cca0e9 (type=lasing, pattern_idx=50)
+2026-02-16 03:24:39 [INFO] Starting job 5392e42c-2b3f-414a-a6d0-793f54d43fb9 (type=lasing, pattern_idx=31)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job c2c3db67-3566-411a-a044-24c48b384239 → status=running
+2026-02-16 03:24:39 [INFO] Starting job 1734025d-411b-4d13-98b4-a01c8be08927 (type=lasing, pattern_idx=17)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 0e673890-aa47-4b67-a926-bf8749c26abd → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a → status=running
+2026-02-16 03:24:39 [INFO] Starting job ebdf50aa-980f-4d08-a4a8-55fc1f31d258 (type=lasing, pattern_idx=2)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 5132891f-c7c5-43be-9fae-2db3d87f8669 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 0c79fab1-37a4-4b34-bff2-a425b0cca0e9 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 5392e42c-2b3f-414a-a6d0-793f54d43fb9 → status=running
+2026-02-16 03:24:39 [INFO] Starting job c7c34d7f-7ffe-4543-8637-91ec23fabfda (type=lasing, pattern_idx=27)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 1734025d-411b-4d13-98b4-a01c8be08927 → status=running
+2026-02-16 03:24:39 [INFO] Starting job a65bcb55-ed7e-405d-9895-51ecbb081e3e (type=lasing, pattern_idx=26)
+2026-02-16 03:24:39 [INFO] Starting job ffe29a93-9e0c-4722-b797-f26661c56685 (type=lasing, pattern_idx=34)
+2026-02-16 03:24:39 [INFO] Starting job 0a245aff-038d-481b-a121-ede4a5142640 (type=lasing, pattern_idx=45)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 336ca660-349a-45f9-bb09-b10aae3cc8ee → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job ebdf50aa-980f-4d08-a4a8-55fc1f31d258 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job c7c34d7f-7ffe-4543-8637-91ec23fabfda → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job a65bcb55-ed7e-405d-9895-51ecbb081e3e → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job ffe29a93-9e0c-4722-b797-f26661c56685 → status=running
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=e52bcf88-2553-4ffb-b87c-137297e74ce1, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=55
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 0a245aff-038d-481b-a121-ede4a5142640 → status=running
+  0%|          | 0/100 [00:00<?, ?it/s]2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=56
+2026-02-16 03:24:39 [INFO] Starting job e52bcf88-2553-4ffb-b87c-137297e74ce1 (type=lasing, pattern_idx=55)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=776c0171-89e5-4288-8877-0bca40be9a26, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=58
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=fc5c6df9-38af-4a3f-82ef-e21e8e7c3143, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=57
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job e52bcf88-2553-4ffb-b87c-137297e74ce1 → status=running
+2026-02-16 03:24:39 [INFO] Starting job 1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 (type=lasing, pattern_idx=56)
+2026-02-16 03:24:39 [INFO] Starting job 776c0171-89e5-4288-8877-0bca40be9a26 (type=lasing, pattern_idx=58)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=de579779-effb-42d5-9bc0-839910364903, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=59
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 → status=running
+2026-02-16 03:24:39 [INFO] Starting job fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 (type=lasing, pattern_idx=57)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 776c0171-89e5-4288-8877-0bca40be9a26 → status=running
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=54282818-4ca5-436c-9597-1231d18817bc, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=60
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 → status=running
+2026-02-16 03:24:39 [INFO] Starting job de579779-effb-42d5-9bc0-839910364903 (type=lasing, pattern_idx=59)
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=d5715651-b7fe-4cd7-81f4-5db228499124, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=61
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=f2b5d2c8-cc83-4c06-a820-e4d16655cc11, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=62
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job de579779-effb-42d5-9bc0-839910364903 → status=running
+2026-02-16 03:24:39 [INFO] [run_job] Starting job_id=9dc1b5e4-886d-4ba8-bffc-3f848e1bc309, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=63
+2026-02-16 03:24:39 [INFO] Starting job 54282818-4ca5-436c-9597-1231d18817bc (type=lasing, pattern_idx=60)
+2026-02-16 03:24:39 [INFO] Starting job d5715651-b7fe-4cd7-81f4-5db228499124 (type=lasing, pattern_idx=61)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 54282818-4ca5-436c-9597-1231d18817bc → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job d5715651-b7fe-4cd7-81f4-5db228499124 → status=running
+2026-02-16 03:24:39 [INFO] Starting job 9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 (type=lasing, pattern_idx=63)
+2026-02-16 03:24:39 [INFO] Starting job f2b5d2c8-cc83-4c06-a820-e4d16655cc11 (type=lasing, pattern_idx=62)
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job 9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 → status=running
+2026-02-16 03:24:39 [INFO] [jobs-db] Updating job f2b5d2c8-cc83-4c06-a820-e4d16655cc11 → status=running
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=6440cb78-2c51-460d-8e2d-e010334cb9c2 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=36
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=5132891f-c7c5-43be-9fae-2db3d87f8669 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=52
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=36)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=52)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=de579779-effb-42d5-9bc0-839910364903 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=1734025d-411b-4d13-98b4-a01c8be08927 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=0c79fab1-37a4-4b34-bff2-a425b0cca0e9 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=336ca660-349a-45f9-bb09-b10aae3cc8ee pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=56
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=59
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=17
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=50
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=10
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=56)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=59)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=17)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=50)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=57
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=10)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=57)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=6f4bd936-7f26-476a-84f2-2e8c9f4582a7 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=23
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=af97f96a-d6b3-43f0-8451-3d7d1d1f100f pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=e52bcf88-2553-4ffb-b87c-137297e74ce1 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=4
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=55
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=23)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=4)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=55)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=4658699f-1348-48ec-9de6-dfff6852ce7e pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=0
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=0)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=67c6d997-321e-47dd-a5d7-811d01193645 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=29
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=4090ca7a-f5fb-4cca-8207-86bfc19e7e89 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=19
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=29)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=7772ee50-431f-4731-9219-0247c136e51b pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=19)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=44
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=44)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=058ccadb-1c1c-4186-92e1-6d011fe84dec pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=56959033-abd1-4f61-8c02-19ddf990f3f5 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=3
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=12
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=dd3cf1b7-40bc-46c6-b5b6-73065f5945db pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=3)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=be2684f3-4d29-404f-b389-17175c485481 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=12)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=a65bcb55-ed7e-405d-9895-51ecbb081e3e pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=37
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=13
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=26
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=37)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=13)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=f2b5d2c8-cc83-4c06-a820-e4d16655cc11 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=54282818-4ca5-436c-9597-1231d18817bc pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=63
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=26)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=62
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=60
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=63)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=62)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=60)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=c7c34d7f-7ffe-4543-8637-91ec23fabfda pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=27
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=d5715651-b7fe-4cd7-81f4-5db228499124 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=27)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=61
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=61)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=43961383-3351-4213-ae0a-e3085077d0de pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=54
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=54)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=68b1cd0f-13e1-43b6-ae6b-5903eac5f23f pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=07f3a0c6-42dd-4902-8d27-826e8621ddc8 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=47
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=c3edea56-7bfa-4f5b-89b7-37025d7ffbea pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=53
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=45167cb5-d06e-49f1-82e8-1fc3ee25e822 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=35
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=47)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=53)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=6
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=35)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=6)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=c2c3db67-3566-411a-a044-24c48b384239 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=46
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=46)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=ffe29a93-9e0c-4722-b797-f26661c56685 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=0a245aff-038d-481b-a121-ede4a5142640 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=34
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=45
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=45)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=34)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=776c0171-89e5-4288-8877-0bca40be9a26 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=58
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=5392e42c-2b3f-414a-a6d0-793f54d43fb9 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=58)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=31
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=31)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=4a9c6381-7452-4e64-acfa-24259f0c5e43 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=38
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=b57dd46b-c5fa-4153-b2e0-27128d748992 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=20
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=aa787aa9-4778-4855-a1d5-59da09ec3be6 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=38)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=20)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=1adae526-148e-4efc-a023-c7f7812047f4 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=1
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=5
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=1)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=5)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=48
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=48)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=e33175ef-7fb2-4beb-96e0-4a4316cfabcf pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=7
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=7)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=4035de7e-ae32-40e0-87a8-cb996ac607d0 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=49
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=8d24aa46-cec1-4333-8875-856521881f6f pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=49)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=671367ae-2896-4488-9ade-f0e95b6aadf5 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=43
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=28
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=43)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=28)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=ebdf50aa-980f-4d08-a4a8-55fc1f31d258 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=2
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=2)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=0e673890-aa47-4b67-a926-bf8749c26abd pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=11
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=11)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=7f8ac6f3-89b2-4154-9552-88e0bec56ba7 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=16
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=ffdb2d34-288a-423c-97b4-5adeaebbf3f1 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=e8222ccc-c0fa-4c45-81a4-628662c741db pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=26392424-a8ee-47bc-b8cf-402731eb5754 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=a797ecd2-5fea-44d8-a2b5-c18e8e64c495 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=15
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=22
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=40
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=8
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=16)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=e6de5d2f-bb99-4f43-b286-f963e34805db pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=22)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=40)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=8)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=15)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=30
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=30)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=3a1fc407-0531-4933-a828-133b829351d4 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=9
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=9)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=aa8c971f-695a-4c78-89b1-622a85115dd1 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=24
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=24)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=41
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=41)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=18
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=18)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=32
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=32)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=21
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=ef2f9d53-80b9-437a-914c-290f22e69fb7 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=fea98f8e-7c0a-42aa-a083-c814923640dc pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=25
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=21)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=14
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=25)
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=14)
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=39
+2026-02-16 03:24:39 [INFO] [set_job_status] job_id=616d6bcc-a9f6-499d-923e-4b4d90f3e46d pending -> running, exec_time=None, error=None
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=39)
+2026-02-16 03:24:39 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=33
+2026-02-16 03:24:39 [INFO] Starting lasing job (pattern_idx=33)
+2026-02-16 03:24:40 [INFO] [set_job_status] job_id=7eca0355-cf71-4f45-9bb6-952e89467b25 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:40 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=51
+2026-02-16 03:24:40 [INFO] Starting lasing job (pattern_idx=51)
+2026-02-16 03:24:40 [INFO] [set_job_status] job_id=74a26610-8840-4315-845a-a4841f46ea24 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:40 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=42
+2026-02-16 03:24:40 [INFO] Starting lasing job (pattern_idx=42)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job f2b5d2c8-cc83-4c06-a820-e4d16655cc11 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job af97f96a-d6b3-43f0-8451-3d7d1d1f100f → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 4035de7e-ae32-40e0-87a8-cb996ac607d0 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job b57dd46b-c5fa-4153-b2e0-27128d748992 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0a245aff-038d-481b-a121-ede4a5142640 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 1734025d-411b-4d13-98b4-a01c8be08927 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0e673890-aa47-4b67-a926-bf8749c26abd → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ebdf50aa-980f-4d08-a4a8-55fc1f31d258 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 68b1cd0f-13e1-43b6-ae6b-5903eac5f23f → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 07f3a0c6-42dd-4902-8d27-826e8621ddc8 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job aa787aa9-4778-4855-a1d5-59da09ec3be6 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job e6de5d2f-bb99-4f43-b286-f963e34805db → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 67c6d997-321e-47dd-a5d7-811d01193645 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job de579779-effb-42d5-9bc0-839910364903 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job d5715651-b7fe-4cd7-81f4-5db228499124 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 1adae526-148e-4efc-a023-c7f7812047f4 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 54282818-4ca5-436c-9597-1231d18817bc → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 5132891f-c7c5-43be-9fae-2db3d87f8669 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job a797ecd2-5fea-44d8-a2b5-c18e8e64c495 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 43961383-3351-4213-ae0a-e3085077d0de → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 4a9c6381-7452-4e64-acfa-24259f0c5e43 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c2c3db67-3566-411a-a044-24c48b384239 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job a65bcb55-ed7e-405d-9895-51ecbb081e3e → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7772ee50-431f-4731-9219-0247c136e51b → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c7c34d7f-7ffe-4543-8637-91ec23fabfda → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job e8222ccc-c0fa-4c45-81a4-628662c741db → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job dd3cf1b7-40bc-46c6-b5b6-73065f5945db → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 6440cb78-2c51-460d-8e2d-e010334cb9c2 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 8d24aa46-cec1-4333-8875-856521881f6f → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 671367ae-2896-4488-9ade-f0e95b6aadf5 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c3edea56-7bfa-4f5b-89b7-37025d7ffbea → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 336ca660-349a-45f9-bb09-b10aae3cc8ee → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 56959033-abd1-4f61-8c02-19ddf990f3f5 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ffe29a93-9e0c-4722-b797-f26661c56685 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ffdb2d34-288a-423c-97b4-5adeaebbf3f1 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 5392e42c-2b3f-414a-a6d0-793f54d43fb9 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job aa8c971f-695a-4c78-89b1-622a85115dd1 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job e33175ef-7fb2-4beb-96e0-4a4316cfabcf → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 4658699f-1348-48ec-9de6-dfff6852ce7e → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 26392424-a8ee-47bc-b8cf-402731eb5754 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 776c0171-89e5-4288-8877-0bca40be9a26 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 6f4bd936-7f26-476a-84f2-2e8c9f4582a7 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 45167cb5-d06e-49f1-82e8-1fc3ee25e822 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0c79fab1-37a4-4b34-bff2-a425b0cca0e9 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 4090ca7a-f5fb-4cca-8207-86bfc19e7e89 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 058ccadb-1c1c-4186-92e1-6d011fe84dec → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job e52bcf88-2553-4ffb-b87c-137297e74ce1 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job be2684f3-4d29-404f-b389-17175c485481 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 3a1fc407-0531-4933-a828-133b829351d4 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7f8ac6f3-89b2-4154-9552-88e0bec56ba7 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job c2c3db67-3566-411a-a044-24c48b384239 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c2c3db67-3566-411a-a044-24c48b384239 running -> error, exec_time=2.231733798980713, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job d5715651-b7fe-4cd7-81f4-5db228499124 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c2c3db67-3566-411a-a044-24c48b384239 running -> error, exec_time=2.231733798980713, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 3a1fc407-0531-4933-a828-133b829351d4 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 running -> error, exec_time=1.8840858936309814, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 running -> error, exec_time=2.2448618412017822, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=d5715651-b7fe-4cd7-81f4-5db228499124 running -> error, exec_time=2.2366278171539307, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=c2c3db67-3566-411a-a044-24c48b384239: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 running -> error, exec_time=2.253255605697632, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 4a9c6381-7452-4e64-acfa-24259f0c5e43 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=3a1fc407-0531-4933-a828-133b829351d4 running -> error, exec_time=2.1081430912017822, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4a9c6381-7452-4e64-acfa-24259f0c5e43 running -> error, exec_time=2.226576805114746, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 running -> error, exec_time=2.2448618412017822, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job c2c3db67-3566-411a-a044-24c48b384239 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 running -> error, exec_time=2.253255605697632, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=3a1fc407-0531-4933-a828-133b829351d4 running -> error, exec_time=2.1081430912017822, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 running -> error, exec_time=1.8840858936309814, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=d5715651-b7fe-4cd7-81f4-5db228499124 running -> error, exec_time=2.2366278171539307, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=3a1fc407-0531-4933-a828-133b829351d4: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4a9c6381-7452-4e64-acfa-24259f0c5e43 running -> error, exec_time=2.226576805114746, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=9dc1b5e4-886d-4ba8-bffc-3f848e1bc309: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=d5715651-b7fe-4cd7-81f4-5db228499124: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job e33175ef-7fb2-4beb-96e0-4a4316cfabcf FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 56959033-abd1-4f61-8c02-19ddf990f3f5 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job a65bcb55-ed7e-405d-9895-51ecbb081e3e FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 0c79fab1-37a4-4b34-bff2-a425b0cca0e9 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=4a9c6381-7452-4e64-acfa-24259f0c5e43: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job c7c34d7f-7ffe-4543-8637-91ec23fabfda FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 3a1fc407-0531-4933-a828-133b829351d4 after 2.11s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=9a05f218-e55a-4c5d-b6a6-a1f472434d7a, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=64
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c7c34d7f-7ffe-4543-8637-91ec23fabfda running -> error, exec_time=2.2381515502929688, error=Treshold lasing modes could not be found.
+  1%|          | 1/100 [00:02<03:47,  2.30s/it]2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=56959033-abd1-4f61-8c02-19ddf990f3f5 running -> error, exec_time=2.2428250312805176, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a65bcb55-ed7e-405d-9895-51ecbb081e3e running -> error, exec_time=2.240015983581543, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e33175ef-7fb2-4beb-96e0-4a4316cfabcf running -> error, exec_time=2.2339389324188232, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0c79fab1-37a4-4b34-bff2-a425b0cca0e9 running -> error, exec_time=2.261033058166504, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=6d0ab3ef-97b1-46e6-baca-dc150b7e2f38: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 6f4bd936-7f26-476a-84f2-2e8c9f4582a7 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=6f4bd936-7f26-476a-84f2-2e8c9f4582a7 running -> error, exec_time=2.2592153549194336, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=43516e6e-e138-405e-9f54-b4992afd5f9c, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=65
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job f2b5d2c8-cc83-4c06-a820-e4d16655cc11 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ffdb2d34-288a-423c-97b4-5adeaebbf3f1 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=f2b5d2c8-cc83-4c06-a820-e4d16655cc11 running -> error, exec_time=2.23776912689209, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job aa8c971f-695a-4c78-89b1-622a85115dd1 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ffdb2d34-288a-423c-97b4-5adeaebbf3f1 running -> error, exec_time=2.135329008102417, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 0a245aff-038d-481b-a121-ede4a5142640 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=aa8c971f-695a-4c78-89b1-622a85115dd1 running -> error, exec_time=2.062326192855835, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 5132891f-c7c5-43be-9fae-2db3d87f8669 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0a245aff-038d-481b-a121-ede4a5142640 running -> error, exec_time=2.22979474067688, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job af97f96a-d6b3-43f0-8451-3d7d1d1f100f FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job aa787aa9-4778-4855-a1d5-59da09ec3be6 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=5132891f-c7c5-43be-9fae-2db3d87f8669 running -> error, exec_time=2.248403787612915, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=af97f96a-d6b3-43f0-8451-3d7d1d1f100f running -> error, exec_time=2.242917776107788, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=aa787aa9-4778-4855-a1d5-59da09ec3be6 running -> error, exec_time=2.2253990173339844, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ef2f9d53-80b9-437a-914c-290f22e69fb7 → status=error
+2026-02-16 03:24:41 [ERROR] ERROR in job 1944b9ef-5c50-4c94-ae1b-84d9fc3f50e5 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 6d0ab3ef-97b1-46e6-baca-dc150b7e2f38 after 1.88s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ffdb2d34-288a-423c-97b4-5adeaebbf3f1 running -> error, exec_time=2.135329008102417, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e33175ef-7fb2-4beb-96e0-4a4316cfabcf running -> error, exec_time=2.2339389324188232, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 9a05f218-e55a-4c5d-b6a6-a1f472434d7a (type=lasing, pattern_idx=64)
+2026-02-16 03:24:41 [INFO] Starting job 43516e6e-e138-405e-9f54-b4992afd5f9c (type=lasing, pattern_idx=65)
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=af97f96a-d6b3-43f0-8451-3d7d1d1f100f running -> error, exec_time=2.242917776107788, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0c79fab1-37a4-4b34-bff2-a425b0cca0e9 running -> error, exec_time=2.261033058166504, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 4a9c6381-7452-4e64-acfa-24259f0c5e43 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 9dc1b5e4-886d-4ba8-bffc-3f848e1bc309 after 2.25s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=f2b5d2c8-cc83-4c06-a820-e4d16655cc11 running -> error, exec_time=2.23776912689209, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=56959033-abd1-4f61-8c02-19ddf990f3f5 running -> error, exec_time=2.2428250312805176, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=aa787aa9-4778-4855-a1d5-59da09ec3be6 running -> error, exec_time=2.2253990173339844, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=6f4bd936-7f26-476a-84f2-2e8c9f4582a7 running -> error, exec_time=2.2592153549194336, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0a245aff-038d-481b-a121-ede4a5142640 running -> error, exec_time=2.22979474067688, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c7c34d7f-7ffe-4543-8637-91ec23fabfda running -> error, exec_time=2.2381515502929688, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=5132891f-c7c5-43be-9fae-2db3d87f8669 running -> error, exec_time=2.248403787612915, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job d5715651-b7fe-4cd7-81f4-5db228499124 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=aa8c971f-695a-4c78-89b1-622a85115dd1 running -> error, exec_time=2.062326192855835, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a65bcb55-ed7e-405d-9895-51ecbb081e3e running -> error, exec_time=2.240015983581543, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=aa787aa9-4778-4855-a1d5-59da09ec3be6: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=a65bcb55-ed7e-405d-9895-51ecbb081e3e: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 4090ca7a-f5fb-4cca-8207-86bfc19e7e89 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=e33175ef-7fb2-4beb-96e0-4a4316cfabcf: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ffdb2d34-288a-423c-97b4-5adeaebbf3f1: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=c7c34d7f-7ffe-4543-8637-91ec23fabfda: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=5132891f-c7c5-43be-9fae-2db3d87f8669: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job e52bcf88-2553-4ffb-b87c-137297e74ce1 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 9a05f218-e55a-4c5d-b6a6-a1f472434d7a → status=running
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 1734025d-411b-4d13-98b4-a01c8be08927 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 6440cb78-2c51-460d-8e2d-e010334cb9c2 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 26392424-a8ee-47bc-b8cf-402731eb5754 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 5392e42c-2b3f-414a-a6d0-793f54d43fb9 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=6f4bd936-7f26-476a-84f2-2e8c9f4582a7: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=56959033-abd1-4f61-8c02-19ddf990f3f5: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=0c79fab1-37a4-4b34-bff2-a425b0cca0e9: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 68b1cd0f-13e1-43b6-ae6b-5903eac5f23f FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=66
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 45167cb5-d06e-49f1-82e8-1fc3ee25e822 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=06a744f7-7e6a-4800-aa50-b2a545374b5f, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=67
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job dd3cf1b7-40bc-46c6-b5b6-73065f5945db FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=7b509628-2522-4ff0-86ed-7c63f63c7b16, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=68
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=f2b5d2c8-cc83-4c06-a820-e4d16655cc11: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 058ccadb-1c1c-4186-92e1-6d011fe84dec FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=dd3cf1b7-40bc-46c6-b5b6-73065f5945db running -> error, exec_time=2.240812063217163, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4090ca7a-f5fb-4cca-8207-86bfc19e7e89 running -> error, exec_time=2.257911205291748, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=af97f96a-d6b3-43f0-8451-3d7d1d1f100f: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=0a245aff-038d-481b-a121-ede4a5142640: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 5132891f-c7c5-43be-9fae-2db3d87f8669 after 2.25s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=68b1cd0f-13e1-43b6-ae6b-5903eac5f23f running -> error, exec_time=2.234628438949585, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 4658699f-1348-48ec-9de6-dfff6852ce7e FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 0c79fab1-37a4-4b34-bff2-a425b0cca0e9 after 2.26s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=aa8c971f-695a-4c78-89b1-622a85115dd1: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 6f4bd936-7f26-476a-84f2-2e8c9f4582a7 after 2.26s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 43516e6e-e138-405e-9f54-b4992afd5f9c → status=running
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=5392e42c-2b3f-414a-a6d0-793f54d43fb9 running -> error, exec_time=2.232539176940918, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e52bcf88-2553-4ffb-b87c-137297e74ce1 running -> error, exec_time=2.2640230655670166, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 running -> error, exec_time=2.246685028076172, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b (type=lasing, pattern_idx=66)
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=c9aac0d9-dfd2-4530-8556-f5dcc16a120e, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=69
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=26392424-a8ee-47bc-b8cf-402731eb5754 running -> error, exec_time=2.1475188732147217, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 7b509628-2522-4ff0-86ed-7c63f63c7b16 (type=lasing, pattern_idx=68)
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1734025d-411b-4d13-98b4-a01c8be08927 running -> error, exec_time=2.244722604751587, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job f2b5d2c8-cc83-4c06-a820-e4d16655cc11 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job ffdb2d34-288a-423c-97b4-5adeaebbf3f1 after 2.14s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 776c0171-89e5-4288-8877-0bca40be9a26 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=848ecbd0-3087-4834-9aae-71b60d3dcc5b, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=70
+2026-02-16 03:24:41 [INFO] Starting job 06a744f7-7e6a-4800-aa50-b2a545374b5f (type=lasing, pattern_idx=67)
+2026-02-16 03:24:41 [ERROR] ERROR in job aa787aa9-4778-4855-a1d5-59da09ec3be6 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 56959033-abd1-4f61-8c02-19ddf990f3f5 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job c7c34d7f-7ffe-4543-8637-91ec23fabfda after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=45167cb5-d06e-49f1-82e8-1fc3ee25e822 running -> error, exec_time=2.249593734741211, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=6440cb78-2c51-460d-8e2d-e010334cb9c2 running -> error, exec_time=2.250316619873047, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=058ccadb-1c1c-4186-92e1-6d011fe84dec running -> error, exec_time=2.257246255874634, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 06a744f7-7e6a-4800-aa50-b2a545374b5f → status=running
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=776c0171-89e5-4288-8877-0bca40be9a26 running -> error, exec_time=2.244729518890381, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4658699f-1348-48ec-9de6-dfff6852ce7e running -> error, exec_time=2.255854845046997, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7b509628-2522-4ff0-86ed-7c63f63c7b16 → status=running
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=5392e42c-2b3f-414a-a6d0-793f54d43fb9 running -> error, exec_time=2.232539176940918, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 running -> error, exec_time=2.246685028076172, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job e33175ef-7fb2-4beb-96e0-4a4316cfabcf after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ef2f9d53-80b9-437a-914c-290f22e69fb7 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4090ca7a-f5fb-4cca-8207-86bfc19e7e89 running -> error, exec_time=2.257911205291748, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job c9aac0d9-dfd2-4530-8556-f5dcc16a120e (type=lasing, pattern_idx=69)
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=0c15a7ba-a0b9-4927-a2a2-67c2695ae169, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=71
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=576c0339-3ab4-4419-9e24-d11f9d764746, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=72
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e52bcf88-2553-4ffb-b87c-137297e74ce1 running -> error, exec_time=2.2640230655670166, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=26392424-a8ee-47bc-b8cf-402731eb5754 running -> error, exec_time=2.1475188732147217, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=0ef1d553-2b18-4e39-9e51-a784bb02a0fc, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=73
+2026-02-16 03:24:41 [ERROR] ERROR in job af97f96a-d6b3-43f0-8451-3d7d1d1f100f after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=68b1cd0f-13e1-43b6-ae6b-5903eac5f23f running -> error, exec_time=2.234628438949585, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=a16e126b-2160-41b7-8bec-e896c2f1720a, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=74
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=dd3cf1b7-40bc-46c6-b5b6-73065f5945db running -> error, exec_time=2.240812063217163, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=fc5c6df9-38af-4a3f-82ef-e21e8e7c3143: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 0a245aff-038d-481b-a121-ede4a5142640 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1734025d-411b-4d13-98b4-a01c8be08927 running -> error, exec_time=2.244722604751587, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job aa8c971f-695a-4c78-89b1-622a85115dd1 after 2.06s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 848ecbd0-3087-4834-9aae-71b60d3dcc5b (type=lasing, pattern_idx=70)
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=5392e42c-2b3f-414a-a6d0-793f54d43fb9: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ef2f9d53-80b9-437a-914c-290f22e69fb7 running -> error, exec_time=1.8859057426452637, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c9aac0d9-dfd2-4530-8556-f5dcc16a120e → status=running
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=e52bcf88-2553-4ffb-b87c-137297e74ce1: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=26392424-a8ee-47bc-b8cf-402731eb5754: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=68b1cd0f-13e1-43b6-ae6b-5903eac5f23f: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=6440cb78-2c51-460d-8e2d-e010334cb9c2 running -> error, exec_time=2.250316619873047, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=c2ab6e6c-7067-4ae8-951f-86ba4eb6222c, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=75
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4658699f-1348-48ec-9de6-dfff6852ce7e running -> error, exec_time=2.255854845046997, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=45167cb5-d06e-49f1-82e8-1fc3ee25e822 running -> error, exec_time=2.249593734741211, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=766374cf-2167-47f9-a8e8-bc88491c38bf, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=76
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=c0fdd0b4-e21b-4c53-903a-bc1c032f0857, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=77
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=776c0171-89e5-4288-8877-0bca40be9a26 running -> error, exec_time=2.244729518890381, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 576c0339-3ab4-4419-9e24-d11f9d764746 (type=lasing, pattern_idx=72)
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=c6743c27-a399-475d-b753-110a7bb925a4, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=78
+2026-02-16 03:24:41 [ERROR] ERROR in job a65bcb55-ed7e-405d-9895-51ecbb081e3e after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=058ccadb-1c1c-4186-92e1-6d011fe84dec running -> error, exec_time=2.257246255874634, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=4090ca7a-f5fb-4cca-8207-86bfc19e7e89: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=7849a7f7-a71d-4642-91b8-15756ba78d07, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=79
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=dd3cf1b7-40bc-46c6-b5b6-73065f5945db: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=1734025d-411b-4d13-98b4-a01c8be08927: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 848ecbd0-3087-4834-9aae-71b60d3dcc5b → status=running
+2026-02-16 03:24:41 [INFO] Starting job a16e126b-2160-41b7-8bec-e896c2f1720a (type=lasing, pattern_idx=74)
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=058ccadb-1c1c-4186-92e1-6d011fe84dec: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job fc5c6df9-38af-4a3f-82ef-e21e8e7c3143 after 2.25s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=6440cb78-2c51-460d-8e2d-e010334cb9c2: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job c2ab6e6c-7067-4ae8-951f-86ba4eb6222c (type=lasing, pattern_idx=75)
+2026-02-16 03:24:41 [INFO] Starting job c6743c27-a399-475d-b753-110a7bb925a4 (type=lasing, pattern_idx=78)
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=776c0171-89e5-4288-8877-0bca40be9a26: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 5392e42c-2b3f-414a-a6d0-793f54d43fb9 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=4658699f-1348-48ec-9de6-dfff6852ce7e: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 576c0339-3ab4-4419-9e24-d11f9d764746 → status=running
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ef2f9d53-80b9-437a-914c-290f22e69fb7 running -> error, exec_time=1.8859057426452637, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=2306f583-ed1d-4d96-a8ad-b1fcb5f43003, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=80
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job fea98f8e-7c0a-42aa-a083-c814923640dc → status=error
+2026-02-16 03:24:41 [ERROR] ERROR in job 68b1cd0f-13e1-43b6-ae6b-5903eac5f23f after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 766374cf-2167-47f9-a8e8-bc88491c38bf (type=lasing, pattern_idx=76)
+2026-02-16 03:24:41 [ERROR] ERROR in job e52bcf88-2553-4ffb-b87c-137297e74ce1 after 2.26s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 0c15a7ba-a0b9-4927-a2a2-67c2695ae169 (type=lasing, pattern_idx=71)
+2026-02-16 03:24:41 [ERROR] ERROR in job 26392424-a8ee-47bc-b8cf-402731eb5754 after 2.15s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=d595d60e-0778-4d3b-bef0-d2aed43c93e1, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=81
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 54282818-4ca5-436c-9597-1231d18817bc FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=92992cab-8ae8-4ccd-a419-f07b2d5949fe, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=82
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=9a05f218-e55a-4c5d-b6a6-a1f472434d7a pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=45167cb5-d06e-49f1-82e8-1fc3ee25e822: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job a16e126b-2160-41b7-8bec-e896c2f1720a → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 → status=error
+2026-02-16 03:24:41 [INFO] Starting job c0fdd0b4-e21b-4c53-903a-bc1c032f0857 (type=lasing, pattern_idx=77)
+2026-02-16 03:24:41 [ERROR] ERROR in job 4090ca7a-f5fb-4cca-8207-86bfc19e7e89 after 2.26s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 1734025d-411b-4d13-98b4-a01c8be08927 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c2ab6e6c-7067-4ae8-951f-86ba4eb6222c → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c6743c27-a399-475d-b753-110a7bb925a4 → status=running
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b running -> error, exec_time=1.9676895141601562, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 7849a7f7-a71d-4642-91b8-15756ba78d07 (type=lasing, pattern_idx=79)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0c15a7ba-a0b9-4927-a2a2-67c2695ae169 → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 766374cf-2167-47f9-a8e8-bc88491c38bf → status=running
+2026-02-16 03:24:41 [ERROR] ERROR in job 058ccadb-1c1c-4186-92e1-6d011fe84dec after 2.26s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 0ef1d553-2b18-4e39-9e51-a784bb02a0fc (type=lasing, pattern_idx=73)
+2026-02-16 03:24:41 [ERROR] ERROR in job dd3cf1b7-40bc-46c6-b5b6-73065f5945db after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 776c0171-89e5-4288-8877-0bca40be9a26 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 6440cb78-2c51-460d-8e2d-e010334cb9c2 after 2.25s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ef2f9d53-80b9-437a-914c-290f22e69fb7: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 45167cb5-d06e-49f1-82e8-1fc3ee25e822 after 2.25s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=ec7ae872-46be-4a88-b644-5764bb7ab517, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=83
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=06a744f7-7e6a-4800-aa50-b2a545374b5f pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=76e5b83f-5293-4144-a16b-a4df412e8273, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=84
+2026-02-16 03:24:41 [ERROR] ERROR in job 4658699f-1348-48ec-9de6-dfff6852ce7e after 2.26s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=c9aac0d9-dfd2-4530-8556-f5dcc16a120e pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=ec666b63-642e-4cd1-87f0-3a61420823e4, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=85
+2026-02-16 03:24:41 [INFO] Starting job d595d60e-0778-4d3b-bef0-d2aed43c93e1 (type=lasing, pattern_idx=81)
+2026-02-16 03:24:41 [INFO] Starting job 2306f583-ed1d-4d96-a8ad-b1fcb5f43003 (type=lasing, pattern_idx=80)
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=bca1829b-0021-44a7-a98c-1c2b0bdc8ded, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=86
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=54282818-4ca5-436c-9597-1231d18817bc running -> error, exec_time=2.2378201484680176, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job d595d60e-0778-4d3b-bef0-d2aed43c93e1 → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 2306f583-ed1d-4d96-a8ad-b1fcb5f43003 → status=running
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=64
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c0fdd0b4-e21b-4c53-903a-bc1c032f0857 → status=running
+2026-02-16 03:24:41 [INFO] Starting job 92992cab-8ae8-4ccd-a419-f07b2d5949fe (type=lasing, pattern_idx=82)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7849a7f7-a71d-4642-91b8-15756ba78d07 → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0ef1d553-2b18-4e39-9e51-a784bb02a0fc → status=running
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=87
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=7b509628-2522-4ff0-86ed-7c63f63c7b16 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b running -> error, exec_time=1.9676895141601562, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=67
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=88
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=9e528a7e-2c9c-47cb-b31e-edae57c13975, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=89
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=ed9c1c8c-0444-47e9-91a3-a2d6f40cf241, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=90
+2026-02-16 03:24:41 [INFO] Starting job bca1829b-0021-44a7-a98c-1c2b0bdc8ded (type=lasing, pattern_idx=86)
+2026-02-16 03:24:41 [ERROR] ERROR in job ef2f9d53-80b9-437a-914c-290f22e69fb7 after 1.89s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=43516e6e-e138-405e-9f54-b4992afd5f9c pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=54282818-4ca5-436c-9597-1231d18817bc running -> error, exec_time=2.2378201484680176, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=8a271945-d176-4509-b044-17c55a9da412, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=91
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=231929c0-f158-4283-be9b-5b12e04f02d1, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=92
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=637cabb1-b349-497a-9a37-91764004156d, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=93
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=94
+2026-02-16 03:24:41 [INFO] Starting job 76e5b83f-5293-4144-a16b-a4df412e8273 (type=lasing, pattern_idx=84)
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=69
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 92992cab-8ae8-4ccd-a419-f07b2d5949fe → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a → status=error
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=66
+2026-02-16 03:24:41 [INFO] Starting job 5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f (type=lasing, pattern_idx=87)
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=54282818-4ca5-436c-9597-1231d18817bc: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=68
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job ec7ae872-46be-4a88-b644-5764bb7ab517 (type=lasing, pattern_idx=83)
+2026-02-16 03:24:41 [INFO] Starting job ec666b63-642e-4cd1-87f0-3a61420823e4 (type=lasing, pattern_idx=85)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job bca1829b-0021-44a7-a98c-1c2b0bdc8ded → status=running
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=8f5a9fb3-6249-4359-9f7f-468c425b13ca, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=95
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=65
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=67)
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=1013f1a6-b4b2-4b32-868f-d9a6a574937c, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=96
+2026-02-16 03:24:41 [INFO] Starting job 9e528a7e-2c9c-47cb-b31e-edae57c13975 (type=lasing, pattern_idx=89)
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 07f3a0c6-42dd-4902-8d27-826e8621ddc8 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job e6de5d2f-bb99-4f43-b286-f963e34805db FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd (type=lasing, pattern_idx=88)
+2026-02-16 03:24:41 [INFO] Starting job 8a271945-d176-4509-b044-17c55a9da412 (type=lasing, pattern_idx=91)
+2026-02-16 03:24:41 [INFO] Starting job ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 (type=lasing, pattern_idx=90)
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=9d26f0b4-9e90-422c-ad3d-512cbb74999a, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=97
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 76e5b83f-5293-4144-a16b-a4df412e8273 → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ec7ae872-46be-4a88-b644-5764bb7ab517 → status=running
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=64)
+2026-02-16 03:24:41 [INFO] Starting job 231929c0-f158-4283-be9b-5b12e04f02d1 (type=lasing, pattern_idx=92)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=66)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd → status=running
+2026-02-16 03:24:41 [INFO] Starting job 637cabb1-b349-497a-9a37-91764004156d (type=lasing, pattern_idx=93)
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=07f3a0c6-42dd-4902-8d27-826e8621ddc8 running -> error, exec_time=2.2345831394195557, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ec666b63-642e-4cd1-87f0-3a61420823e4 → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 8a271945-d176-4509-b044-17c55a9da412 → status=running
+2026-02-16 03:24:41 [INFO] Starting job 9d26f0b4-9e90-422c-ad3d-512cbb74999a (type=lasing, pattern_idx=97)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 9e528a7e-2c9c-47cb-b31e-edae57c13975 → status=running
+2026-02-16 03:24:41 [INFO] Starting job b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce (type=lasing, pattern_idx=94)
+2026-02-16 03:24:41 [ERROR] ERROR in job 54282818-4ca5-436c-9597-1231d18817bc after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e6de5d2f-bb99-4f43-b286-f963e34805db running -> error, exec_time=2.12685227394104, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 → status=error
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=69)
+2026-02-16 03:24:41 [ERROR] ERROR in job 24ff1ad8-9fed-4e05-8c05-ef8ff7d82d6b after 1.97s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 231929c0-f158-4283-be9b-5b12e04f02d1 → status=running
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=65)
+2026-02-16 03:24:41 [INFO] Starting job 8f5a9fb3-6249-4359-9f7f-468c425b13ca (type=lasing, pattern_idx=95)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=68)
+2026-02-16 03:24:41 [INFO] Starting job 1013f1a6-b4b2-4b32-868f-d9a6a574937c (type=lasing, pattern_idx=96)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 8f5a9fb3-6249-4359-9f7f-468c425b13ca → status=running
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=848ecbd0-3087-4834-9aae-71b60d3dcc5b pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e6de5d2f-bb99-4f43-b286-f963e34805db running -> error, exec_time=2.12685227394104, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 1013f1a6-b4b2-4b32-868f-d9a6a574937c → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 9d26f0b4-9e90-422c-ad3d-512cbb74999a → status=running
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 637cabb1-b349-497a-9a37-91764004156d → status=running
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=70
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=254f9d00-f652-4327-bf73-c4d8891e4f4d, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=98
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=e6de5d2f-bb99-4f43-b286-f963e34805db: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=07f3a0c6-42dd-4902-8d27-826e8621ddc8 running -> error, exec_time=2.2345831394195557, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [run_job] Starting job_id=7d24fb95-ac07-428a-ae96-9109f8bd2d30, type=lasing, network=MLRun2_0_0002_9915ae31, pattern_idx=99
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=07f3a0c6-42dd-4902-8d27-826e8621ddc8: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 254f9d00-f652-4327-bf73-c4d8891e4f4d (type=lasing, pattern_idx=98)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=70)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=a16e126b-2160-41b7-8bec-e896c2f1720a pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] ERROR in job e6de5d2f-bb99-4f43-b286-f963e34805db after 2.13s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting job 7d24fb95-ac07-428a-ae96-9109f8bd2d30 (type=lasing, pattern_idx=99)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=c2ab6e6c-7067-4ae8-951f-86ba4eb6222c pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 616d6bcc-a9f6-499d-923e-4b4d90f3e46d → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 254f9d00-f652-4327-bf73-c4d8891e4f4d → status=running
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=74
+2026-02-16 03:24:41 [ERROR] ERROR in job 07f3a0c6-42dd-4902-8d27-826e8621ddc8 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7d24fb95-ac07-428a-ae96-9109f8bd2d30 → status=running
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=75
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=74)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=75)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=766374cf-2167-47f9-a8e8-bc88491c38bf pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=76
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=76)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7eca0355-cf71-4f45-9bb6-952e89467b25 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job b57dd46b-c5fa-4153-b2e0-27128d748992 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=b57dd46b-c5fa-4153-b2e0-27128d748992 running -> error, exec_time=2.2261404991149902, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=b57dd46b-c5fa-4153-b2e0-27128d748992 running -> error, exec_time=2.2261404991149902, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=b57dd46b-c5fa-4153-b2e0-27128d748992: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job b57dd46b-c5fa-4153-b2e0-27128d748992 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a running -> error, exec_time=1.9116032123565674, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a running -> error, exec_time=1.9116032123565674, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 74eab4c0-ee73-4cd7-a9c3-cb5e4b14550a after 1.91s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=9e528a7e-2c9c-47cb-b31e-edae57c13975 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=0ef1d553-2b18-4e39-9e51-a784bb02a0fc pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=89
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=73
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=89)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=73)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=88
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 74a26610-8840-4315-845a-a4841f46ea24 → status=error
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=88)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=7d24fb95-ac07-428a-ae96-9109f8bd2d30 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=99
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=99)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=92992cab-8ae8-4ccd-a419-f07b2d5949fe pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=82
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 74a26610-8840-4315-845a-a4841f46ea24 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=9d26f0b4-9e90-422c-ad3d-512cbb74999a pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=82)
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=74a26610-8840-4315-845a-a4841f46ea24 running -> error, exec_time=1.5838844776153564, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=97
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=74a26610-8840-4315-845a-a4841f46ea24 running -> error, exec_time=1.5838844776153564, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=97)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=bca1829b-0021-44a7-a98c-1c2b0bdc8ded pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=74a26610-8840-4315-845a-a4841f46ea24: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=8a271945-d176-4509-b044-17c55a9da412 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=86
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=91
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] ERROR in job 74a26610-8840-4315-845a-a4841f46ea24 after 1.58s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=94
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=86)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=c0fdd0b4-e21b-4c53-903a-bc1c032f0857 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=91)
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=77
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=94)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=77)
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 671367ae-2896-4488-9ade-f0e95b6aadf5 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=2306f583-ed1d-4d96-a8ad-b1fcb5f43003 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=671367ae-2896-4488-9ade-f0e95b6aadf5 running -> error, exec_time=2.2213563919067383, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=80
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=671367ae-2896-4488-9ade-f0e95b6aadf5 running -> error, exec_time=2.2213563919067383, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=80)
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=671367ae-2896-4488-9ade-f0e95b6aadf5: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 671367ae-2896-4488-9ade-f0e95b6aadf5 after 2.22s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=1013f1a6-b4b2-4b32-868f-d9a6a574937c pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=96
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=96)
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 616d6bcc-a9f6-499d-923e-4b4d90f3e46d FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=616d6bcc-a9f6-499d-923e-4b4d90f3e46d running -> error, exec_time=1.8132846355438232, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=616d6bcc-a9f6-499d-923e-4b4d90f3e46d running -> error, exec_time=1.8132846355438232, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=616d6bcc-a9f6-499d-923e-4b4d90f3e46d: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 616d6bcc-a9f6-499d-923e-4b4d90f3e46d after 1.81s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job de579779-effb-42d5-9bc0-839910364903 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 8d24aa46-cec1-4333-8875-856521881f6f FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=de579779-effb-42d5-9bc0-839910364903 running -> error, exec_time=2.2447967529296875, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=8d24aa46-cec1-4333-8875-856521881f6f running -> error, exec_time=2.2210733890533447, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=de579779-effb-42d5-9bc0-839910364903 running -> error, exec_time=2.2447967529296875, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ebdf50aa-980f-4d08-a4a8-55fc1f31d258 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=de579779-effb-42d5-9bc0-839910364903: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=8d24aa46-cec1-4333-8875-856521881f6f running -> error, exec_time=2.2210733890533447, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ebdf50aa-980f-4d08-a4a8-55fc1f31d258 running -> error, exec_time=2.216418981552124, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job de579779-effb-42d5-9bc0-839910364903 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job fea98f8e-7c0a-42aa-a083-c814923640dc FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=0c15a7ba-a0b9-4927-a2a2-67c2695ae169 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=7849a7f7-a71d-4642-91b8-15756ba78d07 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 7772ee50-431f-4731-9219-0247c136e51b FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 7f8ac6f3-89b2-4154-9552-88e0bec56ba7 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job e8222ccc-c0fa-4c45-81a4-628662c741db FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=8d24aa46-cec1-4333-8875-856521881f6f: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=fea98f8e-7c0a-42aa-a083-c814923640dc running -> error, exec_time=1.8856685161590576, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=87
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=79
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=71
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ebdf50aa-980f-4d08-a4a8-55fc1f31d258 running -> error, exec_time=2.216418981552124, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7772ee50-431f-4731-9219-0247c136e51b running -> error, exec_time=2.2421562671661377, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7f8ac6f3-89b2-4154-9552-88e0bec56ba7 running -> error, exec_time=2.171717405319214, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e8222ccc-c0fa-4c45-81a4-628662c741db running -> error, exec_time=2.1336982250213623, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 8d24aa46-cec1-4333-8875-856521881f6f after 2.22s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ebdf50aa-980f-4d08-a4a8-55fc1f31d258: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=fea98f8e-7c0a-42aa-a083-c814923640dc running -> error, exec_time=1.8856685161590576, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=87)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=79)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=71)
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7772ee50-431f-4731-9219-0247c136e51b running -> error, exec_time=2.2421562671661377, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=fea98f8e-7c0a-42aa-a083-c814923640dc: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7f8ac6f3-89b2-4154-9552-88e0bec56ba7 running -> error, exec_time=2.171717405319214, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=e8222ccc-c0fa-4c45-81a4-628662c741db running -> error, exec_time=2.1336982250213623, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job ebdf50aa-980f-4d08-a4a8-55fc1f31d258 after 2.22s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=7772ee50-431f-4731-9219-0247c136e51b: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=e8222ccc-c0fa-4c45-81a4-628662c741db: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=7f8ac6f3-89b2-4154-9552-88e0bec56ba7: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job fea98f8e-7c0a-42aa-a083-c814923640dc after 1.89s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 7772ee50-431f-4731-9219-0247c136e51b after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job e8222ccc-c0fa-4c45-81a4-628662c741db after 2.13s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 7f8ac6f3-89b2-4154-9552-88e0bec56ba7 after 2.17s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 running -> error, exec_time=1.9279694557189941, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 running -> error, exec_time=1.9279694557189941, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ef8541ea-4bfb-4e78-9ca0-2a9327364fb4: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job ef8541ea-4bfb-4e78-9ca0-2a9327364fb4 after 1.93s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 7eca0355-cf71-4f45-9bb6-952e89467b25 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7eca0355-cf71-4f45-9bb6-952e89467b25 running -> error, exec_time=1.6021010875701904, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7eca0355-cf71-4f45-9bb6-952e89467b25 running -> error, exec_time=1.6021010875701904, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=7eca0355-cf71-4f45-9bb6-952e89467b25: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 7eca0355-cf71-4f45-9bb6-952e89467b25 after 1.60s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=637cabb1-b349-497a-9a37-91764004156d pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 running -> error, exec_time=1.8139839172363281, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=93
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=231929c0-f158-4283-be9b-5b12e04f02d1 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 running -> error, exec_time=1.8139839172363281, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=93)
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=92
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=92)
+2026-02-16 03:24:41 [ERROR] ERROR in job 0bd3e2b5-eb9d-4fdc-8614-1ca3698aea02 after 1.81s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=576c0339-3ab4-4419-9e24-d11f9d764746 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=72
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=72)
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ffe29a93-9e0c-4722-b797-f26661c56685 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ffe29a93-9e0c-4722-b797-f26661c56685 running -> error, exec_time=2.232908010482788, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ffe29a93-9e0c-4722-b797-f26661c56685 running -> error, exec_time=2.232908010482788, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ffe29a93-9e0c-4722-b797-f26661c56685: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job ffe29a93-9e0c-4722-b797-f26661c56685 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 4035de7e-ae32-40e0-87a8-cb996ac607d0 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4035de7e-ae32-40e0-87a8-cb996ac607d0 running -> error, exec_time=2.2194933891296387, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=4035de7e-ae32-40e0-87a8-cb996ac607d0 running -> error, exec_time=2.2194933891296387, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=4035de7e-ae32-40e0-87a8-cb996ac607d0: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 4035de7e-ae32-40e0-87a8-cb996ac607d0 after 2.22s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=76e5b83f-5293-4144-a16b-a4df412e8273 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job a797ecd2-5fea-44d8-a2b5-c18e8e64c495 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 336ca660-349a-45f9-bb09-b10aae3cc8ee FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=84
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=336ca660-349a-45f9-bb09-b10aae3cc8ee running -> error, exec_time=2.2473983764648438, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a797ecd2-5fea-44d8-a2b5-c18e8e64c495 running -> error, exec_time=2.1324236392974854, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=84)
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=336ca660-349a-45f9-bb09-b10aae3cc8ee running -> error, exec_time=2.2473983764648438, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a797ecd2-5fea-44d8-a2b5-c18e8e64c495 running -> error, exec_time=2.1324236392974854, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e running -> error, exec_time=2.227877616882324, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=336ca660-349a-45f9-bb09-b10aae3cc8ee: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=a797ecd2-5fea-44d8-a2b5-c18e8e64c495: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e running -> error, exec_time=2.227877616882324, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 336ca660-349a-45f9-bb09-b10aae3cc8ee after 2.25s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job a797ecd2-5fea-44d8-a2b5-c18e8e64c495 after 2.13s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 77f7d2f0-bcc4-47d0-bdd9-7cfff6398c8e after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=ec666b63-642e-4cd1-87f0-3a61420823e4 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=85
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=85)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=90
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=d595d60e-0778-4d3b-bef0-d2aed43c93e1 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=81
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=90)
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=81)
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=ec7ae872-46be-4a88-b644-5764bb7ab517 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=83
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=83)
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job be2684f3-4d29-404f-b389-17175c485481 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=be2684f3-4d29-404f-b389-17175c485481 running -> error, exec_time=2.271599531173706, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=be2684f3-4d29-404f-b389-17175c485481 running -> error, exec_time=2.271599531173706, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=be2684f3-4d29-404f-b389-17175c485481: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job be2684f3-4d29-404f-b389-17175c485481 after 2.27s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job c3edea56-7bfa-4f5b-89b7-37025d7ffbea FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c3edea56-7bfa-4f5b-89b7-37025d7ffbea running -> error, exec_time=2.236619472503662, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c3edea56-7bfa-4f5b-89b7-37025d7ffbea running -> error, exec_time=2.236619472503662, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=c3edea56-7bfa-4f5b-89b7-37025d7ffbea: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 43961383-3351-4213-ae0a-e3085077d0de FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job c3edea56-7bfa-4f5b-89b7-37025d7ffbea after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=43961383-3351-4213-ae0a-e3085077d0de running -> error, exec_time=2.2362349033355713, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=43961383-3351-4213-ae0a-e3085077d0de running -> error, exec_time=2.2362349033355713, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=43961383-3351-4213-ae0a-e3085077d0de: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=254f9d00-f652-4327-bf73-c4d8891e4f4d pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [ERROR] ERROR in job 43961383-3351-4213-ae0a-e3085077d0de after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=98
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=98)
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 1adae526-148e-4efc-a023-c7f7812047f4 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1adae526-148e-4efc-a023-c7f7812047f4 running -> error, exec_time=2.2253193855285645, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1adae526-148e-4efc-a023-c7f7812047f4 running -> error, exec_time=2.2253193855285645, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=1adae526-148e-4efc-a023-c7f7812047f4: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 1adae526-148e-4efc-a023-c7f7812047f4 after 2.23s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 06a744f7-7e6a-4800-aa50-b2a545374b5f → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 06a744f7-7e6a-4800-aa50-b2a545374b5f FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=06a744f7-7e6a-4800-aa50-b2a545374b5f running -> error, exec_time=0.08022809028625488, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=06a744f7-7e6a-4800-aa50-b2a545374b5f running -> error, exec_time=0.08022809028625488, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=06a744f7-7e6a-4800-aa50-b2a545374b5f: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 9a05f218-e55a-4c5d-b6a6-a1f472434d7a → status=error
+2026-02-16 03:24:41 [ERROR] ERROR in job 06a744f7-7e6a-4800-aa50-b2a545374b5f after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 43516e6e-e138-405e-9f54-b4992afd5f9c → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b → status=error
+ 63%|██████▎   | 63/100 [00:02<00:01, 36.58it/s]2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c9aac0d9-dfd2-4530-8556-f5dcc16a120e → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c2ab6e6c-7067-4ae8-951f-86ba4eb6222c → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7b509628-2522-4ff0-86ed-7c63f63c7b16 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 9a05f218-e55a-4c5d-b6a6-a1f472434d7a FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 848ecbd0-3087-4834-9aae-71b60d3dcc5b → status=error
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9a05f218-e55a-4c5d-b6a6-a1f472434d7a running -> error, exec_time=0.08238697052001953, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9a05f218-e55a-4c5d-b6a6-a1f472434d7a running -> error, exec_time=0.08238697052001953, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=9a05f218-e55a-4c5d-b6a6-a1f472434d7a: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 9a05f218-e55a-4c5d-b6a6-a1f472434d7a after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job a16e126b-2160-41b7-8bec-e896c2f1720a → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 766374cf-2167-47f9-a8e8-bc88491c38bf → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 43516e6e-e138-405e-9f54-b4992afd5f9c FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=43516e6e-e138-405e-9f54-b4992afd5f9c running -> error, exec_time=0.08099532127380371, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=43516e6e-e138-405e-9f54-b4992afd5f9c running -> error, exec_time=0.08099532127380371, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 848ecbd0-3087-4834-9aae-71b60d3dcc5b FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=43516e6e-e138-405e-9f54-b4992afd5f9c: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0ef1d553-2b18-4e39-9e51-a784bb02a0fc → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 7b509628-2522-4ff0-86ed-7c63f63c7b16 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=848ecbd0-3087-4834-9aae-71b60d3dcc5b running -> error, exec_time=0.07909798622131348, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7b509628-2522-4ff0-86ed-7c63f63c7b16 running -> error, exec_time=0.08187508583068848, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 43516e6e-e138-405e-9f54-b4992afd5f9c after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=848ecbd0-3087-4834-9aae-71b60d3dcc5b running -> error, exec_time=0.07909798622131348, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=848ecbd0-3087-4834-9aae-71b60d3dcc5b: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job a16e126b-2160-41b7-8bec-e896c2f1720a FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7b509628-2522-4ff0-86ed-7c63f63c7b16 running -> error, exec_time=0.08187508583068848, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a16e126b-2160-41b7-8bec-e896c2f1720a running -> error, exec_time=0.07857680320739746, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=7b509628-2522-4ff0-86ed-7c63f63c7b16: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 848ecbd0-3087-4834-9aae-71b60d3dcc5b after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 766374cf-2167-47f9-a8e8-bc88491c38bf FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 9e528a7e-2c9c-47cb-b31e-edae57c13975 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job c2ab6e6c-7067-4ae8-951f-86ba4eb6222c FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 0ef1d553-2b18-4e39-9e51-a784bb02a0fc FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd → status=error
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0ef1d553-2b18-4e39-9e51-a784bb02a0fc running -> error, exec_time=0.07413959503173828, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=766374cf-2167-47f9-a8e8-bc88491c38bf running -> error, exec_time=0.07779955863952637, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 7b509628-2522-4ff0-86ed-7c63f63c7b16 after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a16e126b-2160-41b7-8bec-e896c2f1720a running -> error, exec_time=0.07857680320739746, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c2ab6e6c-7067-4ae8-951f-86ba4eb6222c running -> error, exec_time=0.07649993896484375, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=a16e126b-2160-41b7-8bec-e896c2f1720a: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0ef1d553-2b18-4e39-9e51-a784bb02a0fc running -> error, exec_time=0.07413959503173828, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=766374cf-2167-47f9-a8e8-bc88491c38bf running -> error, exec_time=0.07779955863952637, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=0ef1d553-2b18-4e39-9e51-a784bb02a0fc: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c2ab6e6c-7067-4ae8-951f-86ba4eb6222c running -> error, exec_time=0.07649993896484375, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=766374cf-2167-47f9-a8e8-bc88491c38bf: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job a16e126b-2160-41b7-8bec-e896c2f1720a after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=c2ab6e6c-7067-4ae8-951f-86ba4eb6222c: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 0ef1d553-2b18-4e39-9e51-a784bb02a0fc after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 766374cf-2167-47f9-a8e8-bc88491c38bf after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job c2ab6e6c-7067-4ae8-951f-86ba4eb6222c after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b running -> error, exec_time=0.08176946640014648, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7d24fb95-ac07-428a-ae96-9109f8bd2d30 → status=error
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b running -> error, exec_time=0.08176946640014648, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 92992cab-8ae8-4ccd-a419-f07b2d5949fe → status=error
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job a58b3f1d-d6bf-47cf-99c1-341fc03c0f1b after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job c9aac0d9-dfd2-4530-8556-f5dcc16a120e FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 9d26f0b4-9e90-422c-ad3d-512cbb74999a → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job bca1829b-0021-44a7-a98c-1c2b0bdc8ded → status=error
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c9aac0d9-dfd2-4530-8556-f5dcc16a120e running -> error, exec_time=0.08211302757263184, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd running -> error, exec_time=0.07494020462036133, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c9aac0d9-dfd2-4530-8556-f5dcc16a120e running -> error, exec_time=0.08211302757263184, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=c9aac0d9-dfd2-4530-8556-f5dcc16a120e: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd running -> error, exec_time=0.07494020462036133, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 7d24fb95-ac07-428a-ae96-9109f8bd2d30 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job c9aac0d9-dfd2-4530-8556-f5dcc16a120e after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7d24fb95-ac07-428a-ae96-9109f8bd2d30 running -> error, exec_time=0.07539010047912598, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 92992cab-8ae8-4ccd-a419-f07b2d5949fe FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job d7fadfc1-2a8c-4748-b07b-7e7a8ede73fd after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=92992cab-8ae8-4ccd-a419-f07b2d5949fe running -> error, exec_time=0.07542085647583008, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7d24fb95-ac07-428a-ae96-9109f8bd2d30 running -> error, exec_time=0.07539010047912598, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 9d26f0b4-9e90-422c-ad3d-512cbb74999a FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=7d24fb95-ac07-428a-ae96-9109f8bd2d30: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9d26f0b4-9e90-422c-ad3d-512cbb74999a running -> error, exec_time=0.07528162002563477, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=92992cab-8ae8-4ccd-a419-f07b2d5949fe running -> error, exec_time=0.07542085647583008, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 7d24fb95-ac07-428a-ae96-9109f8bd2d30 after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c0fdd0b4-e21b-4c53-903a-bc1c032f0857 → status=error
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=92992cab-8ae8-4ccd-a419-f07b2d5949fe: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9d26f0b4-9e90-422c-ad3d-512cbb74999a running -> error, exec_time=0.07528162002563477, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=9d26f0b4-9e90-422c-ad3d-512cbb74999a: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 92992cab-8ae8-4ccd-a419-f07b2d5949fe after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 8a271945-d176-4509-b044-17c55a9da412 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job bca1829b-0021-44a7-a98c-1c2b0bdc8ded FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 9d26f0b4-9e90-422c-ad3d-512cbb74999a after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=bca1829b-0021-44a7-a98c-1c2b0bdc8ded running -> error, exec_time=0.0748744010925293, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=bca1829b-0021-44a7-a98c-1c2b0bdc8ded running -> error, exec_time=0.0748744010925293, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=bca1829b-0021-44a7-a98c-1c2b0bdc8ded: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job c0fdd0b4-e21b-4c53-903a-bc1c032f0857 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c0fdd0b4-e21b-4c53-903a-bc1c032f0857 running -> error, exec_time=0.07609200477600098, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job bca1829b-0021-44a7-a98c-1c2b0bdc8ded after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c0fdd0b4-e21b-4c53-903a-bc1c032f0857 running -> error, exec_time=0.07609200477600098, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=c0fdd0b4-e21b-4c53-903a-bc1c032f0857: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 2306f583-ed1d-4d96-a8ad-b1fcb5f43003 → status=error
+2026-02-16 03:24:41 [ERROR] ERROR in job c0fdd0b4-e21b-4c53-903a-bc1c032f0857 after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 8a271945-d176-4509-b044-17c55a9da412 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=8a271945-d176-4509-b044-17c55a9da412 running -> error, exec_time=0.07699298858642578, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=8a271945-d176-4509-b044-17c55a9da412 running -> error, exec_time=0.07699298858642578, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=8a271945-d176-4509-b044-17c55a9da412: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 0e673890-aa47-4b67-a926-bf8749c26abd FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 1013f1a6-b4b2-4b32-868f-d9a6a574937c → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 2306f583-ed1d-4d96-a8ad-b1fcb5f43003 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=2306f583-ed1d-4d96-a8ad-b1fcb5f43003 running -> error, exec_time=0.0750284194946289, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0e673890-aa47-4b67-a926-bf8749c26abd running -> error, exec_time=2.2156832218170166, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 8a271945-d176-4509-b044-17c55a9da412 after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=2306f583-ed1d-4d96-a8ad-b1fcb5f43003 running -> error, exec_time=0.0750284194946289, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0e673890-aa47-4b67-a926-bf8749c26abd running -> error, exec_time=2.2156832218170166, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=2306f583-ed1d-4d96-a8ad-b1fcb5f43003: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=0e673890-aa47-4b67-a926-bf8749c26abd: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 2306f583-ed1d-4d96-a8ad-b1fcb5f43003 after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 0e673890-aa47-4b67-a926-bf8749c26abd after 2.22s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 1013f1a6-b4b2-4b32-868f-d9a6a574937c FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1013f1a6-b4b2-4b32-868f-d9a6a574937c running -> error, exec_time=0.07448816299438477, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=1013f1a6-b4b2-4b32-868f-d9a6a574937c running -> error, exec_time=0.07448816299438477, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=1013f1a6-b4b2-4b32-868f-d9a6a574937c: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 1013f1a6-b4b2-4b32-868f-d9a6a574937c after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 9e528a7e-2c9c-47cb-b31e-edae57c13975 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9e528a7e-2c9c-47cb-b31e-edae57c13975 running -> error, exec_time=0.07519698143005371, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce running -> error, exec_time=0.08100748062133789, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=9e528a7e-2c9c-47cb-b31e-edae57c13975 running -> error, exec_time=0.07519698143005371, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce running -> error, exec_time=0.08100748062133789, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=9e528a7e-2c9c-47cb-b31e-edae57c13975: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 0c15a7ba-a0b9-4927-a2a2-67c2695ae169 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 7849a7f7-a71d-4642-91b8-15756ba78d07 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 231929c0-f158-4283-be9b-5b12e04f02d1 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 637cabb1-b349-497a-9a37-91764004156d → status=error
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 9e528a7e-2c9c-47cb-b31e-edae57c13975 after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job b71ad9c4-dadd-4c0f-9fdb-c1b7e99c56ce after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f running -> error, exec_time=0.07447123527526855, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 231929c0-f158-4283-be9b-5b12e04f02d1 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 0c15a7ba-a0b9-4927-a2a2-67c2695ae169 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f running -> error, exec_time=0.07447123527526855, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=231929c0-f158-4283-be9b-5b12e04f02d1 running -> error, exec_time=0.07417488098144531, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0c15a7ba-a0b9-4927-a2a2-67c2695ae169 running -> error, exec_time=0.07462120056152344, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=231929c0-f158-4283-be9b-5b12e04f02d1 running -> error, exec_time=0.07417488098144531, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 5625b1f3-5d27-41ae-a3dc-ab6cac24bf8f after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=231929c0-f158-4283-be9b-5b12e04f02d1: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=0c15a7ba-a0b9-4927-a2a2-67c2695ae169 running -> error, exec_time=0.07462120056152344, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=0c15a7ba-a0b9-4927-a2a2-67c2695ae169: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 231929c0-f158-4283-be9b-5b12e04f02d1 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 0c15a7ba-a0b9-4927-a2a2-67c2695ae169 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 576c0339-3ab4-4419-9e24-d11f9d764746 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 7849a7f7-a71d-4642-91b8-15756ba78d07 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7849a7f7-a71d-4642-91b8-15756ba78d07 running -> error, exec_time=0.07499551773071289, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 576c0339-3ab4-4419-9e24-d11f9d764746 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=7849a7f7-a71d-4642-91b8-15756ba78d07 running -> error, exec_time=0.07499551773071289, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=576c0339-3ab4-4419-9e24-d11f9d764746 running -> error, exec_time=0.07450318336486816, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=7849a7f7-a71d-4642-91b8-15756ba78d07: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 637cabb1-b349-497a-9a37-91764004156d FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=637cabb1-b349-497a-9a37-91764004156d running -> error, exec_time=0.07518720626831055, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=576c0339-3ab4-4419-9e24-d11f9d764746 running -> error, exec_time=0.07450318336486816, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 7849a7f7-a71d-4642-91b8-15756ba78d07 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=576c0339-3ab4-4419-9e24-d11f9d764746: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=637cabb1-b349-497a-9a37-91764004156d running -> error, exec_time=0.07518720626831055, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 576c0339-3ab4-4419-9e24-d11f9d764746 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=637cabb1-b349-497a-9a37-91764004156d: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 637cabb1-b349-497a-9a37-91764004156d after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [set_job_status] job_id=8f5a9fb3-6249-4359-9f7f-468c425b13ca pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=95
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=95)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 76e5b83f-5293-4144-a16b-a4df412e8273 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 76e5b83f-5293-4144-a16b-a4df412e8273 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=76e5b83f-5293-4144-a16b-a4df412e8273 running -> error, exec_time=0.07538390159606934, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ec666b63-642e-4cd1-87f0-3a61420823e4 → status=error
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=76e5b83f-5293-4144-a16b-a4df412e8273 running -> error, exec_time=0.07538390159606934, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=76e5b83f-5293-4144-a16b-a4df412e8273: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 76e5b83f-5293-4144-a16b-a4df412e8273 after 0.08s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job d595d60e-0778-4d3b-bef0-d2aed43c93e1 → status=error
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ec666b63-642e-4cd1-87f0-3a61420823e4 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job d595d60e-0778-4d3b-bef0-d2aed43c93e1 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job ec7ae872-46be-4a88-b644-5764bb7ab517 → status=error
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ec666b63-642e-4cd1-87f0-3a61420823e4 running -> error, exec_time=0.07456350326538086, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=d595d60e-0778-4d3b-bef0-d2aed43c93e1 running -> error, exec_time=0.07433056831359863, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ec666b63-642e-4cd1-87f0-3a61420823e4 running -> error, exec_time=0.07456350326538086, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=d595d60e-0778-4d3b-bef0-d2aed43c93e1 running -> error, exec_time=0.07433056831359863, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 running -> error, exec_time=0.07493400573730469, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ec666b63-642e-4cd1-87f0-3a61420823e4: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=d595d60e-0778-4d3b-bef0-d2aed43c93e1: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 running -> error, exec_time=0.07493400573730469, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job ec666b63-642e-4cd1-87f0-3a61420823e4 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job d595d60e-0778-4d3b-bef0-d2aed43c93e1 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ed9c1c8c-0444-47e9-91a3-a2d6f40cf241: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job ed9c1c8c-0444-47e9-91a3-a2d6f40cf241 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job ec7ae872-46be-4a88-b644-5764bb7ab517 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ec7ae872-46be-4a88-b644-5764bb7ab517 running -> error, exec_time=0.07416129112243652, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=ec7ae872-46be-4a88-b644-5764bb7ab517 running -> error, exec_time=0.07416129112243652, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=ec7ae872-46be-4a88-b644-5764bb7ab517: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job ec7ae872-46be-4a88-b644-5764bb7ab517 after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 254f9d00-f652-4327-bf73-c4d8891e4f4d → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 67c6d997-321e-47dd-a5d7-811d01193645 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=67c6d997-321e-47dd-a5d7-811d01193645 running -> error, exec_time=2.2415874004364014, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=67c6d997-321e-47dd-a5d7-811d01193645 running -> error, exec_time=2.2415874004364014, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 254f9d00-f652-4327-bf73-c4d8891e4f4d FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=67c6d997-321e-47dd-a5d7-811d01193645: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=254f9d00-f652-4327-bf73-c4d8891e4f4d running -> error, exec_time=0.0740363597869873, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 67c6d997-321e-47dd-a5d7-811d01193645 after 2.24s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=254f9d00-f652-4327-bf73-c4d8891e4f4d running -> error, exec_time=0.0740363597869873, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=254f9d00-f652-4327-bf73-c4d8891e4f4d: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 254f9d00-f652-4327-bf73-c4d8891e4f4d after 0.07s: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job 8f5a9fb3-6249-4359-9f7f-468c425b13ca → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job 8f5a9fb3-6249-4359-9f7f-468c425b13ca FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=8f5a9fb3-6249-4359-9f7f-468c425b13ca running -> error, exec_time=0.07367348670959473, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=8f5a9fb3-6249-4359-9f7f-468c425b13ca running -> error, exec_time=0.07367348670959473, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=8f5a9fb3-6249-4359-9f7f-468c425b13ca: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job 8f5a9fb3-6249-4359-9f7f-468c425b13ca after 0.07s: Treshold lasing modes could not be found.
+ 99%|█████████▉| 99/100 [00:02<00:00, 60.88it/s]2026-02-16 03:24:41 [INFO] [set_job_status] job_id=c6743c27-a399-475d-b753-110a7bb925a4 pending -> running, exec_time=None, error=None
+2026-02-16 03:24:41 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0002_9915ae31, pattern_idx=78
+2026-02-16 03:24:41 [INFO] Starting lasing job (pattern_idx=78)
+2026-02-16 03:24:41 [INFO] [jobs-db] Updating job c6743c27-a399-475d-b753-110a7bb925a4 → status=error
+2026-02-16 03:24:41 [ERROR] [jobs-db] Job c6743c27-a399-475d-b753-110a7bb925a4 FAILED: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c6743c27-a399-475d-b753-110a7bb925a4 running -> error, exec_time=0.07194995880126953, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [set_job_status] job_id=c6743c27-a399-475d-b753-110a7bb925a4 running -> error, exec_time=0.07194995880126953, error=Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] [run_job] ERROR in job_id=c6743c27-a399-475d-b753-110a7bb925a4: Treshold lasing modes could not be found.
+2026-02-16 03:24:41 [ERROR] ERROR in job c6743c27-a399-475d-b753-110a7bb925a4 after 0.07s: Treshold lasing modes could not be found.
+100%|██████████| 100/100 [00:02<00:00, 37.36it/s]
+2026-02-16 03:24:42 [INFO] [run_jobs] Parallel execution finished.
+2026-02-16 03:24:42 [INFO] [pipeline] Lasing stage finished.
+2026-02-16 03:24:42 [INFO] === pipeline done ===
+SUCCESS: Network pipeline completed. job_id=1709172[4].pbs-7 idx=4
+
+====================================
+CPU Time used: 00:00:00
+CPU Percent: 0%
+Memory usage: 0b
+Approx Power usage: 0.0
+Walltime usage: 00:00:31
+
+====================================

@@ -1,0 +1,1438 @@
+==== Starting per-network DB pipeline ====
+Date:         Mon 16 Feb 03:24:34 GMT 2026
+Host:         cx3-12-8
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1709172[6].pbs-7
+Array index:  6
+CPUs:         64
+==========================================
+2026-02-16 03:24:51 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-16 03:24:51 [INFO] [jobs-db] Jobs database is ready.
+2026-02-16 03:24:51 [INFO] === netSALT per-network pipeline ===
+2026-02-16 03:24:51 [INFO] DB: database/db.sqlite3
+2026-02-16 03:24:51 [INFO] Network: MLRun2_0_0003_427c12b9 | Pattern: id=Coat_test, size=(28, 28) | pool_procs=64 | netsalt_workers=1
+2026-02-16 03:24:51 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 03:24:51 [INFO] [jobs-db] Found 3 pending jobs
+2026-02-16 03:24:51 [INFO] [pipeline] Pending PASSIVE jobs for MLRun2_0_0003_427c12b9: 0
+2026-02-16 03:24:51 [INFO] [pipeline] No pending passive jobs for this network.
+2026-02-16 03:24:51 [INFO] [pipeline] Seeding lasing jobs for network_id=MLRun2_0_0003_427c12b9, pattern_id=Coat_test, size=28x28
+2026-02-16 03:24:51 [INFO] [jobs-db] Inserting job 22cd16b2-6cb5-40af-9eef-9c2af98d0c94 (type=lasing)
+2026-02-16 03:24:51 [INFO] [jobs-db] Inserting job d2447624-1118-40a4-82eb-021d9a054c60 (type=lasing)
+2026-02-16 03:24:53 [INFO] [jobs-db] Inserting job e57e74a0-eb20-4ac4-ac0c-a89aa94044bb (type=lasing)
+2026-02-16 03:24:53 [INFO] [jobs-db] Inserting job 8134820e-e771-4aec-a979-874e79c99a7e (type=lasing)
+2026-02-16 03:24:53 [INFO] [jobs-db] Inserting job 1299e3ec-46ec-4568-b08b-69a94477528a (type=lasing)
+2026-02-16 03:24:53 [INFO] [jobs-db] Inserting job 5e951f96-0c3f-4d02-a46a-3f0383efc18e (type=lasing)
+2026-02-16 03:24:54 [INFO] [jobs-db] Inserting job 18c75d59-5890-49d6-a4b8-87c6c8a0b94f (type=lasing)
+2026-02-16 03:24:54 [INFO] [jobs-db] Inserting job d7b72472-ea84-469a-8f9d-5b70690a5fe0 (type=lasing)
+2026-02-16 03:24:54 [INFO] [jobs-db] Inserting job 73645118-1ae2-4e83-84e8-4baad0dd7ce1 (type=lasing)
+2026-02-16 03:24:54 [INFO] [jobs-db] Inserting job 2f524f0e-9964-451b-b797-93fc6fa78303 (type=lasing)
+2026-02-16 03:24:54 [INFO] [jobs-db] Inserting job af853386-f0b9-4c07-8698-f15f51081d63 (type=lasing)
+2026-02-16 03:24:56 [INFO] [jobs-db] Inserting job 56ea5312-0987-44a1-ba31-48b8e617a486 (type=lasing)
+2026-02-16 03:24:56 [INFO] [jobs-db] Inserting job b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 (type=lasing)
+2026-02-16 03:24:57 [INFO] [jobs-db] Inserting job fa62e36e-aa93-4d40-9e1d-56c849afe7f7 (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job 5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job e465c7f1-b592-467d-b22d-d84a802c39ba (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job d59dbf83-239c-4b65-b4bb-773aeea5092c (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job 18b2f7bf-f4d1-4031-aa56-1ec189a20e24 (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job e7e714ca-f04b-44d1-8612-b06ec76bd2de (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job ab2fcd15-e83b-4a44-a544-de62f71b8d43 (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 (type=lasing)
+2026-02-16 03:24:58 [INFO] [jobs-db] Inserting job 7efcedd0-f7f7-46d7-86dd-2354a8d2667a (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job 9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job 806f3fb4-5a9a-496a-b8ec-f7d828fee1dd (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job 9dcabc80-bef8-4bba-ba0f-80be23712ba3 (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job ea976743-23be-4267-946e-09d56c0b5b60 (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job 6eeaf19c-0d4a-4831-b739-94d34cd1868c (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job c83aa2e2-08b2-4ce8-8087-a0ff35834dbd (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job 940764bf-b67b-4a67-a28f-420ba9205dea (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job 1cba6020-d823-405c-9021-b37e12168b9d (type=lasing)
+2026-02-16 03:25:08 [INFO] [jobs-db] Inserting job d7a54ef0-7fee-490b-9e46-df5de36bd707 (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job faad7752-cb24-49e1-bd7e-ee6a9546f998 (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job 3ff7933f-dca8-4477-b87e-e45b23d17676 (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job d72ec7c8-62e9-4c1f-959f-28de159858d7 (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job 8f6ee02a-7476-4596-83b5-ccd0c287a9dd (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job 9a751ef2-87fb-4e54-987f-b693157f2f9f (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job 07232dcd-eac8-4ccf-9672-3c6ebbfa999e (type=lasing)
+2026-02-16 03:25:09 [INFO] [jobs-db] Inserting job a9c8547c-b53f-4655-802e-817ef6172216 (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job 6712a407-4158-40cd-965f-b4da638e0c14 (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job e02cbd9e-71a5-4413-ba25-757ba81c870a (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job 874a5272-8a70-476d-9098-aa6b0c614c9c (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job 3837ebe3-0be5-4b4b-8698-3ad31528447d (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job 3004764b-5181-4789-b5b4-ebe69a939645 (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job c438370b-e8cb-4c73-aac5-041becfee7c4 (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job a6e2e666-b2c3-49e7-930d-155020ec4771 (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job 33f94e72-2aac-41f1-bb2b-70b6521e4ee2 (type=lasing)
+2026-02-16 03:25:10 [INFO] [jobs-db] Inserting job 4edd735b-e643-4708-b7b6-c9eaaf08c2b4 (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job f40da196-a448-4d9d-a2dc-b151bbf2fb24 (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job f9b6837a-ee70-4436-88d3-210fb86315d3 (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job 0755b18e-b7b5-43d2-baed-a21c6d6f6fcf (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job e2226fa6-a697-4c01-be2f-3bc8e99f10e5 (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job 59b5153f-6a7e-4024-aedf-1bac9d65ae05 (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job 2fe41634-d04d-4fcc-8df3-0bee87348fd1 (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job 300c92ca-5c5e-491e-8f8c-bf553b6f7c30 (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job eceaadc6-64f1-4484-9f6d-614ea171ff8a (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job 1b9e9356-14fc-4202-91ac-fa10ba43021c (type=lasing)
+2026-02-16 03:25:11 [INFO] [jobs-db] Inserting job 7f951f2c-3b0b-4233-a733-89d94fbf77a3 (type=lasing)
+2026-02-16 03:25:12 [INFO] [jobs-db] Inserting job 105be4b6-298e-4f75-b646-3106ddb2e261 (type=lasing)
+2026-02-16 03:25:12 [INFO] [jobs-db] Inserting job a9c4e4a7-da38-479b-b648-bb8fb3a859b8 (type=lasing)
+2026-02-16 03:25:12 [INFO] [jobs-db] Inserting job 6836023f-7232-4526-ab3b-03b6432cac27 (type=lasing)
+2026-02-16 03:25:12 [INFO] [jobs-db] Inserting job 950be45f-9aab-485d-8b34-df5d6f06a0ba (type=lasing)
+2026-02-16 03:25:14 [INFO] [jobs-db] Inserting job 496ff380-9a11-4fc9-864b-23b13410f392 (type=lasing)
+2026-02-16 03:25:14 [INFO] [jobs-db] Inserting job 01fd90d7-9f5d-471d-97d6-0b560ed11693 (type=lasing)
+2026-02-16 03:25:14 [INFO] [jobs-db] Inserting job d2afb229-e79b-43a3-852d-42efb81c0bff (type=lasing)
+2026-02-16 03:25:14 [INFO] [jobs-db] Inserting job 2a9b8de2-f403-4801-b91f-15dbd4a1621b (type=lasing)
+2026-02-16 03:25:14 [INFO] [jobs-db] Inserting job 8d162af0-e849-4da0-9eb5-0375a15c5cae (type=lasing)
+2026-02-16 03:25:14 [INFO] [jobs-db] Inserting job 839bc7a7-56e7-48e9-8e5f-8208d9e096a2 (type=lasing)
+2026-02-16 03:25:14 [INFO] [jobs-db] Inserting job 46cdc601-ce9d-481e-9677-a6e9c4bc6646 (type=lasing)
+2026-02-16 03:25:15 [INFO] [jobs-db] Inserting job 7116ed86-663b-4a21-9a8e-c19918d2ca49 (type=lasing)
+2026-02-16 03:25:15 [INFO] [jobs-db] Inserting job 661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 (type=lasing)
+2026-02-16 03:25:15 [INFO] [jobs-db] Inserting job 1dc9cb29-93b6-407e-8839-6ed9d6c89342 (type=lasing)
+2026-02-16 03:25:15 [INFO] [jobs-db] Inserting job 9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c (type=lasing)
+2026-02-16 03:25:15 [INFO] [jobs-db] Inserting job 68dd5de8-9853-4f39-a519-86e46208b3e2 (type=lasing)
+2026-02-16 03:25:15 [INFO] [jobs-db] Inserting job 58242051-38c0-4023-9390-3e618af4480e (type=lasing)
+2026-02-16 03:25:16 [INFO] [jobs-db] Inserting job 18993992-7dd5-42e2-850d-55623d915e9b (type=lasing)
+2026-02-16 03:25:16 [INFO] [jobs-db] Inserting job 58b1311d-a98b-438d-8a4d-783707285ec8 (type=lasing)
+2026-02-16 03:25:16 [INFO] [jobs-db] Inserting job fda407c9-c70b-4577-88d9-b4cfa5018cb9 (type=lasing)
+2026-02-16 03:25:16 [INFO] [jobs-db] Inserting job 72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 (type=lasing)
+2026-02-16 03:25:16 [INFO] [jobs-db] Inserting job d621055d-7e42-4d54-8899-911bfce69d06 (type=lasing)
+2026-02-16 03:25:18 [INFO] [jobs-db] Inserting job 74695dfa-0537-4abd-a8f5-de1a0588c8da (type=lasing)
+2026-02-16 03:25:18 [INFO] [jobs-db] Inserting job 22155ecb-ed83-441b-8c7d-42ae488e5d1e (type=lasing)
+2026-02-16 03:25:18 [INFO] [jobs-db] Inserting job b31b3beb-114e-4021-af65-dd643a409975 (type=lasing)
+2026-02-16 03:25:18 [INFO] [jobs-db] Inserting job ee3c4748-05a2-44a4-bf68-47327876fe57 (type=lasing)
+2026-02-16 03:25:18 [INFO] [jobs-db] Inserting job 857d136e-a8dd-4539-87be-f115b0cb4aea (type=lasing)
+2026-02-16 03:25:18 [INFO] [jobs-db] Inserting job acaee3c9-2111-4765-a671-908a0cf32930 (type=lasing)
+2026-02-16 03:25:19 [INFO] [jobs-db] Inserting job bdafbe19-a1c7-435f-a7aa-b54d91841944 (type=lasing)
+2026-02-16 03:25:19 [INFO] [jobs-db] Inserting job 61fe342e-1eb4-45ab-88ce-7515833f4676 (type=lasing)
+2026-02-16 03:25:19 [INFO] [jobs-db] Inserting job 976b1b34-3e97-4dd3-91ac-795b1bbe2c04 (type=lasing)
+2026-02-16 03:25:19 [INFO] [jobs-db] Inserting job 9a8dfa38-8e13-4577-8424-77f592532a13 (type=lasing)
+2026-02-16 03:25:20 [INFO] [jobs-db] Inserting job d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 (type=lasing)
+2026-02-16 03:25:20 [INFO] [jobs-db] Inserting job 7df17979-b3b2-4b2a-8776-1ec575149997 (type=lasing)
+2026-02-16 03:25:20 [INFO] [jobs-db] Inserting job 6e82a033-5896-49b0-871c-13967c6ab527 (type=lasing)
+2026-02-16 03:25:20 [INFO] [jobs-db] Inserting job fbddf5f1-a30f-43ea-9d12-245bffb01aff (type=lasing)
+2026-02-16 03:25:20 [INFO] [jobs-db] Inserting job 094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 (type=lasing)
+2026-02-16 03:25:20 [INFO] [jobs-db] Inserting job 23e2879d-6281-43c0-b9a4-fa006d8d5271 (type=lasing)
+2026-02-16 03:25:20 [INFO] [jobs-db] Inserting job b8125d98-6902-4a66-a7fb-51c53362d6a0 (type=lasing)
+2026-02-16 03:25:21 [INFO] [jobs-db] Inserting job e2068adf-524e-44c4-8120-cec6efd69871 (type=lasing)
+2026-02-16 03:25:21 [INFO] [jobs-db] Inserting job 3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 (type=lasing)
+2026-02-16 03:25:21 [INFO] [pipeline] Inserted 100 new lasing job(s) for network_id=MLRun2_0_0003_427c12b9
+2026-02-16 03:25:21 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 03:25:21 [INFO] [jobs-db] Found 170 pending jobs
+2026-02-16 03:25:21 [INFO] [pipeline] Pending LASING jobs for MLRun2_0_0003_427c12b9: 100
+2026-02-16 03:25:21 [INFO] [run_jobs] Running 100 jobs with n_workers=64, show_progress=True
+2026-02-16 03:25:21 [INFO] [run_jobs] Using multiprocessing.Pool.
+  0%|          | 0/100 [00:00<?, ?it/s]2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=d2447624-1118-40a4-82eb-021d9a054c60, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=1
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=6eeaf19c-0d4a-4831-b739-94d34cd1868c, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=27
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=73645118-1ae2-4e83-84e8-4baad0dd7ce1, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=8
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=12
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=1299e3ec-46ec-4568-b08b-69a94477528a, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=4
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=cbe474ae-670d-48f6-af5e-fc2ef7efdfc5, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=34
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=e465c7f1-b592-467d-b22d-d84a802c39ba, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=15
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=3ff7933f-dca8-4477-b87e-e45b23d17676, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=33
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=c83aa2e2-08b2-4ce8-8087-a0ff35834dbd, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=28
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=940764bf-b67b-4a67-a28f-420ba9205dea, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=29
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=1cba6020-d823-405c-9021-b37e12168b9d, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=30
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=a9c8547c-b53f-4655-802e-817ef6172216, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=39
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=9a751ef2-87fb-4e54-987f-b693157f2f9f, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=37
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=4edd735b-e643-4708-b7b6-c9eaaf08c2b4, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=48
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=6712a407-4158-40cd-965f-b4da638e0c14, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=40
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=2f524f0e-9964-451b-b797-93fc6fa78303, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=9
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=806f3fb4-5a9a-496a-b8ec-f7d828fee1dd, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=23
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=e02cbd9e-71a5-4413-ba25-757ba81c870a, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=41
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=f9b6837a-ee70-4436-88d3-210fb86315d3, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=50
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=8134820e-e771-4aec-a979-874e79c99a7e, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=3
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=18c75d59-5890-49d6-a4b8-87c6c8a0b94f, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=6
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=e57e74a0-eb20-4ac4-ac0c-a89aa94044bb, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=2
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=14
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=af853386-f0b9-4c07-8698-f15f51081d63, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=10
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=d72ec7c8-62e9-4c1f-959f-28de159858d7, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=35
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=d59dbf83-239c-4b65-b4bb-773aeea5092c, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=16
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=a099a529-b7b5-4c8a-8ec8-7b4e6fac4212, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=20
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=d7a54ef0-7fee-490b-9e46-df5de36bd707, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=31
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=9dcabc80-bef8-4bba-ba0f-80be23712ba3, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=25
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=22cd16b2-6cb5-40af-9eef-9c2af98d0c94, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=0
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=300c92ca-5c5e-491e-8f8c-bf553b6f7c30, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=55
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=d7b72472-ea84-469a-8f9d-5b70690a5fe0, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=7
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=874a5272-8a70-476d-9098-aa6b0c614c9c, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=42
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=f40da196-a448-4d9d-a2dc-b151bbf2fb24, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=49
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=3837ebe3-0be5-4b4b-8698-3ad31528447d, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=43
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=8f6ee02a-7476-4596-83b5-ccd0c287a9dd, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=36
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=33f94e72-2aac-41f1-bb2b-70b6521e4ee2, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=47
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=c438370b-e8cb-4c73-aac5-041becfee7c4, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=45
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=fa62e36e-aa93-4d40-9e1d-56c849afe7f7, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=13
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=18b2f7bf-f4d1-4031-aa56-1ec189a20e24, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=17
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=56ea5312-0987-44a1-ba31-48b8e617a486, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=11
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=e2226fa6-a697-4c01-be2f-3bc8e99f10e5, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=52
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=5e951f96-0c3f-4d02-a46a-3f0383efc18e, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=5
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=7efcedd0-f7f7-46d7-86dd-2354a8d2667a, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=21
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=faad7752-cb24-49e1-bd7e-ee6a9546f998, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=32
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=07232dcd-eac8-4ccf-9672-3c6ebbfa999e, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=38
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=24
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=2fe41634-d04d-4fcc-8df3-0bee87348fd1, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=54
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=7f951f2c-3b0b-4233-a733-89d94fbf77a3, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=58
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=eceaadc6-64f1-4484-9f6d-614ea171ff8a, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=56
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=1b9e9356-14fc-4202-91ac-fa10ba43021c, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=57
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=a6e2e666-b2c3-49e7-930d-155020ec4771, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=46
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=3004764b-5181-4789-b5b4-ebe69a939645, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=44
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=a9c4e4a7-da38-479b-b648-bb8fb3a859b8, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=60
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=22
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=ab2fcd15-e83b-4a44-a544-de62f71b8d43, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=19
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=496ff380-9a11-4fc9-864b-23b13410f392, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=63
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=0755b18e-b7b5-43d2-baed-a21c6d6f6fcf, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=51
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=950be45f-9aab-485d-8b34-df5d6f06a0ba, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=62
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=6836023f-7232-4526-ab3b-03b6432cac27, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=61
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=e7e714ca-f04b-44d1-8612-b06ec76bd2de, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=18
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=ea976743-23be-4267-946e-09d56c0b5b60, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=26
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=105be4b6-298e-4f75-b646-3106ddb2e261, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=59
+2026-02-16 03:25:21 [INFO] [run_job] Starting job_id=59b5153f-6a7e-4024-aedf-1bac9d65ae05, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=53
+2026-02-16 03:25:21 [INFO] Starting job faad7752-cb24-49e1-bd7e-ee6a9546f998 (type=lasing, pattern_idx=32)
+2026-02-16 03:25:21 [INFO] Starting job 07232dcd-eac8-4ccf-9672-3c6ebbfa999e (type=lasing, pattern_idx=38)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job faad7752-cb24-49e1-bd7e-ee6a9546f998 → status=running
+2026-02-16 03:25:21 [INFO] Starting job 18b2f7bf-f4d1-4031-aa56-1ec189a20e24 (type=lasing, pattern_idx=17)
+2026-02-16 03:25:21 [INFO] Starting job 7efcedd0-f7f7-46d7-86dd-2354a8d2667a (type=lasing, pattern_idx=21)
+2026-02-16 03:25:21 [INFO] Starting job 105be4b6-298e-4f75-b646-3106ddb2e261 (type=lasing, pattern_idx=59)
+2026-02-16 03:25:21 [INFO] Starting job 2f524f0e-9964-451b-b797-93fc6fa78303 (type=lasing, pattern_idx=9)
+2026-02-16 03:25:21 [INFO] Starting job 1cba6020-d823-405c-9021-b37e12168b9d (type=lasing, pattern_idx=30)
+2026-02-16 03:25:21 [INFO] Starting job 33f94e72-2aac-41f1-bb2b-70b6521e4ee2 (type=lasing, pattern_idx=47)
+2026-02-16 03:25:21 [INFO] Starting job 6eeaf19c-0d4a-4831-b739-94d34cd1868c (type=lasing, pattern_idx=27)
+2026-02-16 03:25:21 [INFO] Starting job b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 (type=lasing, pattern_idx=12)
+2026-02-16 03:25:21 [INFO] Starting job d7b72472-ea84-469a-8f9d-5b70690a5fe0 (type=lasing, pattern_idx=7)
+2026-02-16 03:25:21 [INFO] Starting job a6e2e666-b2c3-49e7-930d-155020ec4771 (type=lasing, pattern_idx=46)
+2026-02-16 03:25:21 [INFO] Starting job 6836023f-7232-4526-ab3b-03b6432cac27 (type=lasing, pattern_idx=61)
+2026-02-16 03:25:21 [INFO] Starting job d59dbf83-239c-4b65-b4bb-773aeea5092c (type=lasing, pattern_idx=16)
+2026-02-16 03:25:21 [INFO] Starting job f9b6837a-ee70-4436-88d3-210fb86315d3 (type=lasing, pattern_idx=50)
+2026-02-16 03:25:21 [INFO] Starting job 4edd735b-e643-4708-b7b6-c9eaaf08c2b4 (type=lasing, pattern_idx=48)
+2026-02-16 03:25:21 [INFO] Starting job af853386-f0b9-4c07-8698-f15f51081d63 (type=lasing, pattern_idx=10)
+2026-02-16 03:25:21 [INFO] Starting job eceaadc6-64f1-4484-9f6d-614ea171ff8a (type=lasing, pattern_idx=56)
+2026-02-16 03:25:21 [INFO] Starting job 1b9e9356-14fc-4202-91ac-fa10ba43021c (type=lasing, pattern_idx=57)
+2026-02-16 03:25:21 [INFO] Starting job 2fe41634-d04d-4fcc-8df3-0bee87348fd1 (type=lasing, pattern_idx=54)
+2026-02-16 03:25:21 [INFO] Starting job 3ff7933f-dca8-4477-b87e-e45b23d17676 (type=lasing, pattern_idx=33)
+2026-02-16 03:25:21 [INFO] Starting job ea976743-23be-4267-946e-09d56c0b5b60 (type=lasing, pattern_idx=26)
+2026-02-16 03:25:21 [INFO] Starting job e57e74a0-eb20-4ac4-ac0c-a89aa94044bb (type=lasing, pattern_idx=2)
+2026-02-16 03:25:21 [INFO] Starting job e7e714ca-f04b-44d1-8612-b06ec76bd2de (type=lasing, pattern_idx=18)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job d7b72472-ea84-469a-8f9d-5b70690a5fe0 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 7efcedd0-f7f7-46d7-86dd-2354a8d2667a → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 07232dcd-eac8-4ccf-9672-3c6ebbfa999e → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 33f94e72-2aac-41f1-bb2b-70b6521e4ee2 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 6836023f-7232-4526-ab3b-03b6432cac27 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 3ff7933f-dca8-4477-b87e-e45b23d17676 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 105be4b6-298e-4f75-b646-3106ddb2e261 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 18b2f7bf-f4d1-4031-aa56-1ec189a20e24 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 1cba6020-d823-405c-9021-b37e12168b9d → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 4edd735b-e643-4708-b7b6-c9eaaf08c2b4 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job a6e2e666-b2c3-49e7-930d-155020ec4771 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 6eeaf19c-0d4a-4831-b739-94d34cd1868c → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job ea976743-23be-4267-946e-09d56c0b5b60 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 1b9e9356-14fc-4202-91ac-fa10ba43021c → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job e57e74a0-eb20-4ac4-ac0c-a89aa94044bb → status=running
+2026-02-16 03:25:21 [INFO] Starting job 18c75d59-5890-49d6-a4b8-87c6c8a0b94f (type=lasing, pattern_idx=6)
+2026-02-16 03:25:21 [INFO] Starting job fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 (type=lasing, pattern_idx=24)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 2f524f0e-9964-451b-b797-93fc6fa78303 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job d59dbf83-239c-4b65-b4bb-773aeea5092c → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 2fe41634-d04d-4fcc-8df3-0bee87348fd1 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job af853386-f0b9-4c07-8698-f15f51081d63 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job eceaadc6-64f1-4484-9f6d-614ea171ff8a → status=running
+2026-02-16 03:25:21 [INFO] Starting job a9c4e4a7-da38-479b-b648-bb8fb3a859b8 (type=lasing, pattern_idx=60)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job f9b6837a-ee70-4436-88d3-210fb86315d3 → status=running
+2026-02-16 03:25:21 [INFO] Starting job e2226fa6-a697-4c01-be2f-3bc8e99f10e5 (type=lasing, pattern_idx=52)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job e7e714ca-f04b-44d1-8612-b06ec76bd2de → status=running
+2026-02-16 03:25:21 [INFO] Starting job 5e951f96-0c3f-4d02-a46a-3f0383efc18e (type=lasing, pattern_idx=5)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 18c75d59-5890-49d6-a4b8-87c6c8a0b94f → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job a9c4e4a7-da38-479b-b648-bb8fb3a859b8 → status=running
+2026-02-16 03:25:21 [INFO] Starting job ab2fcd15-e83b-4a44-a544-de62f71b8d43 (type=lasing, pattern_idx=19)
+2026-02-16 03:25:21 [INFO] Starting job d2447624-1118-40a4-82eb-021d9a054c60 (type=lasing, pattern_idx=1)
+2026-02-16 03:25:21 [INFO] Starting job d7a54ef0-7fee-490b-9e46-df5de36bd707 (type=lasing, pattern_idx=31)
+2026-02-16 03:25:21 [INFO] Starting job fa62e36e-aa93-4d40-9e1d-56c849afe7f7 (type=lasing, pattern_idx=13)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 5e951f96-0c3f-4d02-a46a-3f0383efc18e → status=running
+2026-02-16 03:25:21 [INFO] Starting job cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 (type=lasing, pattern_idx=34)
+2026-02-16 03:25:21 [INFO] Starting job 300c92ca-5c5e-491e-8f8c-bf553b6f7c30 (type=lasing, pattern_idx=55)
+2026-02-16 03:25:21 [INFO] Starting job 3837ebe3-0be5-4b4b-8698-3ad31528447d (type=lasing, pattern_idx=43)
+2026-02-16 03:25:21 [INFO] Starting job e465c7f1-b592-467d-b22d-d84a802c39ba (type=lasing, pattern_idx=15)
+2026-02-16 03:25:21 [INFO] Starting job 1299e3ec-46ec-4568-b08b-69a94477528a (type=lasing, pattern_idx=4)
+2026-02-16 03:25:21 [INFO] Starting job 7f951f2c-3b0b-4233-a733-89d94fbf77a3 (type=lasing, pattern_idx=58)
+2026-02-16 03:25:21 [INFO] Starting job 496ff380-9a11-4fc9-864b-23b13410f392 (type=lasing, pattern_idx=63)
+2026-02-16 03:25:21 [INFO] Starting job 0755b18e-b7b5-43d2-baed-a21c6d6f6fcf (type=lasing, pattern_idx=51)
+2026-02-16 03:25:21 [INFO] Starting job 73645118-1ae2-4e83-84e8-4baad0dd7ce1 (type=lasing, pattern_idx=8)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job e2226fa6-a697-4c01-be2f-3bc8e99f10e5 → status=running
+2026-02-16 03:25:21 [INFO] Starting job 5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe (type=lasing, pattern_idx=14)
+2026-02-16 03:25:21 [INFO] Starting job 940764bf-b67b-4a67-a28f-420ba9205dea (type=lasing, pattern_idx=29)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job ab2fcd15-e83b-4a44-a544-de62f71b8d43 → status=running
+2026-02-16 03:25:21 [INFO] Starting job 874a5272-8a70-476d-9098-aa6b0c614c9c (type=lasing, pattern_idx=42)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 1299e3ec-46ec-4568-b08b-69a94477528a → status=running
+2026-02-16 03:25:21 [INFO] Starting job 22cd16b2-6cb5-40af-9eef-9c2af98d0c94 (type=lasing, pattern_idx=0)
+2026-02-16 03:25:21 [INFO] Starting job a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 (type=lasing, pattern_idx=20)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job d2447624-1118-40a4-82eb-021d9a054c60 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 874a5272-8a70-476d-9098-aa6b0c614c9c → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job e465c7f1-b592-467d-b22d-d84a802c39ba → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 7f951f2c-3b0b-4233-a733-89d94fbf77a3 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 3837ebe3-0be5-4b4b-8698-3ad31528447d → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job fa62e36e-aa93-4d40-9e1d-56c849afe7f7 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 300c92ca-5c5e-491e-8f8c-bf553b6f7c30 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 0755b18e-b7b5-43d2-baed-a21c6d6f6fcf → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 73645118-1ae2-4e83-84e8-4baad0dd7ce1 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 22cd16b2-6cb5-40af-9eef-9c2af98d0c94 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job d7a54ef0-7fee-490b-9e46-df5de36bd707 → status=running
+2026-02-16 03:25:21 [INFO] Starting job 8f6ee02a-7476-4596-83b5-ccd0c287a9dd (type=lasing, pattern_idx=36)
+2026-02-16 03:25:21 [INFO] Starting job 9dcabc80-bef8-4bba-ba0f-80be23712ba3 (type=lasing, pattern_idx=25)
+2026-02-16 03:25:21 [INFO] Starting job f40da196-a448-4d9d-a2dc-b151bbf2fb24 (type=lasing, pattern_idx=49)
+2026-02-16 03:25:21 [INFO] Starting job d72ec7c8-62e9-4c1f-959f-28de159858d7 (type=lasing, pattern_idx=35)
+2026-02-16 03:25:21 [INFO] Starting job 59b5153f-6a7e-4024-aedf-1bac9d65ae05 (type=lasing, pattern_idx=53)
+2026-02-16 03:25:21 [INFO] Starting job 3004764b-5181-4789-b5b4-ebe69a939645 (type=lasing, pattern_idx=44)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 940764bf-b67b-4a67-a28f-420ba9205dea → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 496ff380-9a11-4fc9-864b-23b13410f392 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe → status=running
+2026-02-16 03:25:21 [INFO] Starting job 56ea5312-0987-44a1-ba31-48b8e617a486 (type=lasing, pattern_idx=11)
+2026-02-16 03:25:21 [INFO] Starting job 8134820e-e771-4aec-a979-874e79c99a7e (type=lasing, pattern_idx=3)
+2026-02-16 03:25:21 [INFO] Starting job 9a751ef2-87fb-4e54-987f-b693157f2f9f (type=lasing, pattern_idx=37)
+2026-02-16 03:25:21 [INFO] Starting job 806f3fb4-5a9a-496a-b8ec-f7d828fee1dd (type=lasing, pattern_idx=23)
+2026-02-16 03:25:21 [INFO] Starting job c438370b-e8cb-4c73-aac5-041becfee7c4 (type=lasing, pattern_idx=45)
+2026-02-16 03:25:21 [INFO] Starting job e02cbd9e-71a5-4413-ba25-757ba81c870a (type=lasing, pattern_idx=41)
+2026-02-16 03:25:21 [INFO] Starting job 950be45f-9aab-485d-8b34-df5d6f06a0ba (type=lasing, pattern_idx=62)
+2026-02-16 03:25:21 [INFO] Starting job 6712a407-4158-40cd-965f-b4da638e0c14 (type=lasing, pattern_idx=40)
+2026-02-16 03:25:21 [INFO] Starting job c83aa2e2-08b2-4ce8-8087-a0ff35834dbd (type=lasing, pattern_idx=28)
+2026-02-16 03:25:21 [INFO] Starting job a9c8547c-b53f-4655-802e-817ef6172216 (type=lasing, pattern_idx=39)
+2026-02-16 03:25:21 [INFO] Starting job 9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e (type=lasing, pattern_idx=22)
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 9dcabc80-bef8-4bba-ba0f-80be23712ba3 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 59b5153f-6a7e-4024-aedf-1bac9d65ae05 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job f40da196-a448-4d9d-a2dc-b151bbf2fb24 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 56ea5312-0987-44a1-ba31-48b8e617a486 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job e02cbd9e-71a5-4413-ba25-757ba81c870a → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 806f3fb4-5a9a-496a-b8ec-f7d828fee1dd → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 3004764b-5181-4789-b5b4-ebe69a939645 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 950be45f-9aab-485d-8b34-df5d6f06a0ba → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 9a751ef2-87fb-4e54-987f-b693157f2f9f → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 8f6ee02a-7476-4596-83b5-ccd0c287a9dd → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job d72ec7c8-62e9-4c1f-959f-28de159858d7 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 8134820e-e771-4aec-a979-874e79c99a7e → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job c83aa2e2-08b2-4ce8-8087-a0ff35834dbd → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job a9c8547c-b53f-4655-802e-817ef6172216 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job c438370b-e8cb-4c73-aac5-041becfee7c4 → status=running
+2026-02-16 03:25:21 [INFO] [jobs-db] Updating job 6712a407-4158-40cd-965f-b4da638e0c14 → status=running
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=5e951f96-0c3f-4d02-a46a-3f0383efc18e pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=7efcedd0-f7f7-46d7-86dd-2354a8d2667a pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=5
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=21
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=21)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=5)
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 5e951f96-0c3f-4d02-a46a-3f0383efc18e → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 7efcedd0-f7f7-46d7-86dd-2354a8d2667a → status=error
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=fa62e36e-aa93-4d40-9e1d-56c849afe7f7 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=e2226fa6-a697-4c01-be2f-3bc8e99f10e5 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=18b2f7bf-f4d1-4031-aa56-1ec189a20e24 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=6836023f-7232-4526-ab3b-03b6432cac27 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=2fe41634-d04d-4fcc-8df3-0bee87348fd1 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=52
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=13
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=61
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=14
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=17
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=54
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=17)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=13)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=14)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=52)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=61)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=54)
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 18b2f7bf-f4d1-4031-aa56-1ec189a20e24 → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job fa62e36e-aa93-4d40-9e1d-56c849afe7f7 → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe → status=error
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job e2226fa6-a697-4c01-be2f-3bc8e99f10e5 → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 6836023f-7232-4526-ab3b-03b6432cac27 → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 2fe41634-d04d-4fcc-8df3-0bee87348fd1 → status=error
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=0755b18e-b7b5-43d2-baed-a21c6d6f6fcf pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=51
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=51)
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 0755b18e-b7b5-43d2-baed-a21c6d6f6fcf → status=error
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=9a751ef2-87fb-4e54-987f-b693157f2f9f pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=37
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=37)
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 9a751ef2-87fb-4e54-987f-b693157f2f9f → status=error
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=07232dcd-eac8-4ccf-9672-3c6ebbfa999e pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=38
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=38)
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=ab2fcd15-e83b-4a44-a544-de62f71b8d43 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=19
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=19)
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=300c92ca-5c5e-491e-8f8c-bf553b6f7c30 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=55
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=55)
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 07232dcd-eac8-4ccf-9672-3c6ebbfa999e → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job ab2fcd15-e83b-4a44-a544-de62f71b8d43 → status=error
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=7f951f2c-3b0b-4233-a733-89d94fbf77a3 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=940764bf-b67b-4a67-a28f-420ba9205dea pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=1cba6020-d823-405c-9021-b37e12168b9d pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=105be4b6-298e-4f75-b646-3106ddb2e261 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=a9c4e4a7-da38-479b-b648-bb8fb3a859b8 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=9dcabc80-bef8-4bba-ba0f-80be23712ba3 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=f40da196-a448-4d9d-a2dc-b151bbf2fb24 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=d7a54ef0-7fee-490b-9e46-df5de36bd707 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=d2447624-1118-40a4-82eb-021d9a054c60 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=3837ebe3-0be5-4b4b-8698-3ad31528447d pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=a6e2e666-b2c3-49e7-930d-155020ec4771 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=6712a407-4158-40cd-965f-b4da638e0c14 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=a9c8547c-b53f-4655-802e-817ef6172216 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=29
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=20
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=30
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=59
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=60
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=58
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=25
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=49
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=31
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=33f94e72-2aac-41f1-bb2b-70b6521e4ee2 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=1
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=e7e714ca-f04b-44d1-8612-b06ec76bd2de pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=43
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=46
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=40
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=39
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 300c92ca-5c5e-491e-8f8c-bf553b6f7c30 → status=error
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=e465c7f1-b592-467d-b22d-d84a802c39ba pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=29)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=20)
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=18
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=30)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=59)
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=47
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=60)
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=15
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=d72ec7c8-62e9-4c1f-959f-28de159858d7 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=58)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=25)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=49)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=1)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=31)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=43)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=46)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=40)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=39)
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=35
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=18)
+2026-02-16 03:25:22 [INFO] [set_job_status] job_id=d59dbf83-239c-4b65-b4bb-773aeea5092c pending -> running, exec_time=None, error=None
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=15)
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=47)
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 940764bf-b67b-4a67-a28f-420ba9205dea → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 → status=error
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 1cba6020-d823-405c-9021-b37e12168b9d → status=error
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job 105be4b6-298e-4f75-b646-3106ddb2e261 → status=error
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [jobs-db] Updating job a9c4e4a7-da38-479b-b648-bb8fb3a859b8 → status=error
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:22 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=16
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 7f951f2c-3b0b-4233-a733-89d94fbf77a3 → status=error
+2026-02-16 03:25:22 [INFO] Starting lasing job (pattern_idx=35)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 9dcabc80-bef8-4bba-ba0f-80be23712ba3 → status=error
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job f40da196-a448-4d9d-a2dc-b151bbf2fb24 → status=error
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job a6e2e666-b2c3-49e7-930d-155020ec4771 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job d2447624-1118-40a4-82eb-021d9a054c60 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 3837ebe3-0be5-4b4b-8698-3ad31528447d → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job d7a54ef0-7fee-490b-9e46-df5de36bd707 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 6712a407-4158-40cd-965f-b4da638e0c14 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job a9c8547c-b53f-4655-802e-817ef6172216 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job e7e714ca-f04b-44d1-8612-b06ec76bd2de → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job e465c7f1-b592-467d-b22d-d84a802c39ba → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 33f94e72-2aac-41f1-bb2b-70b6521e4ee2 → status=error
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=16)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job d72ec7c8-62e9-4c1f-959f-28de159858d7 → status=error
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=59b5153f-6a7e-4024-aedf-1bac9d65ae05 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=53
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job d59dbf83-239c-4b65-b4bb-773aeea5092c → status=error
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=53)
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 59b5153f-6a7e-4024-aedf-1bac9d65ae05 → status=error
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 9a751ef2-87fb-4e54-987f-b693157f2f9f FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=9a751ef2-87fb-4e54-987f-b693157f2f9f running -> error, exec_time=0.0017244815826416016, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=9a751ef2-87fb-4e54-987f-b693157f2f9f running -> error, exec_time=0.0017244815826416016, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=9a751ef2-87fb-4e54-987f-b693157f2f9f: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job 9a751ef2-87fb-4e54-987f-b693157f2f9f after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=01fd90d7-9f5d-471d-97d6-0b560ed11693, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=64
+2026-02-16 03:25:23 [INFO] Starting job 01fd90d7-9f5d-471d-97d6-0b560ed11693 (type=lasing, pattern_idx=64)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 01fd90d7-9f5d-471d-97d6-0b560ed11693 → status=running
+  1%|          | 1/100 [00:01<02:40,  1.62s/it]2026-02-16 03:25:23 [ERROR] [jobs-db] Job 5e951f96-0c3f-4d02-a46a-3f0383efc18e FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=5e951f96-0c3f-4d02-a46a-3f0383efc18e running -> error, exec_time=0.4567418098449707, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=5e951f96-0c3f-4d02-a46a-3f0383efc18e running -> error, exec_time=0.4567418098449707, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=5e951f96-0c3f-4d02-a46a-3f0383efc18e: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job 5e951f96-0c3f-4d02-a46a-3f0383efc18e after 0.46s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=d2afb229-e79b-43a3-852d-42efb81c0bff, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=65
+2026-02-16 03:25:23 [INFO] Starting job d2afb229-e79b-43a3-852d-42efb81c0bff (type=lasing, pattern_idx=65)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job d2afb229-e79b-43a3-852d-42efb81c0bff → status=running
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=c438370b-e8cb-4c73-aac5-041becfee7c4 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=6eeaf19c-0d4a-4831-b739-94d34cd1868c pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=45
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=27
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=45)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=27)
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 6eeaf19c-0d4a-4831-b739-94d34cd1868c → status=error
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job c438370b-e8cb-4c73-aac5-041becfee7c4 → status=error
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 1cba6020-d823-405c-9021-b37e12168b9d FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 7f951f2c-3b0b-4233-a733-89d94fbf77a3 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 07232dcd-eac8-4ccf-9672-3c6ebbfa999e FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job fa62e36e-aa93-4d40-9e1d-56c849afe7f7 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 300c92ca-5c5e-491e-8f8c-bf553b6f7c30 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=ea976743-23be-4267-946e-09d56c0b5b60 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 running -> error, exec_time=0.08358168601989746, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=3004764b-5181-4789-b5b4-ebe69a939645 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=18c75d59-5890-49d6-a4b8-87c6c8a0b94f pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=496ff380-9a11-4fc9-864b-23b13410f392 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe running -> error, exec_time=0.002892017364501953, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=1cba6020-d823-405c-9021-b37e12168b9d running -> error, exec_time=0.08551383018493652, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=950be45f-9aab-485d-8b34-df5d6f06a0ba pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=1299e3ec-46ec-4568-b08b-69a94477528a pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=8134820e-e771-4aec-a979-874e79c99a7e pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=3ff7933f-dca8-4477-b87e-e45b23d17676 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=fa62e36e-aa93-4d40-9e1d-56c849afe7f7 running -> error, exec_time=0.002918243408203125, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=e02cbd9e-71a5-4413-ba25-757ba81c870a pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=7f951f2c-3b0b-4233-a733-89d94fbf77a3 running -> error, exec_time=0.09361052513122559, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=07232dcd-eac8-4ccf-9672-3c6ebbfa999e running -> error, exec_time=0.06932806968688965, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=300c92ca-5c5e-491e-8f8c-bf553b6f7c30 running -> error, exec_time=0.11126494407653809, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=63
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=62
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 2fe41634-d04d-4fcc-8df3-0bee87348fd1 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=22
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=44
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=41
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 running -> error, exec_time=0.08358168601989746, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=1cba6020-d823-405c-9021-b37e12168b9d running -> error, exec_time=0.08551383018493652, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=34
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job 0755b18e-b7b5-43d2-baed-a21c6d6f6fcf FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=07232dcd-eac8-4ccf-9672-3c6ebbfa999e running -> error, exec_time=0.06932806968688965, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=6
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=33
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=12
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=4
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=fa62e36e-aa93-4d40-9e1d-56c849afe7f7 running -> error, exec_time=0.002918243408203125, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=3
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=26
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=300c92ca-5c5e-491e-8f8c-bf553b6f7c30 running -> error, exec_time=0.11126494407653809, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe running -> error, exec_time=0.002892017364501953, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=63)
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=0755b18e-b7b5-43d2-baed-a21c6d6f6fcf running -> error, exec_time=0.0021660327911376953, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=07232dcd-eac8-4ccf-9672-3c6ebbfa999e: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=7f951f2c-3b0b-4233-a733-89d94fbf77a3 running -> error, exec_time=0.09361052513122559, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=a099a529-b7b5-4c8a-8ec8-7b4e6fac4212: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=41)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=62)
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=1cba6020-d823-405c-9021-b37e12168b9d: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=300c92ca-5c5e-491e-8f8c-bf553b6f7c30: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=fa62e36e-aa93-4d40-9e1d-56c849afe7f7: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=12)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=34)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=4)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=22)
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=2fe41634-d04d-4fcc-8df3-0bee87348fd1 running -> error, exec_time=0.0026769638061523438, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=6)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=3)
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=7f951f2c-3b0b-4233-a733-89d94fbf77a3: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=33)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=44)
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=26)
+2026-02-16 03:25:23 [ERROR] ERROR in job 07232dcd-eac8-4ccf-9672-3c6ebbfa999e after 0.07s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job a099a529-b7b5-4c8a-8ec8-7b4e6fac4212 after 0.08s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=0755b18e-b7b5-43d2-baed-a21c6d6f6fcf running -> error, exec_time=0.0021660327911376953, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job fa62e36e-aa93-4d40-9e1d-56c849afe7f7 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job 300c92ca-5c5e-491e-8f8c-bf553b6f7c30 after 0.11s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job 1cba6020-d823-405c-9021-b37e12168b9d after 0.09s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job 5f6a3f9e-4f7e-47c6-bdc7-cfd82d64edbe after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=2fe41634-d04d-4fcc-8df3-0bee87348fd1 running -> error, exec_time=0.0026769638061523438, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job 7f951f2c-3b0b-4233-a733-89d94fbf77a3 after 0.09s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=2a9b8de2-f403-4801-b91f-15dbd4a1621b, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=66
+  3%|▎         | 3/100 [00:01<00:48,  2.02it/s]2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=0755b18e-b7b5-43d2-baed-a21c6d6f6fcf: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=2fe41634-d04d-4fcc-8df3-0bee87348fd1: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 496ff380-9a11-4fc9-864b-23b13410f392 → status=error
+2026-02-16 03:25:23 [INFO] Starting job 2a9b8de2-f403-4801-b91f-15dbd4a1621b (type=lasing, pattern_idx=66)
+2026-02-16 03:25:23 [ERROR] ERROR in job 0755b18e-b7b5-43d2-baed-a21c6d6f6fcf after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 2a9b8de2-f403-4801-b91f-15dbd4a1621b → status=running
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=8d162af0-e849-4da0-9eb5-0375a15c5cae, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=67
+2026-02-16 03:25:23 [ERROR] ERROR in job 2fe41634-d04d-4fcc-8df3-0bee87348fd1 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=839bc7a7-56e7-48e9-8e5f-8208d9e096a2, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=68
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e → status=error
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=46cdc601-ce9d-481e-9677-a6e9c4bc6646, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=69
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=7116ed86-663b-4a21-9a8e-c19918d2ca49, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=70
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 950be45f-9aab-485d-8b34-df5d6f06a0ba → status=error
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=71
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job e02cbd9e-71a5-4413-ba25-757ba81c870a → status=error
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=1dc9cb29-93b6-407e-8839-6ed9d6c89342, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=72
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=73
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=68dd5de8-9853-4f39-a519-86e46208b3e2, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=74
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 1299e3ec-46ec-4568-b08b-69a94477528a → status=error
+2026-02-16 03:25:23 [INFO] Starting job 8d162af0-e849-4da0-9eb5-0375a15c5cae (type=lasing, pattern_idx=67)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 3ff7933f-dca8-4477-b87e-e45b23d17676 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 → status=error
+2026-02-16 03:25:23 [INFO] Starting job 839bc7a7-56e7-48e9-8e5f-8208d9e096a2 (type=lasing, pattern_idx=68)
+2026-02-16 03:25:23 [INFO] Starting job 46cdc601-ce9d-481e-9677-a6e9c4bc6646 (type=lasing, pattern_idx=69)
+2026-02-16 03:25:23 [INFO] Starting job 661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 (type=lasing, pattern_idx=71)
+2026-02-16 03:25:23 [INFO] Starting job 7116ed86-663b-4a21-9a8e-c19918d2ca49 (type=lasing, pattern_idx=70)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 8134820e-e771-4aec-a979-874e79c99a7e → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job ea976743-23be-4267-946e-09d56c0b5b60 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 3004764b-5181-4789-b5b4-ebe69a939645 → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 18c75d59-5890-49d6-a4b8-87c6c8a0b94f → status=error
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 8d162af0-e849-4da0-9eb5-0375a15c5cae → status=running
+2026-02-16 03:25:23 [INFO] Starting job 68dd5de8-9853-4f39-a519-86e46208b3e2 (type=lasing, pattern_idx=74)
+2026-02-16 03:25:23 [INFO] Starting job 1dc9cb29-93b6-407e-8839-6ed9d6c89342 (type=lasing, pattern_idx=72)
+2026-02-16 03:25:23 [INFO] Starting job 9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c (type=lasing, pattern_idx=73)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 839bc7a7-56e7-48e9-8e5f-8208d9e096a2 → status=running
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 46cdc601-ce9d-481e-9677-a6e9c4bc6646 → status=running
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 → status=running
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 7116ed86-663b-4a21-9a8e-c19918d2ca49 → status=running
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 68dd5de8-9853-4f39-a519-86e46208b3e2 → status=running
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 1dc9cb29-93b6-407e-8839-6ed9d6c89342 → status=running
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c → status=running
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job d2447624-1118-40a4-82eb-021d9a054c60 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=d2447624-1118-40a4-82eb-021d9a054c60 running -> error, exec_time=0.11556220054626465, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=d2447624-1118-40a4-82eb-021d9a054c60 running -> error, exec_time=0.11556220054626465, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=d2447624-1118-40a4-82eb-021d9a054c60: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job d2447624-1118-40a4-82eb-021d9a054c60 after 0.12s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=58242051-38c0-4023-9390-3e618af4480e, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=75
+ 12%|█▏        | 12/100 [00:01<00:08, 10.07it/s]2026-02-16 03:25:23 [INFO] Starting job 58242051-38c0-4023-9390-3e618af4480e (type=lasing, pattern_idx=75)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 58242051-38c0-4023-9390-3e618af4480e → status=running
+2026-02-16 03:25:23 [ERROR] [jobs-db] Job d72ec7c8-62e9-4c1f-959f-28de159858d7 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=d72ec7c8-62e9-4c1f-959f-28de159858d7 running -> error, exec_time=0.09777092933654785, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [set_job_status] job_id=d72ec7c8-62e9-4c1f-959f-28de159858d7 running -> error, exec_time=0.09777092933654785, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] [run_job] ERROR in job_id=d72ec7c8-62e9-4c1f-959f-28de159858d7: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [ERROR] ERROR in job d72ec7c8-62e9-4c1f-959f-28de159858d7 after 0.10s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [run_job] Starting job_id=18993992-7dd5-42e2-850d-55623d915e9b, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=76
+2026-02-16 03:25:23 [INFO] Starting job 18993992-7dd5-42e2-850d-55623d915e9b (type=lasing, pattern_idx=76)
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job 18993992-7dd5-42e2-850d-55623d915e9b → status=running
+2026-02-16 03:25:23 [INFO] [set_job_status] job_id=eceaadc6-64f1-4484-9f6d-614ea171ff8a pending -> running, exec_time=None, error=None
+2026-02-16 03:25:23 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=56
+2026-02-16 03:25:23 [INFO] Starting lasing job (pattern_idx=56)
+2026-02-16 03:25:23 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:23 [INFO] [jobs-db] Updating job eceaadc6-64f1-4484-9f6d-614ea171ff8a → status=error
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job e7e714ca-f04b-44d1-8612-b06ec76bd2de FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=e7e714ca-f04b-44d1-8612-b06ec76bd2de running -> error, exec_time=0.09918642044067383, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=e7e714ca-f04b-44d1-8612-b06ec76bd2de running -> error, exec_time=0.09918642044067383, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=e7e714ca-f04b-44d1-8612-b06ec76bd2de: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job e7e714ca-f04b-44d1-8612-b06ec76bd2de after 0.10s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=58b1311d-a98b-438d-8a4d-783707285ec8, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=77
+2026-02-16 03:25:24 [INFO] Starting job 58b1311d-a98b-438d-8a4d-783707285ec8 (type=lasing, pattern_idx=77)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 58b1311d-a98b-438d-8a4d-783707285ec8 → status=running
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=2a9b8de2-f403-4801-b91f-15dbd4a1621b pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=66
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=66)
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 2a9b8de2-f403-4801-b91f-15dbd4a1621b → status=error
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=01fd90d7-9f5d-471d-97d6-0b560ed11693 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 running -> error, exec_time=0.010202407836914062, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=64
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 running -> error, exec_time=0.010202407836914062, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=64)
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=cbe474ae-670d-48f6-af5e-fc2ef7efdfc5: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job cbe474ae-670d-48f6-af5e-fc2ef7efdfc5 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job f40da196-a448-4d9d-a2dc-b151bbf2fb24 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=fda407c9-c70b-4577-88d9-b4cfa5018cb9, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=78
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job ab2fcd15-e83b-4a44-a544-de62f71b8d43 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job a9c4e4a7-da38-479b-b648-bb8fb3a859b8 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=56ea5312-0987-44a1-ba31-48b8e617a486 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=af853386-f0b9-4c07-8698-f15f51081d63 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job 33f94e72-2aac-41f1-bb2b-70b6521e4ee2 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job 9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 01fd90d7-9f5d-471d-97d6-0b560ed11693 → status=error
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=f40da196-a448-4d9d-a2dc-b151bbf2fb24 running -> error, exec_time=0.10543131828308105, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=ab2fcd15-e83b-4a44-a544-de62f71b8d43 running -> error, exec_time=0.07001924514770508, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=a9c4e4a7-da38-479b-b648-bb8fb3a859b8 running -> error, exec_time=0.08784842491149902, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=11
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=10
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=33f94e72-2aac-41f1-bb2b-70b6521e4ee2 running -> error, exec_time=0.09831976890563965, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e running -> error, exec_time=0.0035581588745117188, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting job fda407c9-c70b-4577-88d9-b4cfa5018cb9 (type=lasing, pattern_idx=78)
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=f40da196-a448-4d9d-a2dc-b151bbf2fb24 running -> error, exec_time=0.10543131828308105, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=ab2fcd15-e83b-4a44-a544-de62f71b8d43 running -> error, exec_time=0.07001924514770508, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job fda407c9-c70b-4577-88d9-b4cfa5018cb9 → status=running
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=f40da196-a448-4d9d-a2dc-b151bbf2fb24: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=ab2fcd15-e83b-4a44-a544-de62f71b8d43: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=a9c4e4a7-da38-479b-b648-bb8fb3a859b8 running -> error, exec_time=0.08784842491149902, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=11)
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=10)
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=33f94e72-2aac-41f1-bb2b-70b6521e4ee2 running -> error, exec_time=0.09831976890563965, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e running -> error, exec_time=0.0035581588745117188, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=a9c4e4a7-da38-479b-b648-bb8fb3a859b8: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job f40da196-a448-4d9d-a2dc-b151bbf2fb24 after 0.11s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=33f94e72-2aac-41f1-bb2b-70b6521e4ee2: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job ab2fcd15-e83b-4a44-a544-de62f71b8d43 after 0.07s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job a9c4e4a7-da38-479b-b648-bb8fb3a859b8 after 0.09s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job 33f94e72-2aac-41f1-bb2b-70b6521e4ee2 after 0.10s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job 9a325ca8-c11d-4e5a-9da1-ceeb8c8dbc4e after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=72d2bd61-81d8-4418-94f0-74d0bdaf4fc8, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=79
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=d621055d-7e42-4d54-8899-911bfce69d06, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=80
+ 16%|█▌        | 16/100 [00:02<00:08,  9.45it/s]2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=74695dfa-0537-4abd-a8f5-de1a0588c8da, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=81
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=22155ecb-ed83-441b-8c7d-42ae488e5d1e, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=82
+2026-02-16 03:25:24 [INFO] Starting job 72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 (type=lasing, pattern_idx=79)
+2026-02-16 03:25:24 [INFO] Starting job d621055d-7e42-4d54-8899-911bfce69d06 (type=lasing, pattern_idx=80)
+2026-02-16 03:25:24 [INFO] Starting job 74695dfa-0537-4abd-a8f5-de1a0588c8da (type=lasing, pattern_idx=81)
+2026-02-16 03:25:24 [INFO] Starting job 22155ecb-ed83-441b-8c7d-42ae488e5d1e (type=lasing, pattern_idx=82)
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=b31b3beb-114e-4021-af65-dd643a409975, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=83
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 → status=running
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job d621055d-7e42-4d54-8899-911bfce69d06 → status=running
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 74695dfa-0537-4abd-a8f5-de1a0588c8da → status=running
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 22155ecb-ed83-441b-8c7d-42ae488e5d1e → status=running
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job af853386-f0b9-4c07-8698-f15f51081d63 → status=error
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 56ea5312-0987-44a1-ba31-48b8e617a486 → status=error
+2026-02-16 03:25:24 [INFO] Starting job b31b3beb-114e-4021-af65-dd643a409975 (type=lasing, pattern_idx=83)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job b31b3beb-114e-4021-af65-dd643a409975 → status=running
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=8d162af0-e849-4da0-9eb5-0375a15c5cae pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=67
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=67)
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 8d162af0-e849-4da0-9eb5-0375a15c5cae → status=error
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job 7efcedd0-f7f7-46d7-86dd-2354a8d2667a FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=74695dfa-0537-4abd-a8f5-de1a0588c8da pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=7efcedd0-f7f7-46d7-86dd-2354a8d2667a running -> error, exec_time=0.47481203079223633, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=81
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=7efcedd0-f7f7-46d7-86dd-2354a8d2667a running -> error, exec_time=0.47481203079223633, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=81)
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=7efcedd0-f7f7-46d7-86dd-2354a8d2667a: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job 7efcedd0-f7f7-46d7-86dd-2354a8d2667a after 0.47s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=ee3c4748-05a2-44a4-bf68-47327876fe57, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=84
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 21%|██        | 21/100 [00:02<00:06, 12.20it/s]2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 74695dfa-0537-4abd-a8f5-de1a0588c8da → status=error
+2026-02-16 03:25:24 [INFO] Starting job ee3c4748-05a2-44a4-bf68-47327876fe57 (type=lasing, pattern_idx=84)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job ee3c4748-05a2-44a4-bf68-47327876fe57 → status=running
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job 56ea5312-0987-44a1-ba31-48b8e617a486 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=56ea5312-0987-44a1-ba31-48b8e617a486 running -> error, exec_time=0.002130270004272461, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=56ea5312-0987-44a1-ba31-48b8e617a486 running -> error, exec_time=0.002130270004272461, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=56ea5312-0987-44a1-ba31-48b8e617a486: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job 56ea5312-0987-44a1-ba31-48b8e617a486 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=857d136e-a8dd-4539-87be-f115b0cb4aea, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=85
+2026-02-16 03:25:24 [INFO] Starting job 857d136e-a8dd-4539-87be-f115b0cb4aea (type=lasing, pattern_idx=85)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 857d136e-a8dd-4539-87be-f115b0cb4aea → status=running
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=faad7752-cb24-49e1-bd7e-ee6a9546f998 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job 9dcabc80-bef8-4bba-ba0f-80be23712ba3 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=32
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=9dcabc80-bef8-4bba-ba0f-80be23712ba3 running -> error, exec_time=0.09939122200012207, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=32)
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=9dcabc80-bef8-4bba-ba0f-80be23712ba3 running -> error, exec_time=0.09939122200012207, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=9dcabc80-bef8-4bba-ba0f-80be23712ba3: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job 9dcabc80-bef8-4bba-ba0f-80be23712ba3 after 0.10s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=acaee3c9-2111-4765-a671-908a0cf32930, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=86
+2026-02-16 03:25:24 [INFO] Starting job acaee3c9-2111-4765-a671-908a0cf32930 (type=lasing, pattern_idx=86)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job acaee3c9-2111-4765-a671-908a0cf32930 → status=running
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job faad7752-cb24-49e1-bd7e-ee6a9546f998 → status=error
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job d59dbf83-239c-4b65-b4bb-773aeea5092c FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=d59dbf83-239c-4b65-b4bb-773aeea5092c running -> error, exec_time=0.09643054008483887, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=b31b3beb-114e-4021-af65-dd643a409975 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=83
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=d59dbf83-239c-4b65-b4bb-773aeea5092c running -> error, exec_time=0.09643054008483887, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=d59dbf83-239c-4b65-b4bb-773aeea5092c: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=83)
+2026-02-16 03:25:24 [ERROR] ERROR in job d59dbf83-239c-4b65-b4bb-773aeea5092c after 0.10s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=bdafbe19-a1c7-435f-a7aa-b54d91841944, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=87
+ 24%|██▍       | 24/100 [00:03<00:07, 10.58it/s]2026-02-16 03:25:24 [INFO] [jobs-db] Updating job b31b3beb-114e-4021-af65-dd643a409975 → status=error
+2026-02-16 03:25:24 [INFO] Starting job bdafbe19-a1c7-435f-a7aa-b54d91841944 (type=lasing, pattern_idx=87)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job bdafbe19-a1c7-435f-a7aa-b54d91841944 → status=running
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job 74695dfa-0537-4abd-a8f5-de1a0588c8da FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=74695dfa-0537-4abd-a8f5-de1a0588c8da running -> error, exec_time=0.0009570121765136719, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=74695dfa-0537-4abd-a8f5-de1a0588c8da running -> error, exec_time=0.0009570121765136719, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=74695dfa-0537-4abd-a8f5-de1a0588c8da: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job 74695dfa-0537-4abd-a8f5-de1a0588c8da after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=61fe342e-1eb4-45ab-88ce-7515833f4676, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=88
+2026-02-16 03:25:24 [INFO] Starting job 61fe342e-1eb4-45ab-88ce-7515833f4676 (type=lasing, pattern_idx=88)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 61fe342e-1eb4-45ab-88ce-7515833f4676 → status=running
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job 2a9b8de2-f403-4801-b91f-15dbd4a1621b FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=73
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=2a9b8de2-f403-4801-b91f-15dbd4a1621b running -> error, exec_time=0.001168966293334961, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=73)
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=2a9b8de2-f403-4801-b91f-15dbd4a1621b running -> error, exec_time=0.001168966293334961, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=2a9b8de2-f403-4801-b91f-15dbd4a1621b: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job 2a9b8de2-f403-4801-b91f-15dbd4a1621b after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=976b1b34-3e97-4dd3-91ac-795b1bbe2c04, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=89
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] Starting job 976b1b34-3e97-4dd3-91ac-795b1bbe2c04 (type=lasing, pattern_idx=89)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c → status=error
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 976b1b34-3e97-4dd3-91ac-795b1bbe2c04 → status=running
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=7116ed86-663b-4a21-9a8e-c19918d2ca49 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=70
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=70)
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 7116ed86-663b-4a21-9a8e-c19918d2ca49 → status=error
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=806f3fb4-5a9a-496a-b8ec-f7d828fee1dd pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=23
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=23)
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 806f3fb4-5a9a-496a-b8ec-f7d828fee1dd → status=error
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=58b1311d-a98b-438d-8a4d-783707285ec8 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=77
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=77)
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 58b1311d-a98b-438d-8a4d-783707285ec8 → status=error
+2026-02-16 03:25:24 [INFO] [set_job_status] job_id=839bc7a7-56e7-48e9-8e5f-8208d9e096a2 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:24 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=68
+2026-02-16 03:25:24 [INFO] Starting lasing job (pattern_idx=68)
+2026-02-16 03:25:24 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 839bc7a7-56e7-48e9-8e5f-8208d9e096a2 → status=error
+2026-02-16 03:25:24 [ERROR] [jobs-db] Job e465c7f1-b592-467d-b22d-d84a802c39ba FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=e465c7f1-b592-467d-b22d-d84a802c39ba running -> error, exec_time=0.09320306777954102, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [set_job_status] job_id=e465c7f1-b592-467d-b22d-d84a802c39ba running -> error, exec_time=0.09320306777954102, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] [run_job] ERROR in job_id=e465c7f1-b592-467d-b22d-d84a802c39ba: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [ERROR] ERROR in job e465c7f1-b592-467d-b22d-d84a802c39ba after 0.09s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:24 [INFO] [run_job] Starting job_id=9a8dfa38-8e13-4577-8424-77f592532a13, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=90
+ 27%|██▋       | 27/100 [00:03<00:06, 11.31it/s]2026-02-16 03:25:24 [INFO] Starting job 9a8dfa38-8e13-4577-8424-77f592532a13 (type=lasing, pattern_idx=90)
+2026-02-16 03:25:24 [INFO] [jobs-db] Updating job 9a8dfa38-8e13-4577-8424-77f592532a13 → status=running
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 6eeaf19c-0d4a-4831-b739-94d34cd1868c FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=6eeaf19c-0d4a-4831-b739-94d34cd1868c running -> error, exec_time=0.0015380382537841797, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=6eeaf19c-0d4a-4831-b739-94d34cd1868c running -> error, exec_time=0.0015380382537841797, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=6eeaf19c-0d4a-4831-b739-94d34cd1868c: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 6eeaf19c-0d4a-4831-b739-94d34cd1868c after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=d2888ac7-58d9-4bc5-8b8e-dee45e204cf2, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=91
+2026-02-16 03:25:25 [INFO] Starting job d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 (type=lasing, pattern_idx=91)
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 → status=running
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 839bc7a7-56e7-48e9-8e5f-8208d9e096a2 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=839bc7a7-56e7-48e9-8e5f-8208d9e096a2 running -> error, exec_time=0.0011227130889892578, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 58b1311d-a98b-438d-8a4d-783707285ec8 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=58b1311d-a98b-438d-8a4d-783707285ec8 running -> error, exec_time=0.0010564327239990234, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=839bc7a7-56e7-48e9-8e5f-8208d9e096a2 running -> error, exec_time=0.0011227130889892578, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=839bc7a7-56e7-48e9-8e5f-8208d9e096a2: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=58b1311d-a98b-438d-8a4d-783707285ec8 running -> error, exec_time=0.0010564327239990234, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=58b1311d-a98b-438d-8a4d-783707285ec8: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 839bc7a7-56e7-48e9-8e5f-8208d9e096a2 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=976b1b34-3e97-4dd3-91ac-795b1bbe2c04 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] ERROR in job 58b1311d-a98b-438d-8a4d-783707285ec8 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=89
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=7df17979-b3b2-4b2a-8776-1ec575149997, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=92
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=91
+ 29%|██▉       | 29/100 [00:03<00:05, 12.22it/s]2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=89)
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=6e82a033-5896-49b0-871c-13967c6ab527, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=93
+2026-02-16 03:25:25 [INFO] Starting job 7df17979-b3b2-4b2a-8776-1ec575149997 (type=lasing, pattern_idx=92)
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=9a8dfa38-8e13-4577-8424-77f592532a13 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=91)
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 7df17979-b3b2-4b2a-8776-1ec575149997 → status=running
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=90
+2026-02-16 03:25:25 [INFO] Starting job 6e82a033-5896-49b0-871c-13967c6ab527 (type=lasing, pattern_idx=93)
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=90)
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 6e82a033-5896-49b0-871c-13967c6ab527 → status=running
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 → status=error
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 976b1b34-3e97-4dd3-91ac-795b1bbe2c04 → status=error
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 9a8dfa38-8e13-4577-8424-77f592532a13 → status=error
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=1dc9cb29-93b6-407e-8839-6ed9d6c89342 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=72
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 7116ed86-663b-4a21-9a8e-c19918d2ca49 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=72)
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=7116ed86-663b-4a21-9a8e-c19918d2ca49 running -> error, exec_time=0.0009443759918212891, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=7116ed86-663b-4a21-9a8e-c19918d2ca49 running -> error, exec_time=0.0009443759918212891, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=7116ed86-663b-4a21-9a8e-c19918d2ca49: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 7116ed86-663b-4a21-9a8e-c19918d2ca49 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 1dc9cb29-93b6-407e-8839-6ed9d6c89342 → status=error
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=fbddf5f1-a30f-43ea-9d12-245bffb01aff, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=94
+2026-02-16 03:25:25 [INFO] Starting job fbddf5f1-a30f-43ea-9d12-245bffb01aff (type=lasing, pattern_idx=94)
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job fbddf5f1-a30f-43ea-9d12-245bffb01aff → status=running
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job faad7752-cb24-49e1-bd7e-ee6a9546f998 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=faad7752-cb24-49e1-bd7e-ee6a9546f998 running -> error, exec_time=0.0020797252655029297, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=faad7752-cb24-49e1-bd7e-ee6a9546f998 running -> error, exec_time=0.0020797252655029297, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=faad7752-cb24-49e1-bd7e-ee6a9546f998: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job faad7752-cb24-49e1-bd7e-ee6a9546f998 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=95
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 8134820e-e771-4aec-a979-874e79c99a7e FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=8134820e-e771-4aec-a979-874e79c99a7e running -> error, exec_time=0.010852336883544922, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting job 094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 (type=lasing, pattern_idx=95)
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job ea976743-23be-4267-946e-09d56c0b5b60 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=d621055d-7e42-4d54-8899-911bfce69d06 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=8134820e-e771-4aec-a979-874e79c99a7e running -> error, exec_time=0.010852336883544922, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 → status=running
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=46cdc601-ce9d-481e-9677-a6e9c4bc6646 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=8134820e-e771-4aec-a979-874e79c99a7e: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=ea976743-23be-4267-946e-09d56c0b5b60 running -> error, exec_time=0.011306047439575195, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=e57e74a0-eb20-4ac4-ac0c-a89aa94044bb pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 3004764b-5181-4789-b5b4-ebe69a939645 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=80
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=69
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=ea976743-23be-4267-946e-09d56c0b5b60 running -> error, exec_time=0.011306047439575195, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=2
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=79
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3004764b-5181-4789-b5b4-ebe69a939645 running -> error, exec_time=0.012856245040893555, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 8134820e-e771-4aec-a979-874e79c99a7e after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=80)
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=ea976743-23be-4267-946e-09d56c0b5b60: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=79)
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=69)
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=23e2879d-6281-43c0-b9a4-fa006d8d5271, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=96
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=2)
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=24
+2026-02-16 03:25:25 [ERROR] ERROR in job ea976743-23be-4267-946e-09d56c0b5b60 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 496ff380-9a11-4fc9-864b-23b13410f392 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3004764b-5181-4789-b5b4-ebe69a939645 running -> error, exec_time=0.012856245040893555, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 806f3fb4-5a9a-496a-b8ec-f7d828fee1dd FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=b8125d98-6902-4a66-a7fb-51c53362d6a0, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=97
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 9a8dfa38-8e13-4577-8424-77f592532a13 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job d621055d-7e42-4d54-8899-911bfce69d06 → status=error
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 976b1b34-3e97-4dd3-91ac-795b1bbe2c04 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=9a8dfa38-8e13-4577-8424-77f592532a13 running -> error, exec_time=0.0014617443084716797, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=61fe342e-1eb4-45ab-88ce-7515833f4676 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=806f3fb4-5a9a-496a-b8ec-f7d828fee1dd running -> error, exec_time=0.01800847053527832, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 18b2f7bf-f4d1-4031-aa56-1ec189a20e24 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 59b5153f-6a7e-4024-aedf-1bac9d65ae05 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 → status=error
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 3ff7933f-dca8-4477-b87e-e45b23d17676 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting job 23e2879d-6281-43c0-b9a4-fa006d8d5271 (type=lasing, pattern_idx=96)
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=fbddf5f1-a30f-43ea-9d12-245bffb01aff pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=496ff380-9a11-4fc9-864b-23b13410f392 running -> error, exec_time=0.0057086944580078125, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=88
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=3004764b-5181-4789-b5b4-ebe69a939645: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=59b5153f-6a7e-4024-aedf-1bac9d65ae05 running -> error, exec_time=0.18662261962890625, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=68dd5de8-9853-4f39-a519-86e46208b3e2 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=6e82a033-5896-49b0-871c-13967c6ab527 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3ff7933f-dca8-4477-b87e-e45b23d17676 running -> error, exec_time=0.009363174438476562, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=7df17979-b3b2-4b2a-8776-1ec575149997 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=94
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 running -> error, exec_time=0.0011458396911621094, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=976b1b34-3e97-4dd3-91ac-795b1bbe2c04 running -> error, exec_time=0.0012679100036621094, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 46cdc601-ce9d-481e-9677-a6e9c4bc6646 → status=error
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=806f3fb4-5a9a-496a-b8ec-f7d828fee1dd running -> error, exec_time=0.01800847053527832, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=496ff380-9a11-4fc9-864b-23b13410f392 running -> error, exec_time=0.0057086944580078125, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=18b2f7bf-f4d1-4031-aa56-1ec189a20e24 running -> error, exec_time=0.0028574466705322266, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 23e2879d-6281-43c0-b9a4-fa006d8d5271 → status=running
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=24)
+2026-02-16 03:25:25 [INFO] Starting job b8125d98-6902-4a66-a7fb-51c53362d6a0 (type=lasing, pattern_idx=97)
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=93
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=74
+2026-02-16 03:25:25 [ERROR] ERROR in job 3004764b-5181-4789-b5b4-ebe69a939645 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=92
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=496ff380-9a11-4fc9-864b-23b13410f392: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job b8125d98-6902-4a66-a7fb-51c53362d6a0 → status=running
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=e2068adf-524e-44c4-8120-cec6efd69871, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=98
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=88)
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=59b5153f-6a7e-4024-aedf-1bac9d65ae05 running -> error, exec_time=0.18662261962890625, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 1dc9cb29-93b6-407e-8839-6ed9d6c89342 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=9a8dfa38-8e13-4577-8424-77f592532a13 running -> error, exec_time=0.0014617443084716797, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=806f3fb4-5a9a-496a-b8ec-f7d828fee1dd: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job e57e74a0-eb20-4ac4-ac0c-a89aa94044bb → status=error
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3ff7933f-dca8-4477-b87e-e45b23d17676 running -> error, exec_time=0.009363174438476562, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=976b1b34-3e97-4dd3-91ac-795b1bbe2c04 running -> error, exec_time=0.0012679100036621094, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=18b2f7bf-f4d1-4031-aa56-1ec189a20e24 running -> error, exec_time=0.0028574466705322266, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=92)
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=94)
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job e02cbd9e-71a5-4413-ba25-757ba81c870a FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 running -> error, exec_time=0.0011458396911621094, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=18b2f7bf-f4d1-4031-aa56-1ec189a20e24: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=9a8dfa38-8e13-4577-8424-77f592532a13: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=3ff7933f-dca8-4477-b87e-e45b23d17676: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=93)
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting job e2068adf-524e-44c4-8120-cec6efd69871 (type=lasing, pattern_idx=98)
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=74)
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=58242051-38c0-4023-9390-3e618af4480e pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] ERROR in job 806f3fb4-5a9a-496a-b8ec-f7d828fee1dd after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 496ff380-9a11-4fc9-864b-23b13410f392 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=976b1b34-3e97-4dd3-91ac-795b1bbe2c04: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 61fe342e-1eb4-45ab-88ce-7515833f4676 → status=error
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=59b5153f-6a7e-4024-aedf-1bac9d65ae05: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=e02cbd9e-71a5-4413-ba25-757ba81c870a running -> error, exec_time=0.0036232471466064453, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 18b2f7bf-f4d1-4031-aa56-1ec189a20e24 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 9a8dfa38-8e13-4577-8424-77f592532a13 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [run_job] Starting job_id=3bcbade3-ff47-45d2-84b7-53fea6a8f3f7, type=lasing, network=MLRun2_0_0003_427c12b9, pattern_idx=99
+ 36%|███▌      | 36/100 [00:03<00:03, 20.52it/s]2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=d2888ac7-58d9-4bc5-8b8e-dee45e204cf2: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 → status=error
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=1dc9cb29-93b6-407e-8839-6ed9d6c89342 running -> error, exec_time=0.0012099742889404297, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job fbddf5f1-a30f-43ea-9d12-245bffb01aff → status=error
+2026-02-16 03:25:25 [ERROR] ERROR in job 3ff7933f-dca8-4477-b87e-e45b23d17676 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job e2068adf-524e-44c4-8120-cec6efd69871 → status=running
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=75
+2026-02-16 03:25:25 [ERROR] ERROR in job 976b1b34-3e97-4dd3-91ac-795b1bbe2c04 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=1dc9cb29-93b6-407e-8839-6ed9d6c89342 running -> error, exec_time=0.0012099742889404297, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job d2888ac7-58d9-4bc5-8b8e-dee45e204cf2 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 68dd5de8-9853-4f39-a519-86e46208b3e2 → status=error
+2026-02-16 03:25:25 [ERROR] ERROR in job 59b5153f-6a7e-4024-aedf-1bac9d65ae05 after 0.19s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 6e82a033-5896-49b0-871c-13967c6ab527 → status=error
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=95
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=ee3c4748-05a2-44a4-bf68-47327876fe57 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=1dc9cb29-93b6-407e-8839-6ed9d6c89342: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 7df17979-b3b2-4b2a-8776-1ec575149997 → status=error
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c running -> error, exec_time=0.0013697147369384766, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting job 3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 (type=lasing, pattern_idx=99)
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=e02cbd9e-71a5-4413-ba25-757ba81c870a running -> error, exec_time=0.0036232471466064453, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=75)
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 → status=running
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=84
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=e02cbd9e-71a5-4413-ba25-757ba81c870a: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c running -> error, exec_time=0.0013697147369384766, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 1dc9cb29-93b6-407e-8839-6ed9d6c89342 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=95)
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=84)
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 58242051-38c0-4023-9390-3e618af4480e → status=error
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 running -> error, exec_time=0.021899700164794922, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job e02cbd9e-71a5-4413-ba25-757ba81c870a after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 9ecd2331-fcae-4c52-bb3e-e8d7a7fa802c after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job ee3c4748-05a2-44a4-bf68-47327876fe57 → status=error
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 running -> error, exec_time=0.021899700164794922, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job d621055d-7e42-4d54-8899-911bfce69d06 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job e57e74a0-eb20-4ac4-ac0c-a89aa94044bb FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=72d2bd61-81d8-4418-94f0-74d0bdaf4fc8: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=d621055d-7e42-4d54-8899-911bfce69d06 running -> error, exec_time=0.021375179290771484, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 → status=error
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=e57e74a0-eb20-4ac4-ac0c-a89aa94044bb running -> error, exec_time=0.03207540512084961, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 72d2bd61-81d8-4418-94f0-74d0bdaf4fc8 after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=23e2879d-6281-43c0-b9a4-fa006d8d5271 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=96
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=d621055d-7e42-4d54-8899-911bfce69d06 running -> error, exec_time=0.021375179290771484, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=e57e74a0-eb20-4ac4-ac0c-a89aa94044bb running -> error, exec_time=0.03207540512084961, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=d621055d-7e42-4d54-8899-911bfce69d06: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=e57e74a0-eb20-4ac4-ac0c-a89aa94044bb: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=96)
+2026-02-16 03:25:25 [ERROR] ERROR in job e57e74a0-eb20-4ac4-ac0c-a89aa94044bb after 0.03s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job af853386-f0b9-4c07-8698-f15f51081d63 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job d621055d-7e42-4d54-8899-911bfce69d06 after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job a6e2e666-b2c3-49e7-930d-155020ec4771 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=af853386-f0b9-4c07-8698-f15f51081d63 running -> error, exec_time=0.002073526382446289, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=a6e2e666-b2c3-49e7-930d-155020ec4771 running -> error, exec_time=0.11347675323486328, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 23e2879d-6281-43c0-b9a4-fa006d8d5271 → status=error
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=a6e2e666-b2c3-49e7-930d-155020ec4771 running -> error, exec_time=0.11347675323486328, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=af853386-f0b9-4c07-8698-f15f51081d63 running -> error, exec_time=0.002073526382446289, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=a6e2e666-b2c3-49e7-930d-155020ec4771: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=af853386-f0b9-4c07-8698-f15f51081d63: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job a6e2e666-b2c3-49e7-930d-155020ec4771 after 0.11s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job af853386-f0b9-4c07-8698-f15f51081d63 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 3837ebe3-0be5-4b4b-8698-3ad31528447d FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 61fe342e-1eb4-45ab-88ce-7515833f4676 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 46cdc601-ce9d-481e-9677-a6e9c4bc6646 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=61fe342e-1eb4-45ab-88ce-7515833f4676 running -> error, exec_time=0.013999223709106445, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=46cdc601-ce9d-481e-9677-a6e9c4bc6646 running -> error, exec_time=0.02720785140991211, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3837ebe3-0be5-4b4b-8698-3ad31528447d running -> error, exec_time=0.11664509773254395, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=61fe342e-1eb4-45ab-88ce-7515833f4676 running -> error, exec_time=0.013999223709106445, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=61fe342e-1eb4-45ab-88ce-7515833f4676: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=46cdc601-ce9d-481e-9677-a6e9c4bc6646 running -> error, exec_time=0.02720785140991211, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3837ebe3-0be5-4b4b-8698-3ad31528447d running -> error, exec_time=0.11664509773254395, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=46cdc601-ce9d-481e-9677-a6e9c4bc6646: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=3837ebe3-0be5-4b4b-8698-3ad31528447d: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 950be45f-9aab-485d-8b34-df5d6f06a0ba FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 61fe342e-1eb4-45ab-88ce-7515833f4676 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job e2226fa6-a697-4c01-be2f-3bc8e99f10e5 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job d7a54ef0-7fee-490b-9e46-df5de36bd707 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 46cdc601-ce9d-481e-9677-a6e9c4bc6646 after 0.03s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 52%|█████▏    | 52/100 [00:03<00:01, 43.63it/s]2026-02-16 03:25:25 [ERROR] ERROR in job 3837ebe3-0be5-4b4b-8698-3ad31528447d after 0.12s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=950be45f-9aab-485d-8b34-df5d6f06a0ba running -> error, exec_time=0.003767251968383789, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=e2226fa6-a697-4c01-be2f-3bc8e99f10e5 running -> error, exec_time=0.003773927688598633, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=d7a54ef0-7fee-490b-9e46-df5de36bd707 running -> error, exec_time=0.11870813369750977, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=950be45f-9aab-485d-8b34-df5d6f06a0ba running -> error, exec_time=0.003767251968383789, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=e2226fa6-a697-4c01-be2f-3bc8e99f10e5 running -> error, exec_time=0.003773927688598633, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=d7a54ef0-7fee-490b-9e46-df5de36bd707 running -> error, exec_time=0.11870813369750977, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=950be45f-9aab-485d-8b34-df5d6f06a0ba: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=e2226fa6-a697-4c01-be2f-3bc8e99f10e5: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=d7a54ef0-7fee-490b-9e46-df5de36bd707: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job d7a54ef0-7fee-490b-9e46-df5de36bd707 after 0.12s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job e2226fa6-a697-4c01-be2f-3bc8e99f10e5 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 950be45f-9aab-485d-8b34-df5d6f06a0ba after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=22cd16b2-6cb5-40af-9eef-9c2af98d0c94 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=0
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=0)
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 22cd16b2-6cb5-40af-9eef-9c2af98d0c94 → status=error
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=b8125d98-6902-4a66-a7fb-51c53362d6a0 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=97
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=97)
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job b8125d98-6902-4a66-a7fb-51c53362d6a0 → status=error
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 22cd16b2-6cb5-40af-9eef-9c2af98d0c94 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=22cd16b2-6cb5-40af-9eef-9c2af98d0c94 running -> error, exec_time=0.011852264404296875, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=22cd16b2-6cb5-40af-9eef-9c2af98d0c94 running -> error, exec_time=0.011852264404296875, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=22cd16b2-6cb5-40af-9eef-9c2af98d0c94: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 22cd16b2-6cb5-40af-9eef-9c2af98d0c94 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 7df17979-b3b2-4b2a-8776-1ec575149997 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=7df17979-b3b2-4b2a-8776-1ec575149997 running -> error, exec_time=0.02299785614013672, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=7df17979-b3b2-4b2a-8776-1ec575149997 running -> error, exec_time=0.02299785614013672, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=7df17979-b3b2-4b2a-8776-1ec575149997: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 running -> error, exec_time=0.031768798828125, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 running -> error, exec_time=0.031768798828125, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 7df17979-b3b2-4b2a-8776-1ec575149997 after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 59%|█████▉    | 59/100 [00:03<00:01, 35.39it/s]2026-02-16 03:25:25 [ERROR] ERROR in job fe60bda5-bbb1-44dc-8592-6f1b2fde4bc2 after 0.03s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 6e82a033-5896-49b0-871c-13967c6ab527 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=6e82a033-5896-49b0-871c-13967c6ab527 running -> error, exec_time=0.02253413200378418, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=6e82a033-5896-49b0-871c-13967c6ab527 running -> error, exec_time=0.02253413200378418, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=6e82a033-5896-49b0-871c-13967c6ab527: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 6e82a033-5896-49b0-871c-13967c6ab527 after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 23e2879d-6281-43c0-b9a4-fa006d8d5271 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=99
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=23e2879d-6281-43c0-b9a4-fa006d8d5271 running -> error, exec_time=0.008279800415039062, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=99)
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=23e2879d-6281-43c0-b9a4-fa006d8d5271 running -> error, exec_time=0.008279800415039062, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=23e2879d-6281-43c0-b9a4-fa006d8d5271: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 23e2879d-6281-43c0-b9a4-fa006d8d5271 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 → status=error
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job b8125d98-6902-4a66-a7fb-51c53362d6a0 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=b8125d98-6902-4a66-a7fb-51c53362d6a0 running -> error, exec_time=0.012046337127685547, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=b8125d98-6902-4a66-a7fb-51c53362d6a0 running -> error, exec_time=0.012046337127685547, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=b8125d98-6902-4a66-a7fb-51c53362d6a0: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job b8125d98-6902-4a66-a7fb-51c53362d6a0 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 running -> error, exec_time=0.0011227130889892578, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 running -> error, exec_time=0.0011227130889892578, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=3bcbade3-ff47-45d2-84b7-53fea6a8f3f7: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 3bcbade3-ff47-45d2-84b7-53fea6a8f3f7 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 6836023f-7232-4526-ab3b-03b6432cac27 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=6836023f-7232-4526-ab3b-03b6432cac27 running -> error, exec_time=0.003169536590576172, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=6836023f-7232-4526-ab3b-03b6432cac27 running -> error, exec_time=0.003169536590576172, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [set_job_status] job_id=857d136e-a8dd-4539-87be-f115b0cb4aea pending -> running, exec_time=None, error=None
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=6836023f-7232-4526-ab3b-03b6432cac27: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=85
+2026-02-16 03:25:25 [ERROR] ERROR in job 6836023f-7232-4526-ab3b-03b6432cac27 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] Starting lasing job (pattern_idx=85)
+ 65%|██████▌   | 65/100 [00:04<00:00, 35.04it/s]2026-02-16 03:25:25 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [INFO] [jobs-db] Updating job 857d136e-a8dd-4539-87be-f115b0cb4aea → status=error
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job ee3c4748-05a2-44a4-bf68-47327876fe57 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=ee3c4748-05a2-44a4-bf68-47327876fe57 running -> error, exec_time=0.012363672256469727, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=ee3c4748-05a2-44a4-bf68-47327876fe57 running -> error, exec_time=0.012363672256469727, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=ee3c4748-05a2-44a4-bf68-47327876fe57: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job ee3c4748-05a2-44a4-bf68-47327876fe57 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [jobs-db] Job 857d136e-a8dd-4539-87be-f115b0cb4aea FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=857d136e-a8dd-4539-87be-f115b0cb4aea running -> error, exec_time=0.0014524459838867188, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [set_job_status] job_id=857d136e-a8dd-4539-87be-f115b0cb4aea running -> error, exec_time=0.0014524459838867188, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] [run_job] ERROR in job_id=857d136e-a8dd-4539-87be-f115b0cb4aea: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:25 [ERROR] ERROR in job 857d136e-a8dd-4539-87be-f115b0cb4aea after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [INFO] [set_job_status] job_id=e2068adf-524e-44c4-8120-cec6efd69871 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:26 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=98
+2026-02-16 03:25:26 [INFO] Starting lasing job (pattern_idx=98)
+2026-02-16 03:25:26 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [INFO] [jobs-db] Updating job e2068adf-524e-44c4-8120-cec6efd69871 → status=error
+2026-02-16 03:25:26 [ERROR] [jobs-db] Job e2068adf-524e-44c4-8120-cec6efd69871 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [set_job_status] job_id=e2068adf-524e-44c4-8120-cec6efd69871 running -> error, exec_time=0.016523361206054688, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [set_job_status] job_id=e2068adf-524e-44c4-8120-cec6efd69871 running -> error, exec_time=0.016523361206054688, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [run_job] ERROR in job_id=e2068adf-524e-44c4-8120-cec6efd69871: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] ERROR in job e2068adf-524e-44c4-8120-cec6efd69871 after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [INFO] [set_job_status] job_id=8f6ee02a-7476-4596-83b5-ccd0c287a9dd pending -> running, exec_time=None, error=None
+2026-02-16 03:25:26 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=36
+2026-02-16 03:25:26 [INFO] Starting lasing job (pattern_idx=36)
+2026-02-16 03:25:26 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [INFO] [jobs-db] Updating job 8f6ee02a-7476-4596-83b5-ccd0c287a9dd → status=error
+2026-02-16 03:25:26 [ERROR] [jobs-db] Job 8f6ee02a-7476-4596-83b5-ccd0c287a9dd FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [set_job_status] job_id=8f6ee02a-7476-4596-83b5-ccd0c287a9dd running -> error, exec_time=0.0016703605651855469, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [set_job_status] job_id=8f6ee02a-7476-4596-83b5-ccd0c287a9dd running -> error, exec_time=0.0016703605651855469, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [run_job] ERROR in job_id=8f6ee02a-7476-4596-83b5-ccd0c287a9dd: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] ERROR in job 8f6ee02a-7476-4596-83b5-ccd0c287a9dd after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [jobs-db] Job a9c8547c-b53f-4655-802e-817ef6172216 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [set_job_status] job_id=a9c8547c-b53f-4655-802e-817ef6172216 running -> error, exec_time=0.12068700790405273, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [set_job_status] job_id=a9c8547c-b53f-4655-802e-817ef6172216 running -> error, exec_time=0.12068700790405273, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] [run_job] ERROR in job_id=a9c8547c-b53f-4655-802e-817ef6172216: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:26 [ERROR] ERROR in job a9c8547c-b53f-4655-802e-817ef6172216 after 0.12s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 70%|███████   | 70/100 [00:05<00:02, 13.56it/s]2026-02-16 03:25:27 [ERROR] [jobs-db] Job 940764bf-b67b-4a67-a28f-420ba9205dea FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=940764bf-b67b-4a67-a28f-420ba9205dea running -> error, exec_time=0.08368325233459473, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=940764bf-b67b-4a67-a28f-420ba9205dea running -> error, exec_time=0.08368325233459473, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=940764bf-b67b-4a67-a28f-420ba9205dea: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 940764bf-b67b-4a67-a28f-420ba9205dea after 0.08s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job 1299e3ec-46ec-4568-b08b-69a94477528a FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=1299e3ec-46ec-4568-b08b-69a94477528a running -> error, exec_time=0.006975412368774414, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=1299e3ec-46ec-4568-b08b-69a94477528a running -> error, exec_time=0.006975412368774414, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=1299e3ec-46ec-4568-b08b-69a94477528a: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 1299e3ec-46ec-4568-b08b-69a94477528a after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [set_job_status] job_id=18993992-7dd5-42e2-850d-55623d915e9b pending -> running, exec_time=None, error=None
+2026-02-16 03:25:27 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=76
+2026-02-16 03:25:27 [INFO] Starting lasing job (pattern_idx=76)
+2026-02-16 03:25:27 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [jobs-db] Updating job 18993992-7dd5-42e2-850d-55623d915e9b → status=error
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job 18993992-7dd5-42e2-850d-55623d915e9b FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=18993992-7dd5-42e2-850d-55623d915e9b running -> error, exec_time=0.0009064674377441406, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=18993992-7dd5-42e2-850d-55623d915e9b running -> error, exec_time=0.0009064674377441406, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=18993992-7dd5-42e2-850d-55623d915e9b: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 18993992-7dd5-42e2-850d-55623d915e9b after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [set_job_status] job_id=2f524f0e-9964-451b-b797-93fc6fa78303 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:27 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=9
+2026-02-16 03:25:27 [INFO] Starting lasing job (pattern_idx=9)
+2026-02-16 03:25:27 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [jobs-db] Updating job 2f524f0e-9964-451b-b797-93fc6fa78303 → status=error
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job 2f524f0e-9964-451b-b797-93fc6fa78303 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=2f524f0e-9964-451b-b797-93fc6fa78303 running -> error, exec_time=0.0015282630920410156, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=2f524f0e-9964-451b-b797-93fc6fa78303 running -> error, exec_time=0.0015282630920410156, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=2f524f0e-9964-451b-b797-93fc6fa78303: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 2f524f0e-9964-451b-b797-93fc6fa78303 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 74%|███████▍  | 74/100 [00:05<00:02, 11.17it/s]2026-02-16 03:25:27 [INFO] [set_job_status] job_id=d2afb229-e79b-43a3-852d-42efb81c0bff pending -> running, exec_time=None, error=None
+2026-02-16 03:25:27 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=65
+2026-02-16 03:25:27 [INFO] Starting lasing job (pattern_idx=65)
+2026-02-16 03:25:27 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [jobs-db] Updating job d2afb229-e79b-43a3-852d-42efb81c0bff → status=error
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job d2afb229-e79b-43a3-852d-42efb81c0bff FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=d2afb229-e79b-43a3-852d-42efb81c0bff running -> error, exec_time=0.000989675521850586, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=d2afb229-e79b-43a3-852d-42efb81c0bff running -> error, exec_time=0.000989675521850586, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=d2afb229-e79b-43a3-852d-42efb81c0bff: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job d2afb229-e79b-43a3-852d-42efb81c0bff after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [set_job_status] job_id=fda407c9-c70b-4577-88d9-b4cfa5018cb9 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:27 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=78
+2026-02-16 03:25:27 [INFO] Starting lasing job (pattern_idx=78)
+2026-02-16 03:25:27 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [jobs-db] Updating job fda407c9-c70b-4577-88d9-b4cfa5018cb9 → status=error
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job fda407c9-c70b-4577-88d9-b4cfa5018cb9 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=fda407c9-c70b-4577-88d9-b4cfa5018cb9 running -> error, exec_time=0.00090789794921875, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=fda407c9-c70b-4577-88d9-b4cfa5018cb9 running -> error, exec_time=0.00090789794921875, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=fda407c9-c70b-4577-88d9-b4cfa5018cb9: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job fda407c9-c70b-4577-88d9-b4cfa5018cb9 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [set_job_status] job_id=d7b72472-ea84-469a-8f9d-5b70690a5fe0 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:27 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=7
+2026-02-16 03:25:27 [INFO] Starting lasing job (pattern_idx=7)
+2026-02-16 03:25:27 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [jobs-db] Updating job d7b72472-ea84-469a-8f9d-5b70690a5fe0 → status=error
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job d7b72472-ea84-469a-8f9d-5b70690a5fe0 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=d7b72472-ea84-469a-8f9d-5b70690a5fe0 running -> error, exec_time=0.0016591548919677734, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=d7b72472-ea84-469a-8f9d-5b70690a5fe0 running -> error, exec_time=0.0016591548919677734, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=d7b72472-ea84-469a-8f9d-5b70690a5fe0: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job d7b72472-ea84-469a-8f9d-5b70690a5fe0 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 77%|███████▋  | 77/100 [00:06<00:02, 10.67it/s]2026-02-16 03:25:27 [ERROR] [jobs-db] Job 094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 running -> error, exec_time=0.037301063537597656, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 running -> error, exec_time=0.037301063537597656, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 094bf88d-e6c3-44f3-a2f8-59f6bdaa24e1 after 0.04s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job 6712a407-4158-40cd-965f-b4da638e0c14 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=6712a407-4158-40cd-965f-b4da638e0c14 running -> error, exec_time=0.11629390716552734, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=6712a407-4158-40cd-965f-b4da638e0c14 running -> error, exec_time=0.11629390716552734, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=6712a407-4158-40cd-965f-b4da638e0c14: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job 8d162af0-e849-4da0-9eb5-0375a15c5cae FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=8d162af0-e849-4da0-9eb5-0375a15c5cae running -> error, exec_time=0.0009672641754150391, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 6712a407-4158-40cd-965f-b4da638e0c14 after 0.12s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=8d162af0-e849-4da0-9eb5-0375a15c5cae running -> error, exec_time=0.0009672641754150391, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=8d162af0-e849-4da0-9eb5-0375a15c5cae: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 8d162af0-e849-4da0-9eb5-0375a15c5cae after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 80%|████████  | 80/100 [00:06<00:01, 11.48it/s]2026-02-16 03:25:27 [ERROR] [jobs-db] Job c438370b-e8cb-4c73-aac5-041becfee7c4 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [set_job_status] job_id=1b9e9356-14fc-4202-91ac-fa10ba43021c pending -> running, exec_time=None, error=None
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=c438370b-e8cb-4c73-aac5-041becfee7c4 running -> error, exec_time=0.0017750263214111328, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=57
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=c438370b-e8cb-4c73-aac5-041becfee7c4 running -> error, exec_time=0.0017750263214111328, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] Starting lasing job (pattern_idx=57)
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=c438370b-e8cb-4c73-aac5-041becfee7c4: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job c438370b-e8cb-4c73-aac5-041becfee7c4 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [INFO] [jobs-db] Updating job 1b9e9356-14fc-4202-91ac-fa10ba43021c → status=error
+2026-02-16 03:25:27 [ERROR] [jobs-db] Job 1b9e9356-14fc-4202-91ac-fa10ba43021c FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=1b9e9356-14fc-4202-91ac-fa10ba43021c running -> error, exec_time=0.001567840576171875, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [set_job_status] job_id=1b9e9356-14fc-4202-91ac-fa10ba43021c running -> error, exec_time=0.001567840576171875, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] [run_job] ERROR in job_id=1b9e9356-14fc-4202-91ac-fa10ba43021c: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:27 [ERROR] ERROR in job 1b9e9356-14fc-4202-91ac-fa10ba43021c after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=bdafbe19-a1c7-435f-a7aa-b54d91841944 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job eceaadc6-64f1-4484-9f6d-614ea171ff8a FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=87
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=eceaadc6-64f1-4484-9f6d-614ea171ff8a running -> error, exec_time=0.0014472007751464844, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=87)
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=eceaadc6-64f1-4484-9f6d-614ea171ff8a running -> error, exec_time=0.0014472007751464844, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=eceaadc6-64f1-4484-9f6d-614ea171ff8a: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job eceaadc6-64f1-4484-9f6d-614ea171ff8a after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 83%|████████▎ | 83/100 [00:06<00:01, 13.37it/s]2026-02-16 03:25:28 [INFO] [jobs-db] Updating job bdafbe19-a1c7-435f-a7aa-b54d91841944 → status=error
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 18c75d59-5890-49d6-a4b8-87c6c8a0b94f FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=f9b6837a-ee70-4436-88d3-210fb86315d3 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=18c75d59-5890-49d6-a4b8-87c6c8a0b94f running -> error, exec_time=0.012437105178833008, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=50
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=18c75d59-5890-49d6-a4b8-87c6c8a0b94f running -> error, exec_time=0.012437105178833008, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=50)
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=18c75d59-5890-49d6-a4b8-87c6c8a0b94f: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 18c75d59-5890-49d6-a4b8-87c6c8a0b94f after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job f9b6837a-ee70-4436-88d3-210fb86315d3 → status=error
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job bdafbe19-a1c7-435f-a7aa-b54d91841944 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=bdafbe19-a1c7-435f-a7aa-b54d91841944 running -> error, exec_time=0.0009551048278808594, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=bdafbe19-a1c7-435f-a7aa-b54d91841944 running -> error, exec_time=0.0009551048278808594, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=bdafbe19-a1c7-435f-a7aa-b54d91841944: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job bdafbe19-a1c7-435f-a7aa-b54d91841944 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job f9b6837a-ee70-4436-88d3-210fb86315d3 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=f9b6837a-ee70-4436-88d3-210fb86315d3 running -> error, exec_time=0.0016214847564697266, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=f9b6837a-ee70-4436-88d3-210fb86315d3 running -> error, exec_time=0.0016214847564697266, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=f9b6837a-ee70-4436-88d3-210fb86315d3: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job f9b6837a-ee70-4436-88d3-210fb86315d3 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 68dd5de8-9853-4f39-a519-86e46208b3e2 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=68dd5de8-9853-4f39-a519-86e46208b3e2 running -> error, exec_time=0.021799325942993164, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=68dd5de8-9853-4f39-a519-86e46208b3e2 running -> error, exec_time=0.021799325942993164, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=68dd5de8-9853-4f39-a519-86e46208b3e2: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=acaee3c9-2111-4765-a671-908a0cf32930 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=86
+2026-02-16 03:25:28 [ERROR] ERROR in job 68dd5de8-9853-4f39-a519-86e46208b3e2 after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=86)
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job acaee3c9-2111-4765-a671-908a0cf32930 → status=error
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=874a5272-8a70-476d-9098-aa6b0c614c9c pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=42
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=c83aa2e2-08b2-4ce8-8087-a0ff35834dbd pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=42)
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=28
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=28)
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job acaee3c9-2111-4765-a671-908a0cf32930 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=acaee3c9-2111-4765-a671-908a0cf32930 running -> error, exec_time=0.0008766651153564453, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=acaee3c9-2111-4765-a671-908a0cf32930 running -> error, exec_time=0.0008766651153564453, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=acaee3c9-2111-4765-a671-908a0cf32930: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job acaee3c9-2111-4765-a671-908a0cf32930 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job 874a5272-8a70-476d-9098-aa6b0c614c9c → status=error
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job c83aa2e2-08b2-4ce8-8087-a0ff35834dbd → status=error
+ 88%|████████▊ | 88/100 [00:06<00:00, 17.97it/s]2026-02-16 03:25:28 [ERROR] [jobs-db] Job c83aa2e2-08b2-4ce8-8087-a0ff35834dbd FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=c83aa2e2-08b2-4ce8-8087-a0ff35834dbd running -> error, exec_time=0.0015344619750976562, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=c83aa2e2-08b2-4ce8-8087-a0ff35834dbd running -> error, exec_time=0.0015344619750976562, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=c83aa2e2-08b2-4ce8-8087-a0ff35834dbd: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job c83aa2e2-08b2-4ce8-8087-a0ff35834dbd after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 874a5272-8a70-476d-9098-aa6b0c614c9c FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=874a5272-8a70-476d-9098-aa6b0c614c9c running -> error, exec_time=0.0017864704132080078, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=874a5272-8a70-476d-9098-aa6b0c614c9c running -> error, exec_time=0.0017864704132080078, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=874a5272-8a70-476d-9098-aa6b0c614c9c: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 874a5272-8a70-476d-9098-aa6b0c614c9c after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job fbddf5f1-a30f-43ea-9d12-245bffb01aff FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=fbddf5f1-a30f-43ea-9d12-245bffb01aff running -> error, exec_time=0.015544652938842773, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=fbddf5f1-a30f-43ea-9d12-245bffb01aff running -> error, exec_time=0.015544652938842773, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=fbddf5f1-a30f-43ea-9d12-245bffb01aff: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=22155ecb-ed83-441b-8c7d-42ae488e5d1e pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [ERROR] ERROR in job fbddf5f1-a30f-43ea-9d12-245bffb01aff after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=82
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=82)
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job 22155ecb-ed83-441b-8c7d-42ae488e5d1e → status=error
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=4edd735b-e643-4708-b7b6-c9eaaf08c2b4 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=48
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=71
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=48)
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=71)
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 22155ecb-ed83-441b-8c7d-42ae488e5d1e FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=22155ecb-ed83-441b-8c7d-42ae488e5d1e running -> error, exec_time=0.0011525154113769531, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=22155ecb-ed83-441b-8c7d-42ae488e5d1e running -> error, exec_time=0.0011525154113769531, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job 661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 → status=error
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=22155ecb-ed83-441b-8c7d-42ae488e5d1e: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 22155ecb-ed83-441b-8c7d-42ae488e5d1e after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job 4edd735b-e643-4708-b7b6-c9eaaf08c2b4 → status=error
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 running -> error, exec_time=0.0010323524475097656, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 running -> error, exec_time=0.0010323524475097656, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 661dedd5-4e2c-4a3a-8294-eec0c6b9c3d0 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 93%|█████████▎| 93/100 [00:06<00:00, 22.84it/s]2026-02-16 03:25:28 [ERROR] [jobs-db] Job 4edd735b-e643-4708-b7b6-c9eaaf08c2b4 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=4edd735b-e643-4708-b7b6-c9eaaf08c2b4 running -> error, exec_time=0.0019023418426513672, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=4edd735b-e643-4708-b7b6-c9eaaf08c2b4 running -> error, exec_time=0.0019023418426513672, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=4edd735b-e643-4708-b7b6-c9eaaf08c2b4: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 4edd735b-e643-4708-b7b6-c9eaaf08c2b4 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job b31b3beb-114e-4021-af65-dd643a409975 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=b31b3beb-114e-4021-af65-dd643a409975 running -> error, exec_time=0.0010342597961425781, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=b31b3beb-114e-4021-af65-dd643a409975 running -> error, exec_time=0.0010342597961425781, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=b31b3beb-114e-4021-af65-dd643a409975: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job b31b3beb-114e-4021-af65-dd643a409975 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 running -> error, exec_time=0.005541563034057617, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 running -> error, exec_time=0.005541563034057617, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job b4fd9fea-7a92-41ab-ad82-1ca92c8e7ad8 after 0.01s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [set_job_status] job_id=73645118-1ae2-4e83-84e8-4baad0dd7ce1 pending -> running, exec_time=None, error=None
+2026-02-16 03:25:28 [INFO] [lasing] Starting lasing job for network=MLRun2_0_0003_427c12b9, pattern_idx=8
+2026-02-16 03:25:28 [INFO] Starting lasing job (pattern_idx=8)
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 58242051-38c0-4023-9390-3e618af4480e FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=58242051-38c0-4023-9390-3e618af4480e running -> error, exec_time=0.017203330993652344, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=58242051-38c0-4023-9390-3e618af4480e running -> error, exec_time=0.017203330993652344, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=58242051-38c0-4023-9390-3e618af4480e: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 58242051-38c0-4023-9390-3e618af4480e after 0.02s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+ 97%|█████████▋| 97/100 [00:06<00:00, 22.04it/s]2026-02-16 03:25:28 [ERROR] [IO] Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [INFO] [jobs-db] Updating job 73645118-1ae2-4e83-84e8-4baad0dd7ce1 → status=error
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 73645118-1ae2-4e83-84e8-4baad0dd7ce1 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=73645118-1ae2-4e83-84e8-4baad0dd7ce1 running -> error, exec_time=0.0023698806762695312, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=73645118-1ae2-4e83-84e8-4baad0dd7ce1 running -> error, exec_time=0.0023698806762695312, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=73645118-1ae2-4e83-84e8-4baad0dd7ce1: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 73645118-1ae2-4e83-84e8-4baad0dd7ce1 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 105be4b6-298e-4f75-b646-3106ddb2e261 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=105be4b6-298e-4f75-b646-3106ddb2e261 running -> error, exec_time=0.0858156681060791, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=105be4b6-298e-4f75-b646-3106ddb2e261 running -> error, exec_time=0.0858156681060791, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=105be4b6-298e-4f75-b646-3106ddb2e261: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 105be4b6-298e-4f75-b646-3106ddb2e261 after 0.09s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [jobs-db] Job 01fd90d7-9f5d-471d-97d6-0b560ed11693 FAILED: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=01fd90d7-9f5d-471d-97d6-0b560ed11693 running -> error, exec_time=0.004587411880493164, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [set_job_status] job_id=01fd90d7-9f5d-471d-97d6-0b560ed11693 running -> error, exec_time=0.004587411880493164, error=Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] [run_job] ERROR in job_id=01fd90d7-9f5d-471d-97d6-0b560ed11693: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+2026-02-16 03:25:28 [ERROR] ERROR in job 01fd90d7-9f5d-471d-97d6-0b560ed11693 after 0.00s: Expected file not found: database/MLRun2_0_0003_427c12b9/passive_modes.pkl
+100%|██████████| 100/100 [00:06<00:00, 14.44it/s]
+2026-02-16 03:25:28 [INFO] [run_jobs] Parallel execution finished.
+2026-02-16 03:25:28 [INFO] [pipeline] Lasing stage finished.
+2026-02-16 03:25:28 [INFO] === pipeline done ===
+SUCCESS: Network pipeline completed. job_id=1709172[6].pbs-7 idx=6
+
+====================================
+CPU Time used: 00:00:00
+CPU Percent: 0%
+Memory usage: 0b
+Approx Power usage: 0.0
+Walltime usage: 00:01:03
+
+====================================

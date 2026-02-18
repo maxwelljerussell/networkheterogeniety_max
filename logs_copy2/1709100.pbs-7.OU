@@ -1,0 +1,51 @@
+
+[notice] A new release of pip is available: 25.3 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+===== ENVIRONMENT DEBUG =====
+Python path: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/bin/python
+Pip location: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/bin/pip
+VIRTUAL_ENV: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv
+PYTHONPATH: 
+
+===== FULL sys.path =====
+
+/sw-eb/software/Python/3.12.3-GCCcore-13.3.0/lib/python312.zip
+/sw-eb/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12
+/sw-eb/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/lib-dynload
+/rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/lib/python3.12/site-packages
+
+===== Can we import dateutil? =====
+SUCCESS: dateutil imported
+Location: /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/.venv/lib/python3.12/site-packages/dateutil/__init__.py
+===== END DEBUG =====
+==== Starting NetworkCollection Import ====
+Job ID:           1709100.pbs-7
+Workdir:          /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Collection file:  netsalt_experiments/exp_save_networks/network_collection_ML_batch3.pkl
+===========================================
+2026-02-16 02:36:30 [INFO] [collection] Loading NetworkCollection from: netsalt_experiments/exp_save_networks/network_collection_ML_batch3.pkl
+2026-02-16 02:36:35 [INFO] [collection] Loaded collection batch_id=MLRun2, records=9
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/netsalt_experiments/exp_save_networks/main.py", line 29, in <module>
+    main()
+  File "/rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/netsalt_experiments/exp_save_networks/main.py", line 18, in main
+    cid = import_network_collection_and_seed_jobs(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/manager/collection_io.py", line 201, in import_network_collection_and_seed_jobs
+    cid = save_network_collection_index(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/mjr120/home/Max_code/network-heterogeneity-main/manager/collection_io.py", line 70, in save_network_collection_index
+    raise TypeError(f"Expected NetworkCollection, got {type(collection)}")
+TypeError: Expected NetworkCollection, got <class 'classes.network_collection_2.NetworkCollection'>
+ERROR: Collection import failed. exit_code=1 job_id=1709100.pbs-7
+
+====================================
+CPU Time used: 00:00:00
+CPU Percent: 0%
+Memory usage: 0b
+Approx Power usage: 0.0
+Walltime usage: 00:01:44
+
+====================================

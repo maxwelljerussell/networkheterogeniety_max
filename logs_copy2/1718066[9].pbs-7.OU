@@ -1,0 +1,53 @@
+==== Starting per-network DB pipeline ====
+Date:         Tue 17 Feb 14:25:25 GMT 2026
+Host:         cx3-5-19
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1718066[9].pbs-7
+Array index:  9
+CPUs:         64
+==========================================
+2026-02-17 14:25:48 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-17 14:25:48 [INFO] [jobs-db] Jobs database is ready.
+2026-02-17 14:25:48 [INFO] === netSALT per-network pipeline ===
+2026-02-17 14:25:48 [INFO] DB: database/db.sqlite3
+2026-02-17 14:25:48 [INFO] Network: MLTest_0_0000_1bf6ab0b | Pattern: id=PathMNIST10, size=(7, 7) | pool_procs=64 | netsalt_workers=1
+2026-02-17 14:25:48 [INFO] [jobs-db] Loading pending jobs...
+2026-02-17 14:25:49 [INFO] [jobs-db] Found 4 pending jobs
+2026-02-17 14:25:49 [INFO] [pipeline] Pending PASSIVE jobs for MLTest_0_0000_1bf6ab0b: 1
+2026-02-17 14:25:49 [INFO] [run_jobs] Running 1 jobs with n_workers=64, show_progress=True
+2026-02-17 14:25:49 [INFO] [run_jobs] Using multiprocessing.Pool.
+2026-02-17 14:25:49 [INFO] [run_job] Starting job_id=3494200e-a2db-456d-b7aa-bb7ec5a01552, type=passive, network=MLTest_0_0000_1bf6ab0b, pattern_idx=None
+  0%|          | 0/1 [00:00<?, ?it/s]2026-02-17 14:25:49 [INFO] Starting job 3494200e-a2db-456d-b7aa-bb7ec5a01552 (type=passive, pattern_idx=None)
+2026-02-17 14:25:49 [INFO] [jobs-db] Updating job 3494200e-a2db-456d-b7aa-bb7ec5a01552 → status=running
+2026-02-17 14:25:49 [INFO] [set_job_status] job_id=3494200e-a2db-456d-b7aa-bb7ec5a01552 pending -> running, exec_time=None, error=None
+2026-02-17 14:25:49 [INFO] [passive] Starting passive job for network=MLTest_0_0000_1bf6ab0b
+2026-02-17 14:25:49 [INFO] Starting passive job
+2026-02-17 14:43:32 [INFO] [passive] Saved passive modes for MLTest_0_0000_1bf6ab0b to database/MLTest_0_0000_1bf6ab0b/passive_modes.pkl
+2026-02-17 14:43:32 [INFO] Passive modes saved to database/MLTest_0_0000_1bf6ab0b/passive_modes.pkl
+2026-02-17 14:43:32 [INFO] [jobs-db] Updating job 3494200e-a2db-456d-b7aa-bb7ec5a01552 → status=completed
+2026-02-17 14:43:32 [INFO] [jobs-db] Job 3494200e-a2db-456d-b7aa-bb7ec5a01552 completed in 1062.73s
+2026-02-17 14:43:32 [INFO] [set_job_status] job_id=3494200e-a2db-456d-b7aa-bb7ec5a01552 running -> completed, exec_time=1062.7278046607971, error=None
+2026-02-17 14:43:32 [INFO] [set_job_status] job_id=3494200e-a2db-456d-b7aa-bb7ec5a01552 running -> completed, exec_time=1062.7278046607971, error=None
+2026-02-17 14:43:32 [INFO] [run_job] Completed job_id=3494200e-a2db-456d-b7aa-bb7ec5a01552 in 1062.73s
+2026-02-17 14:43:32 [INFO] Job 3494200e-a2db-456d-b7aa-bb7ec5a01552 completed in 1062.73s (type=passive)
+100%|██████████| 1/1 [17:43<00:00, 1063.06s/it]100%|██████████| 1/1 [17:43<00:00, 1063.06s/it]
+2026-02-17 14:43:32 [INFO] [run_jobs] Parallel execution finished.
+2026-02-17 14:43:32 [INFO] [pipeline] Passive stage finished.
+2026-02-17 14:43:32 [INFO] [pipeline] Seeding lasing jobs for network_id=MLTest_0_0000_1bf6ab0b, pattern_id=PathMNIST10, size=7x7
+2026-02-17 14:43:33 [INFO] [pipeline] Inserted 0 new lasing job(s) for network_id=MLTest_0_0000_1bf6ab0b
+2026-02-17 14:43:33 [WARNING] [pipeline] No new lasing jobs inserted (maybe already seeded).
+2026-02-17 14:43:33 [INFO] [jobs-db] Loading pending jobs...
+2026-02-17 14:43:33 [INFO] [jobs-db] Found 3 pending jobs
+2026-02-17 14:43:33 [INFO] [pipeline] Pending LASING jobs for MLTest_0_0000_1bf6ab0b: 0
+2026-02-17 14:43:33 [INFO] [pipeline] No pending lasing jobs for this network.
+2026-02-17 14:43:33 [INFO] === pipeline done ===
+SUCCESS: Network pipeline completed. job_id=1718066[9].pbs-7 idx=9
+
+====================================
+CPU Time used: 00:17:40
+CPU Percent: 99%
+Memory usage: 402572kb
+Approx Power usage: 0.0034
+Walltime usage: 00:18:25
+
+====================================

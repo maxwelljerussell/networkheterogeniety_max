@@ -1,0 +1,186 @@
+==== Starting per-network DB pipeline ====
+Date:         Sat  7 Feb 23:31:21 GMT 2026
+Host:         cx3-6-11
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1668900[9].pbs-7
+Array index:  9
+CPUs:         64
+==========================================
+2026-02-07 23:31:42 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-07 23:31:42 [INFO] [jobs-db] Jobs database is ready.
+2026-02-07 23:31:42 [INFO] === netSALT per-network pipeline ===
+2026-02-07 23:31:42 [INFO] DB: database/db.sqlite3
+2026-02-07 23:31:42 [INFO] Network: helloworld_4_0002_531c4910 | Pattern: id=Coat, size=(28, 28) | pool_procs=64 | netsalt_workers=1
+2026-02-07 23:31:42 [INFO] [jobs-db] Loading pending jobs...
+2026-02-07 23:31:42 [INFO] [jobs-db] Found 3 pending jobs
+2026-02-07 23:31:42 [INFO] [pipeline] Pending PASSIVE jobs for helloworld_4_0002_531c4910: 0
+2026-02-07 23:31:42 [INFO] [pipeline] No pending passive jobs for this network.
+2026-02-07 23:31:42 [INFO] [pipeline] Seeding lasing jobs for network_id=helloworld_4_0002_531c4910, pattern_id=Coat, size=28x28
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job c883f4a6-7fb5-49de-b924-c76ae1c03f5e (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job cef3df99-12d4-48b9-a86b-654ec3e58074 (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job c3451e25-cb1a-4549-9af7-6de5397c8bda (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job 887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job 6152a1cd-2658-4a1a-8677-8b7f77c3b75c (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job 22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job cb970546-ae70-487f-a8c7-b8c0d28692f4 (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job 96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job e02c043d-e850-4edb-b9eb-7d0122cae4a2 (type=lasing)
+2026-02-07 23:31:42 [INFO] [jobs-db] Inserting job 9a371343-4023-4086-967f-e4bde0ea809f (type=lasing)
+2026-02-07 23:31:42 [INFO] [pipeline] Inserted 10 new lasing job(s) for network_id=helloworld_4_0002_531c4910
+2026-02-07 23:31:42 [INFO] [jobs-db] Loading pending jobs...
+2026-02-07 23:31:42 [INFO] [jobs-db] Found 13 pending jobs
+2026-02-07 23:31:42 [INFO] [pipeline] Pending LASING jobs for helloworld_4_0002_531c4910: 10
+2026-02-07 23:31:42 [INFO] [run_jobs] Running 10 jobs with n_workers=64, show_progress=True
+2026-02-07 23:31:42 [INFO] [run_jobs] Using multiprocessing.Pool.
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=c3451e25-cb1a-4549-9af7-6de5397c8bda, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=2
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=c883f4a6-7fb5-49de-b924-c76ae1c03f5e, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=0
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=cb970546-ae70-487f-a8c7-b8c0d28692f4, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=6
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=22a8c9c6-4915-4fb6-a23b-50adc0efa9d1, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=5
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=6152a1cd-2658-4a1a-8677-8b7f77c3b75c, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=4
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=9a371343-4023-4086-967f-e4bde0ea809f, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=9
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=e02c043d-e850-4edb-b9eb-7d0122cae4a2, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=8
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=887cd93c-24b0-4fc0-8233-a6c64fd2ccc9, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=3
+  0%|          | 0/10 [00:00<?, ?it/s]2026-02-07 23:31:43 [INFO] Starting job c3451e25-cb1a-4549-9af7-6de5397c8bda (type=lasing, pattern_idx=2)
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job c3451e25-cb1a-4549-9af7-6de5397c8bda → status=running
+2026-02-07 23:31:43 [INFO] Starting job 6152a1cd-2658-4a1a-8677-8b7f77c3b75c (type=lasing, pattern_idx=4)
+2026-02-07 23:31:43 [INFO] Starting job 22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 (type=lasing, pattern_idx=5)
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=96647fee-a4ec-4da9-9ba8-ee69ec2cabe1, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=7
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job 6152a1cd-2658-4a1a-8677-8b7f77c3b75c → status=running
+2026-02-07 23:31:43 [INFO] Starting job e02c043d-e850-4edb-b9eb-7d0122cae4a2 (type=lasing, pattern_idx=8)
+2026-02-07 23:31:43 [INFO] Starting job 887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 (type=lasing, pattern_idx=3)
+2026-02-07 23:31:43 [INFO] Starting job 9a371343-4023-4086-967f-e4bde0ea809f (type=lasing, pattern_idx=9)
+2026-02-07 23:31:43 [INFO] Starting job cb970546-ae70-487f-a8c7-b8c0d28692f4 (type=lasing, pattern_idx=6)
+2026-02-07 23:31:43 [INFO] Starting job c883f4a6-7fb5-49de-b924-c76ae1c03f5e (type=lasing, pattern_idx=0)
+2026-02-07 23:31:43 [INFO] [run_job] Starting job_id=cef3df99-12d4-48b9-a86b-654ec3e58074, type=lasing, network=helloworld_4_0002_531c4910, pattern_idx=1
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job e02c043d-e850-4edb-b9eb-7d0122cae4a2 → status=running
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job 22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 → status=running
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job 9a371343-4023-4086-967f-e4bde0ea809f → status=running
+2026-02-07 23:31:43 [INFO] Starting job 96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 (type=lasing, pattern_idx=7)
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job cb970546-ae70-487f-a8c7-b8c0d28692f4 → status=running
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job 887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 → status=running
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job c883f4a6-7fb5-49de-b924-c76ae1c03f5e → status=running
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job 96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 → status=running
+2026-02-07 23:31:43 [INFO] Starting job cef3df99-12d4-48b9-a86b-654ec3e58074 (type=lasing, pattern_idx=1)
+2026-02-07 23:31:43 [INFO] [jobs-db] Updating job cef3df99-12d4-48b9-a86b-654ec3e58074 → status=running
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=c3451e25-cb1a-4549-9af7-6de5397c8bda pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=2
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=2)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=5
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=cb970546-ae70-487f-a8c7-b8c0d28692f4 pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=5)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=6
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=7
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=6)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=3
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=7)
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=3)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=9a371343-4023-4086-967f-e4bde0ea809f pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=9
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=9)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=cef3df99-12d4-48b9-a86b-654ec3e58074 pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=1
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=1)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=e02c043d-e850-4edb-b9eb-7d0122cae4a2 pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=8
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=8)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=6152a1cd-2658-4a1a-8677-8b7f77c3b75c pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=4
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=4)
+2026-02-07 23:31:43 [INFO] [set_job_status] job_id=c883f4a6-7fb5-49de-b924-c76ae1c03f5e pending -> running, exec_time=None, error=None
+2026-02-07 23:31:43 [INFO] [lasing] Starting lasing job for network=helloworld_4_0002_531c4910, pattern_idx=0
+2026-02-07 23:31:43 [INFO] Starting lasing job (pattern_idx=0)
+2026-02-07 23:32:44 [INFO] [jobs-db] Updating job e02c043d-e850-4edb-b9eb-7d0122cae4a2 → status=error
+2026-02-07 23:32:44 [ERROR] [jobs-db] Job e02c043d-e850-4edb-b9eb-7d0122cae4a2 FAILED: Cannot set a DataFrame with multiple columns to the single column modal_intensities
+2026-02-07 23:32:44 [ERROR] [set_job_status] job_id=e02c043d-e850-4edb-b9eb-7d0122cae4a2 running -> error, exec_time=61.56025505065918, error=Cannot set a DataFrame with multiple columns to the single column modal_intensities
+2026-02-07 23:32:44 [ERROR] [set_job_status] job_id=e02c043d-e850-4edb-b9eb-7d0122cae4a2 running -> error, exec_time=61.56025505065918, error=Cannot set a DataFrame with multiple columns to the single column modal_intensities
+2026-02-07 23:32:44 [ERROR] [run_job] ERROR in job_id=e02c043d-e850-4edb-b9eb-7d0122cae4a2: Cannot set a DataFrame with multiple columns to the single column modal_intensities
+2026-02-07 23:32:44 [ERROR] ERROR in job e02c043d-e850-4edb-b9eb-7d0122cae4a2 after 61.56s: Cannot set a DataFrame with multiple columns to the single column modal_intensities
+ 10%|█         | 1/10 [01:01<09:15, 61.70s/it]2026-02-07 23:36:14 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=7 to database/helloworld_4_0002_531c4910/lasing_modes/7.pkl
+2026-02-07 23:36:14 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/7.pkl
+2026-02-07 23:36:14 [INFO] [jobs-db] Updating job 96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 → status=completed
+2026-02-07 23:36:15 [INFO] [jobs-db] Job 96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 completed in 271.67s
+2026-02-07 23:36:15 [INFO] [set_job_status] job_id=96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 running -> completed, exec_time=271.6719105243683, error=None
+2026-02-07 23:36:15 [INFO] [set_job_status] job_id=96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 running -> completed, exec_time=271.6719105243683, error=None
+2026-02-07 23:36:15 [INFO] [run_job] Completed job_id=96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 in 271.67s
+2026-02-07 23:36:15 [INFO] Job 96647fee-a4ec-4da9-9ba8-ee69ec2cabe1 completed in 271.67s (type=lasing)
+ 20%|██        | 2/10 [04:31<19:51, 148.99s/it]2026-02-07 23:41:26 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=6 to database/helloworld_4_0002_531c4910/lasing_modes/6.pkl
+2026-02-07 23:41:27 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/6.pkl
+2026-02-07 23:41:27 [INFO] [jobs-db] Updating job cb970546-ae70-487f-a8c7-b8c0d28692f4 → status=completed
+2026-02-07 23:41:27 [INFO] [jobs-db] Job cb970546-ae70-487f-a8c7-b8c0d28692f4 completed in 583.78s
+2026-02-07 23:41:27 [INFO] [set_job_status] job_id=cb970546-ae70-487f-a8c7-b8c0d28692f4 running -> completed, exec_time=583.7788093090057, error=None
+2026-02-07 23:41:27 [INFO] [set_job_status] job_id=cb970546-ae70-487f-a8c7-b8c0d28692f4 running -> completed, exec_time=583.7788093090057, error=None
+2026-02-07 23:41:27 [INFO] [run_job] Completed job_id=cb970546-ae70-487f-a8c7-b8c0d28692f4 in 583.78s
+2026-02-07 23:41:27 [INFO] Job cb970546-ae70-487f-a8c7-b8c0d28692f4 completed in 583.78s (type=lasing)
+ 30%|███       | 3/10 [09:43<26:04, 223.47s/it]2026-02-07 23:49:31 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=9 to database/helloworld_4_0002_531c4910/lasing_modes/9.pkl
+2026-02-07 23:49:31 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/9.pkl
+2026-02-07 23:49:31 [INFO] [jobs-db] Updating job 9a371343-4023-4086-967f-e4bde0ea809f → status=completed
+2026-02-07 23:49:31 [INFO] [jobs-db] Job 9a371343-4023-4086-967f-e4bde0ea809f completed in 1068.08s
+2026-02-07 23:49:31 [INFO] [set_job_status] job_id=9a371343-4023-4086-967f-e4bde0ea809f running -> completed, exec_time=1068.0795769691467, error=None
+2026-02-07 23:49:31 [INFO] [set_job_status] job_id=9a371343-4023-4086-967f-e4bde0ea809f running -> completed, exec_time=1068.0795769691467, error=None
+2026-02-07 23:49:31 [INFO] [run_job] Completed job_id=9a371343-4023-4086-967f-e4bde0ea809f in 1068.08s
+2026-02-07 23:49:31 [INFO] Job 9a371343-4023-4086-967f-e4bde0ea809f completed in 1068.08s (type=lasing)
+ 40%|████      | 4/10 [17:48<32:38, 326.44s/it]2026-02-07 23:50:33 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=5 to database/helloworld_4_0002_531c4910/lasing_modes/5.pkl
+2026-02-07 23:50:33 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/5.pkl
+2026-02-07 23:50:33 [INFO] [jobs-db] Updating job 22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 → status=completed
+2026-02-07 23:50:33 [INFO] [jobs-db] Job 22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 completed in 1130.48s
+2026-02-07 23:50:33 [INFO] [set_job_status] job_id=22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 running -> completed, exec_time=1130.4833965301514, error=None
+2026-02-07 23:50:33 [INFO] [set_job_status] job_id=22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 running -> completed, exec_time=1130.4833965301514, error=None
+2026-02-07 23:50:33 [INFO] [run_job] Completed job_id=22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 in 1130.48s
+2026-02-07 23:50:33 [INFO] Job 22a8c9c6-4915-4fb6-a23b-50adc0efa9d1 completed in 1130.48s (type=lasing)
+ 50%|█████     | 5/10 [18:50<19:16, 231.22s/it]2026-02-07 23:55:38 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=3 to database/helloworld_4_0002_531c4910/lasing_modes/3.pkl
+2026-02-07 23:55:38 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/3.pkl
+2026-02-07 23:55:38 [INFO] [jobs-db] Updating job 887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 → status=completed
+2026-02-07 23:55:38 [INFO] [jobs-db] Job 887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 completed in 1435.46s
+2026-02-07 23:55:38 [INFO] [set_job_status] job_id=887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 running -> completed, exec_time=1435.4601738452911, error=None
+2026-02-07 23:55:38 [INFO] [set_job_status] job_id=887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 running -> completed, exec_time=1435.4601738452911, error=None
+2026-02-07 23:55:38 [INFO] [run_job] Completed job_id=887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 in 1435.46s
+2026-02-07 23:55:38 [INFO] Job 887cd93c-24b0-4fc0-8233-a6c64fd2ccc9 completed in 1435.46s (type=lasing)
+ 60%|██████    | 6/10 [23:55<17:05, 256.30s/it]2026-02-07 23:57:48 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=0 to database/helloworld_4_0002_531c4910/lasing_modes/0.pkl
+2026-02-07 23:57:48 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/0.pkl
+2026-02-07 23:57:48 [INFO] [jobs-db] Updating job c883f4a6-7fb5-49de-b924-c76ae1c03f5e → status=completed
+2026-02-07 23:57:48 [INFO] [jobs-db] Job c883f4a6-7fb5-49de-b924-c76ae1c03f5e completed in 1565.03s
+2026-02-07 23:57:48 [INFO] [set_job_status] job_id=c883f4a6-7fb5-49de-b924-c76ae1c03f5e running -> completed, exec_time=1565.029462337494, error=None
+2026-02-07 23:57:48 [INFO] [set_job_status] job_id=c883f4a6-7fb5-49de-b924-c76ae1c03f5e running -> completed, exec_time=1565.029462337494, error=None
+2026-02-07 23:57:48 [INFO] [run_job] Completed job_id=c883f4a6-7fb5-49de-b924-c76ae1c03f5e in 1565.03s
+2026-02-07 23:57:48 [INFO] Job c883f4a6-7fb5-49de-b924-c76ae1c03f5e completed in 1565.03s (type=lasing)
+ 70%|███████   | 7/10 [26:05<10:44, 214.90s/it]2026-02-07 23:59:08 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=1 to database/helloworld_4_0002_531c4910/lasing_modes/1.pkl
+2026-02-07 23:59:08 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/1.pkl
+2026-02-07 23:59:08 [INFO] [jobs-db] Updating job cef3df99-12d4-48b9-a86b-654ec3e58074 → status=completed
+2026-02-07 23:59:08 [INFO] [jobs-db] Job cef3df99-12d4-48b9-a86b-654ec3e58074 completed in 1645.49s
+2026-02-07 23:59:08 [INFO] [set_job_status] job_id=cef3df99-12d4-48b9-a86b-654ec3e58074 running -> completed, exec_time=1645.491061449051, error=None
+2026-02-07 23:59:08 [INFO] [set_job_status] job_id=cef3df99-12d4-48b9-a86b-654ec3e58074 running -> completed, exec_time=1645.491061449051, error=None
+2026-02-07 23:59:08 [INFO] [run_job] Completed job_id=cef3df99-12d4-48b9-a86b-654ec3e58074 in 1645.49s
+2026-02-07 23:59:08 [INFO] Job cef3df99-12d4-48b9-a86b-654ec3e58074 completed in 1645.49s (type=lasing)
+ 80%|████████  | 8/10 [27:25<05:44, 172.07s/it]2026-02-08 00:01:36 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=2 to database/helloworld_4_0002_531c4910/lasing_modes/2.pkl
+2026-02-08 00:01:36 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/2.pkl
+2026-02-08 00:01:36 [INFO] [jobs-db] Updating job c3451e25-cb1a-4549-9af7-6de5397c8bda → status=completed
+2026-02-08 00:01:36 [INFO] [jobs-db] Job c3451e25-cb1a-4549-9af7-6de5397c8bda completed in 1793.62s
+2026-02-08 00:01:36 [INFO] [set_job_status] job_id=c3451e25-cb1a-4549-9af7-6de5397c8bda running -> completed, exec_time=1793.6195921897888, error=None
+2026-02-08 00:01:36 [INFO] [set_job_status] job_id=c3451e25-cb1a-4549-9af7-6de5397c8bda running -> completed, exec_time=1793.6195921897888, error=None
+2026-02-08 00:01:36 [INFO] [run_job] Completed job_id=c3451e25-cb1a-4549-9af7-6de5397c8bda in 1793.62s
+2026-02-08 00:01:36 [INFO] Job c3451e25-cb1a-4549-9af7-6de5397c8bda completed in 1793.62s (type=lasing)
+ 90%|█████████ | 9/10 [29:53<02:44, 164.59s/it]2026-02-08 00:03:13 [INFO] [lasing] Saved lasing modes for network=helloworld_4_0002_531c4910, idx=4 to database/helloworld_4_0002_531c4910/lasing_modes/4.pkl
+2026-02-08 00:03:13 [INFO] Lasing modes saved to database/helloworld_4_0002_531c4910/lasing_modes/4.pkl
+2026-02-08 00:03:13 [INFO] [jobs-db] Updating job 6152a1cd-2658-4a1a-8677-8b7f77c3b75c → status=completed
+2026-02-08 00:03:13 [INFO] [jobs-db] Job 6152a1cd-2658-4a1a-8677-8b7f77c3b75c completed in 1889.75s
+2026-02-08 00:03:13 [INFO] [set_job_status] job_id=6152a1cd-2658-4a1a-8677-8b7f77c3b75c running -> completed, exec_time=1889.7536447048187, error=None
+2026-02-08 00:03:13 [INFO] [set_job_status] job_id=6152a1cd-2658-4a1a-8677-8b7f77c3b75c running -> completed, exec_time=1889.7536447048187, error=None
+2026-02-08 00:03:13 [INFO] [run_job] Completed job_id=6152a1cd-2658-4a1a-8677-8b7f77c3b75c in 1889.75s
+2026-02-08 00:03:13 [INFO] Job 6152a1cd-2658-4a1a-8677-8b7f77c3b75c completed in 1889.75s (type=lasing)
+100%|██████████| 10/10 [31:29<00:00, 143.46s/it]100%|██████████| 10/10 [31:29<00:00, 188.99s/it]
+2026-02-08 00:03:13 [INFO] [run_jobs] Parallel execution finished.
+2026-02-08 00:03:13 [INFO] [pipeline] Lasing stage finished.
+2026-02-08 00:03:13 [INFO] === pipeline done ===
+SUCCESS: Network pipeline completed. job_id=1668900[9].pbs-7 idx=9
+
+====================================
+CPU Time used: 03:07:33
+CPU Percent: 909%
+Memory usage: 912352kb
+Approx Power usage: 0.037399999999999996
+Walltime usage: 00:32:00
+
+====================================

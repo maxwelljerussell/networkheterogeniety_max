@@ -1,0 +1,51 @@
+==== Starting per-network DB pipeline ====
+Date:         Mon 16 Feb 05:15:44 GMT 2026
+Host:         cx3-6-11
+Workdir:      /rds/general/user/mjr120/home/Max_code/network-heterogeneity-main
+Job ID:       1709267[6].pbs-7
+Array index:  6
+CPUs:         64
+==========================================
+2026-02-16 05:16:01 [INFO] [jobs-db] Initializing jobs DB at database/db.sqlite3
+2026-02-16 05:16:01 [INFO] [jobs-db] Jobs database is ready.
+2026-02-16 05:16:01 [INFO] === netSALT per-network pipeline ===
+2026-02-16 05:16:01 [INFO] DB: database/db.sqlite3
+2026-02-16 05:16:01 [INFO] Network: MLRun2_0_0003_427c12b9 | Pattern: id=Coat_test, size=(28, 28) | pool_procs=64 | netsalt_workers=1
+2026-02-16 05:16:01 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 05:16:01 [INFO] [jobs-db] Found 6 pending jobs
+2026-02-16 05:16:01 [INFO] [pipeline] Pending PASSIVE jobs for MLRun2_0_0003_427c12b9: 1
+2026-02-16 05:16:01 [INFO] [run_jobs] Running 1 jobs with n_workers=64, show_progress=True
+2026-02-16 05:16:01 [INFO] [run_jobs] Using multiprocessing.Pool.
+2026-02-16 05:16:02 [INFO] [run_job] Starting job_id=e014e134-a800-438e-893b-ebe38e916c92, type=passive, network=MLRun2_0_0003_427c12b9, pattern_idx=None
+  0%|          | 0/1 [00:00<?, ?it/s]2026-02-16 05:16:02 [INFO] Starting job e014e134-a800-438e-893b-ebe38e916c92 (type=passive, pattern_idx=None)
+2026-02-16 05:16:02 [INFO] [jobs-db] Updating job e014e134-a800-438e-893b-ebe38e916c92 → status=running
+2026-02-16 05:16:02 [INFO] [set_job_status] job_id=e014e134-a800-438e-893b-ebe38e916c92 pending -> running, exec_time=None, error=None
+2026-02-16 05:16:02 [INFO] [passive] Starting passive job for network=MLRun2_0_0003_427c12b9
+2026-02-16 05:16:02 [INFO] Starting passive job
+2026-02-16 05:16:03 [INFO] [jobs-db] Updating job e014e134-a800-438e-893b-ebe38e916c92 → status=error
+2026-02-16 05:16:03 [ERROR] [jobs-db] Job e014e134-a800-438e-893b-ebe38e916c92 FAILED: Factor is exactly singular
+2026-02-16 05:16:03 [ERROR] [set_job_status] job_id=e014e134-a800-438e-893b-ebe38e916c92 running -> error, exec_time=0.8686673641204834, error=Factor is exactly singular
+2026-02-16 05:16:03 [ERROR] [set_job_status] job_id=e014e134-a800-438e-893b-ebe38e916c92 running -> error, exec_time=0.8686673641204834, error=Factor is exactly singular
+2026-02-16 05:16:03 [ERROR] [run_job] ERROR in job_id=e014e134-a800-438e-893b-ebe38e916c92: Factor is exactly singular
+2026-02-16 05:16:03 [ERROR] ERROR in job e014e134-a800-438e-893b-ebe38e916c92 after 0.87s: Factor is exactly singular
+100%|██████████| 1/1 [00:01<00:00,  1.02s/it]100%|██████████| 1/1 [00:01<00:00,  1.02s/it]
+2026-02-16 05:16:03 [INFO] [run_jobs] Parallel execution finished.
+2026-02-16 05:16:03 [INFO] [pipeline] Passive stage finished.
+2026-02-16 05:16:03 [INFO] [pipeline] Seeding lasing jobs for network_id=MLRun2_0_0003_427c12b9, pattern_id=Coat_test, size=28x28
+2026-02-16 05:16:03 [INFO] [pipeline] Inserted 0 new lasing job(s) for network_id=MLRun2_0_0003_427c12b9
+2026-02-16 05:16:03 [WARNING] [pipeline] No new lasing jobs inserted (maybe already seeded).
+2026-02-16 05:16:03 [INFO] [jobs-db] Loading pending jobs...
+2026-02-16 05:16:03 [INFO] [jobs-db] Found 4 pending jobs
+2026-02-16 05:16:03 [INFO] [pipeline] Pending LASING jobs for MLRun2_0_0003_427c12b9: 0
+2026-02-16 05:16:03 [INFO] [pipeline] No pending lasing jobs for this network.
+2026-02-16 05:16:03 [INFO] === pipeline done ===
+SUCCESS: Network pipeline completed. job_id=1709267[6].pbs-7 idx=6
+
+====================================
+CPU Time used: 00:00:00
+CPU Percent: 0%
+Memory usage: 0b
+Approx Power usage: 0.0
+Walltime usage: 00:00:26
+
+====================================
